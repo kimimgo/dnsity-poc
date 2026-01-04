@@ -4,15 +4,15 @@ Gist Token tokenizer utilities.
 Provides functions to add special Gist tokens to tokenizers and resize model embeddings.
 """
 
-from typing import Tuple
+from typing import Tuple, Optional
 from transformers import PreTrainedTokenizer, PreTrainedModel
 
 
 def add_gist_tokens(
     tokenizer: PreTrainedTokenizer,
-    model: PreTrainedModel,
+    model: Optional[PreTrainedModel],
     num_gist_tokens: int
-) -> Tuple[PreTrainedTokenizer, PreTrainedModel]:
+) -> Tuple[PreTrainedTokenizer, Optional[PreTrainedModel]]:
     """
     Add Gist special tokens to tokenizer and resize model embeddings.
 
@@ -38,8 +38,9 @@ def add_gist_tokens(
     # Add tokens to tokenizer
     tokenizer.add_special_tokens({"additional_special_tokens": tokens_to_add})
 
-    # Resize model embedding layer
-    model.resize_token_embeddings(len(tokenizer))
+    # Resize model embedding layer (if model is provided)
+    if model is not None:
+        model.resize_token_embeddings(len(tokenizer))
 
     return tokenizer, model
 

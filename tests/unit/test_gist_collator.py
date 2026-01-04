@@ -158,14 +158,13 @@ class TestGistDataCollator:
         gist_ids = [tokenizer.convert_tokens_to_ids(f"<GIST_{i}>") for i in range(2)]
 
         # Multiple samples with different lengths
+        # Note: DataCollatorForLanguageModeling handles labels automatically
         features = [
             {
                 "input_ids": [1, 2] + gist_ids + [3],
-                "labels": [1, 2] + gist_ids + [3],
             },
             {
                 "input_ids": [1, 2, 3] + gist_ids + [4, 5],
-                "labels": [1, 2, 3] + gist_ids + [4, 5],
             },
         ]
 

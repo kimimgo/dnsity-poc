@@ -1,0 +1,259 @@
+{
+  "dataset": "data/processed/niah/global_niah.jsonl",
+  "num_samples": 50,
+  "accuracy": 1.0,
+  "elapsed_time_sec": 0.005848884582519531,
+  "avg_context_length_chars": 18909.48,
+  "results": [
+    {
+      "predicted": "HJFN5P",
+      "ground_truth": "HJFN5P",
+      "correct": true
+    },
+    {
+      "predicted": "C2RONV",
+      "ground_truth": "C2RONV",
+      "correct": true
+    },
+    {
+      "predicted": "09BAOO",
+      "ground_truth": "09BAOO",
+      "correct": true
+    },
+    {
+      "predicted": "MLJL2Y",
+      "ground_truth": "MLJL2Y",
+      "correct": true
+    },
+    {
+      "predicted": "1RMKEF",
+      "ground_truth": "1RMKEF",
+      "correct": true
+    },
+    {
+      "predicted": "6DPOXQ",
+      "ground_truth": "6DPOXQ",
+      "correct": true
+    },
+    {
+      "predicted": "HG75X9",
+      "ground_truth": "HG75X9",
+      "correct": true
+    },
+    {
+      "predicted": "GSMOQH",
+      "ground_truth": "GSMOQH",
+      "correct": true
+    },
+    {
+      "predicted": "MW4DNM",
+      "ground_truth": "MW4DNM",
+      "correct": true
+    },
+    {
+      "predicted": "KNMN2G",
+      "ground_truth": "KNMN2G",
+      "correct": true
+    },
+    {
+      "predicted": "U4RC6O",
+      "ground_truth": "U4RC6O",
+      "correct": true
+    },
+    {
+      "predicted": "SAAR54",
+      "ground_truth": "SAAR54",
+      "correct": true
+    },
+    {
+      "predicted": "Y66ZYD",
+      "ground_truth": "Y66ZYD",
+      "correct": true
+    },
+    {
+      "predicted": "H2YXGD",
+      "ground_truth": "H2YXGD",
+      "correct": true
+    },
+    {
+      "predicted": "8R9XOY",
+      "ground_truth": "8R9XOY",
+      "correct": true
+    },
+    {
+      "predicted": "CE04X9",
+      "ground_truth": "CE04X9",
+      "correct": true
+    },
+    {
+      "predicted": "99P258",
+      "ground_truth": "99P258",
+      "correct": true
+    },
+    {
+      "predicted": "IRHFI5",
+      "ground_truth": "IRHFI5",
+      "correct": true
+    },
+    {
+      "predicted": "XLSNBA",
+      "ground_truth": "XLSNBA",
+      "correct": true
+    },
+    {
+      "predicted": "DXDR82",
+      "ground_truth": "DXDR82",
+      "correct": true
+    },
+    {
+      "predicted": "8EKDBY",
+      "ground_truth": "8EKDBY",
+      "correct": true
+    },
+    {
+      "predicted": "OP1BXF",
+      "ground_truth": "OP1BXF",
+      "correct": true
+    },
+    {
+      "predicted": "S9DOKE",
+      "ground_truth": "S9DOKE",
+      "correct": true
+    },
+    {
+      "predicted": "9GL1F7",
+      "ground_truth": "9GL1F7",
+      "correct": true
+    },
+    {
+      "predicted": "P57IXD",
+      "ground_truth": "P57IXD",
+      "correct": true
+    },
+    {
+      "predicted": "R7HN2N",
+      "ground_truth": "R7HN2N",
+      "correct": true
+    },
+    {
+      "predicted": "8ZUSLY",
+      "ground_truth": "8ZUSLY",
+      "correct": true
+    },
+    {
+      "predicted": "QO6NRR",
+      "ground_truth": "QO6NRR",
+      "correct": true
+    },
+    {
+      "predicted": "D2S46F",
+      "ground_truth": "D2S46F",
+      "correct": true
+    },
+    {
+      "predicted": "WGG4VO",
+      "ground_truth": "WGG4VO",
+      "correct": true
+    },
+    {
+      "predicted": "GPXE7I",
+      "ground_truth": "GPXE7I",
+      "correct": true
+    },
+    {
+      "predicted": "CCP74Z",
+      "ground_truth": "CCP74Z",
+      "correct": true
+    },
+    {
+      "predicted": "BVNIXX",
+      "ground_truth": "BVNIXX",
+      "correct": true
+    },
+    {
+      "predicted": "1JQZS1",
+      "ground_truth": "1JQZS1",
+      "correct": true
+    },
+    {
+      "predicted": "07LKJV",
+      "ground_truth": "07LKJV",
+      "correct": true
+    },
+    {
+      "predicted": "H99LQ9",
+      "ground_truth": "H99LQ9",
+      "correct": true
+    },
+    {
+      "predicted": "KOBJ6Y",
+      "ground_truth": "KOBJ6Y",
+      "correct": true
+    },
+    {
+      "predicted": "7SZU7E",
+      "ground_truth": "7SZU7E",
+      "correct": true
+    },
+    {
+      "predicted": "MRH41E",
+      "ground_truth": "MRH41E",
+      "correct": true
+    },
+    {
+      "predicted": "LHWY6T",
+      "ground_truth": "LHWY6T",
+      "correct": true
+    },
+    {
+      "predicted": "1ZO1UC",
+      "ground_truth": "1ZO1UC",
+      "correct": true
+    },
+    {
+      "predicted": "NVYN55",
+      "ground_truth": "NVYN55",
+      "correct": true
+    },
+    {
+      "predicted": "O0PPOJ",
+      "ground_truth": "O0PPOJ",
+      "correct": true
+    },
+    {
+      "predicted": "AURQRQ",
+      "ground_truth": "AURQRQ",
+      "correct": true
+    },
+    {
+      "predicted": "5P0K21",
+      "ground_truth": "5P0K21",
+      "correct": true
+    },
+    {
+      "predicted": "Y34W9S",
+      "ground_truth": "Y34W9S",
+      "correct": true
+    },
+    {
+      "predicted": "DUEKL9",
+      "ground_truth": "DUEKL9",
+      "correct": true
+    },
+    {
+      "predicted": "3V2REV",
+      "ground_truth": "3V2REV",
+      "correct": true
+    },
+    {
+      "predicted": "VD6VH8",
+      "ground_truth": "VD6VH8",
+      "correct": true
+    },
+    {
+      "predicted": "7LQHWH",
+      "ground_truth": "7LQHWH",
+      "correct": true
+    }
+  ]
+}

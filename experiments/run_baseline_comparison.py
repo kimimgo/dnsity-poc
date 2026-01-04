@@ -69,19 +69,19 @@ def evaluate_full_context(
         sample = samples[0]
 
         def inference_fn():
-            baseline_gpu.generate(
+            baseline_gpu.inference(
                 context=sample["context"],
                 question=sample["question"],
                 max_new_tokens=max_new_tokens
             )
 
-        vram_mb = measure_vram_usage(inference_fn, reset=True)
+        vram_mb = measure_vram_usage(inference_fn)
         del baseline_gpu
         torch.cuda.empty_cache()
 
     # Evaluate all samples (CPU to avoid OOM)
     for sample in tqdm(samples[:50], desc="Full Context"):  # Limit to 50 for speed
-        predicted = baseline.generate(
+        predicted = baseline.inference(
             context=sample["context"],
             question=sample["question"],
             max_new_tokens=max_new_tokens
@@ -158,7 +158,7 @@ def evaluate_rag(
         def inference_fn():
             rag_gpu.query(sample["question"], top_k=top_k, max_new_tokens=max_new_tokens)
 
-        vram_mb = measure_vram_usage(inference_fn, reset=True)
+        vram_mb = measure_vram_usage(inference_fn)
         del rag_gpu
         torch.cuda.empty_cache()
 

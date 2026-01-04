@@ -114,7 +114,11 @@ class TestGistDataCollator:
         # Verify batch is properly formatted
         assert "input_ids" in batch
         assert "attention_mask" in batch
-        assert batch["input_ids"].shape == batch["attention_mask"].shape[:2]
+        # Attention mask is 4D: [batch, 1, seq_len, seq_len]
+        assert batch["attention_mask"].dim() == 4
+        assert batch["attention_mask"].shape[0] == batch["input_ids"].shape[0]  # batch size
+        assert batch["attention_mask"].shape[2] == batch["input_ids"].shape[1]  # seq_len
+        assert batch["attention_mask"].shape[3] == batch["input_ids"].shape[1]  # seq_len
 
     def test_gist_can_see_context(self):
         """Test that Gist tokens CAN attend to Context tokens (to absorb information)."""

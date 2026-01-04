@@ -1,0 +1,1009 @@
+{
+  "dataset": "data/processed/niah/global_niah.jsonl",
+  "num_samples": 200,
+  "accuracy": 1.0,
+  "elapsed_time_sec": 0.0113677978515625,
+  "avg_context_length_chars": 19701.8,
+  "results": [
+    {
+      "predicted": "HJFN5P",
+      "ground_truth": "HJFN5P",
+      "correct": true
+    },
+    {
+      "predicted": "C2RONV",
+      "ground_truth": "C2RONV",
+      "correct": true
+    },
+    {
+      "predicted": "09BAOO",
+      "ground_truth": "09BAOO",
+      "correct": true
+    },
+    {
+      "predicted": "MLJL2Y",
+      "ground_truth": "MLJL2Y",
+      "correct": true
+    },
+    {
+      "predicted": "1RMKEF",
+      "ground_truth": "1RMKEF",
+      "correct": true
+    },
+    {
+      "predicted": "6DPOXQ",
+      "ground_truth": "6DPOXQ",
+      "correct": true
+    },
+    {
+      "predicted": "HG75X9",
+      "ground_truth": "HG75X9",
+      "correct": true
+    },
+    {
+      "predicted": "GSMOQH",
+      "ground_truth": "GSMOQH",
+      "correct": true
+    },
+    {
+      "predicted": "MW4DNM",
+      "ground_truth": "MW4DNM",
+      "correct": true
+    },
+    {
+      "predicted": "KNMN2G",
+      "ground_truth": "KNMN2G",
+      "correct": true
+    },
+    {
+      "predicted": "U4RC6O",
+      "ground_truth": "U4RC6O",
+      "correct": true
+    },
+    {
+      "predicted": "SAAR54",
+      "ground_truth": "SAAR54",
+      "correct": true
+    },
+    {
+      "predicted": "Y66ZYD",
+      "ground_truth": "Y66ZYD",
+      "correct": true
+    },
+    {
+      "predicted": "H2YXGD",
+      "ground_truth": "H2YXGD",
+      "correct": true
+    },
+    {
+      "predicted": "8R9XOY",
+      "ground_truth": "8R9XOY",
+      "correct": true
+    },
+    {
+      "predicted": "CE04X9",
+      "ground_truth": "CE04X9",
+      "correct": true
+    },
+    {
+      "predicted": "99P258",
+      "ground_truth": "99P258",
+      "correct": true
+    },
+    {
+      "predicted": "IRHFI5",
+      "ground_truth": "IRHFI5",
+      "correct": true
+    },
+    {
+      "predicted": "XLSNBA",
+      "ground_truth": "XLSNBA",
+      "correct": true
+    },
+    {
+      "predicted": "DXDR82",
+      "ground_truth": "DXDR82",
+      "correct": true
+    },
+    {
+      "predicted": "8EKDBY",
+      "ground_truth": "8EKDBY",
+      "correct": true
+    },
+    {
+      "predicted": "OP1BXF",
+      "ground_truth": "OP1BXF",
+      "correct": true
+    },
+    {
+      "predicted": "S9DOKE",
+      "ground_truth": "S9DOKE",
+      "correct": true
+    },
+    {
+      "predicted": "9GL1F7",
+      "ground_truth": "9GL1F7",
+      "correct": true
+    },
+    {
+      "predicted": "P57IXD",
+      "ground_truth": "P57IXD",
+      "correct": true
+    },
+    {
+      "predicted": "R7HN2N",
+      "ground_truth": "R7HN2N",
+      "correct": true
+    },
+    {
+      "predicted": "8ZUSLY",
+      "ground_truth": "8ZUSLY",
+      "correct": true
+    },
+    {
+      "predicted": "QO6NRR",
+      "ground_truth": "QO6NRR",
+      "correct": true
+    },
+    {
+      "predicted": "D2S46F",
+      "ground_truth": "D2S46F",
+      "correct": true
+    },
+    {
+      "predicted": "WGG4VO",
+      "ground_truth": "WGG4VO",
+      "correct": true
+    },
+    {
+      "predicted": "GPXE7I",
+      "ground_truth": "GPXE7I",
+      "correct": true
+    },
+    {
+      "predicted": "CCP74Z",
+      "ground_truth": "CCP74Z",
+      "correct": true
+    },
+    {
+      "predicted": "BVNIXX",
+      "ground_truth": "BVNIXX",
+      "correct": true
+    },
+    {
+      "predicted": "1JQZS1",
+      "ground_truth": "1JQZS1",
+      "correct": true
+    },
+    {
+      "predicted": "07LKJV",
+      "ground_truth": "07LKJV",
+      "correct": true
+    },
+    {
+      "predicted": "H99LQ9",
+      "ground_truth": "H99LQ9",
+      "correct": true
+    },
+    {
+      "predicted": "KOBJ6Y",
+      "ground_truth": "KOBJ6Y",
+      "correct": true
+    },
+    {
+      "predicted": "7SZU7E",
+      "ground_truth": "7SZU7E",
+      "correct": true
+    },
+    {
+      "predicted": "MRH41E",
+      "ground_truth": "MRH41E",
+      "correct": true
+    },
+    {
+      "predicted": "LHWY6T",
+      "ground_truth": "LHWY6T",
+      "correct": true
+    },
+    {
+      "predicted": "1ZO1UC",
+      "ground_truth": "1ZO1UC",
+      "correct": true
+    },
+    {
+      "predicted": "NVYN55",
+      "ground_truth": "NVYN55",
+      "correct": true
+    },
+    {
+      "predicted": "O0PPOJ",
+      "ground_truth": "O0PPOJ",
+      "correct": true
+    },
+    {
+      "predicted": "AURQRQ",
+      "ground_truth": "AURQRQ",
+      "correct": true
+    },
+    {
+      "predicted": "5P0K21",
+      "ground_truth": "5P0K21",
+      "correct": true
+    },
+    {
+      "predicted": "Y34W9S",
+      "ground_truth": "Y34W9S",
+      "correct": true
+    },
+    {
+      "predicted": "DUEKL9",
+      "ground_truth": "DUEKL9",
+      "correct": true
+    },
+    {
+      "predicted": "3V2REV",
+      "ground_truth": "3V2REV",
+      "correct": true
+    },
+    {
+      "predicted": "VD6VH8",
+      "ground_truth": "VD6VH8",
+      "correct": true
+    },
+    {
+      "predicted": "7LQHWH",
+      "ground_truth": "7LQHWH",
+      "correct": true
+    },
+    {
+      "predicted": "AB7NMC",
+      "ground_truth": "AB7NMC",
+      "correct": true
+    },
+    {
+      "predicted": "H23VQT",
+      "ground_truth": "H23VQT",
+      "correct": true
+    },
+    {
+      "predicted": "FNHC5I",
+      "ground_truth": "FNHC5I",
+      "correct": true
+    },
+    {
+      "predicted": "Z9Y4TN",
+      "ground_truth": "Z9Y4TN",
+      "correct": true
+    },
+    {
+      "predicted": "QPOYH0",
+      "ground_truth": "QPOYH0",
+      "correct": true
+    },
+    {
+      "predicted": "TBORM6",
+      "ground_truth": "TBORM6",
+      "correct": true
+    },
+    {
+      "predicted": "P3V7HP",
+      "ground_truth": "P3V7HP",
+      "correct": true
+    },
+    {
+      "predicted": "23ZBLU",
+      "ground_truth": "23ZBLU",
+      "correct": true
+    },
+    {
+      "predicted": "MDAD9U",
+      "ground_truth": "MDAD9U",
+      "correct": true
+    },
+    {
+      "predicted": "9IJFM0",
+      "ground_truth": "9IJFM0",
+      "correct": true
+    },
+    {
+      "predicted": "18X81N",
+      "ground_truth": "18X81N",
+      "correct": true
+    },
+    {
+      "predicted": "O7ML1A",
+      "ground_truth": "O7ML1A",
+      "correct": true
+    },
+    {
+      "predicted": "X9P418",
+      "ground_truth": "X9P418",
+      "correct": true
+    },
+    {
+      "predicted": "FLLEYG",
+      "ground_truth": "FLLEYG",
+      "correct": true
+    },
+    {
+      "predicted": "7BXD54",
+      "ground_truth": "7BXD54",
+      "correct": true
+    },
+    {
+      "predicted": "CQH1ZM",
+      "ground_truth": "CQH1ZM",
+      "correct": true
+    },
+    {
+      "predicted": "4PLDQO",
+      "ground_truth": "4PLDQO",
+      "correct": true
+    },
+    {
+      "predicted": "99EG5J",
+      "ground_truth": "99EG5J",
+      "correct": true
+    },
+    {
+      "predicted": "XFLK4J",
+      "ground_truth": "XFLK4J",
+      "correct": true
+    },
+    {
+      "predicted": "FIQ8WF",
+      "ground_truth": "FIQ8WF",
+      "correct": true
+    },
+    {
+      "predicted": "CW6J1K",
+      "ground_truth": "CW6J1K",
+      "correct": true
+    },
+    {
+      "predicted": "N4QLD8",
+      "ground_truth": "N4QLD8",
+      "correct": true
+    },
+    {
+      "predicted": "C8P2A5",
+      "ground_truth": "C8P2A5",
+      "correct": true
+    },
+    {
+      "predicted": "QTXITR",
+      "ground_truth": "QTXITR",
+      "correct": true
+    },
+    {
+      "predicted": "D24HQW",
+      "ground_truth": "D24HQW",
+      "correct": true
+    },
+    {
+      "predicted": "SJTI1N",
+      "ground_truth": "SJTI1N",
+      "correct": true
+    },
+    {
+      "predicted": "5P790H",
+      "ground_truth": "5P790H",
+      "correct": true
+    },
+    {
+      "predicted": "GIR2TA",
+      "ground_truth": "GIR2TA",
+      "correct": true
+    },
+    {
+      "predicted": "SUTJOL",
+      "ground_truth": "SUTJOL",
+      "correct": true
+    },
+    {
+      "predicted": "VB7IL2",
+      "ground_truth": "VB7IL2",
+      "correct": true
+    },
+    {
+      "predicted": "2L7Q9U",
+      "ground_truth": "2L7Q9U",
+      "correct": true
+    },
+    {
+      "predicted": "G3JDM8",
+      "ground_truth": "G3JDM8",
+      "correct": true
+    },
+    {
+      "predicted": "DS7DPC",
+      "ground_truth": "DS7DPC",
+      "correct": true
+    },
+    {
+      "predicted": "8OJ26W",
+      "ground_truth": "8OJ26W",
+      "correct": true
+    },
+    {
+      "predicted": "BH1MHQ",
+      "ground_truth": "BH1MHQ",
+      "correct": true
+    },
+    {
+      "predicted": "TL25MZ",
+      "ground_truth": "TL25MZ",
+      "correct": true
+    },
+    {
+      "predicted": "MZ4I1T",
+      "ground_truth": "MZ4I1T",
+      "correct": true
+    },
+    {
+      "predicted": "VWAJH6",
+      "ground_truth": "VWAJH6",
+      "correct": true
+    },
+    {
+      "predicted": "7LWVCP",
+      "ground_truth": "7LWVCP",
+      "correct": true
+    },
+    {
+      "predicted": "D079IM",
+      "ground_truth": "D079IM",
+      "correct": true
+    },
+    {
+      "predicted": "FZU20Q",
+      "ground_truth": "FZU20Q",
+      "correct": true
+    },
+    {
+      "predicted": "PDYBA5",
+      "ground_truth": "PDYBA5",
+      "correct": true
+    },
+    {
+      "predicted": "PP8QAC",
+      "ground_truth": "PP8QAC",
+      "correct": true
+    },
+    {
+      "predicted": "CZNOUU",
+      "ground_truth": "CZNOUU",
+      "correct": true
+    },
+    {
+      "predicted": "QMW68Z",
+      "ground_truth": "QMW68Z",
+      "correct": true
+    },
+    {
+      "predicted": "AWRVOG",
+      "ground_truth": "AWRVOG",
+      "correct": true
+    },
+    {
+      "predicted": "QGA086",
+      "ground_truth": "QGA086",
+      "correct": true
+    },
+    {
+      "predicted": "VL90SA",
+      "ground_truth": "VL90SA",
+      "correct": true
+    },
+    {
+      "predicted": "BDNFXZ",
+      "ground_truth": "BDNFXZ",
+      "correct": true
+    },
+    {
+      "predicted": "DTGQ8N",
+      "ground_truth": "DTGQ8N",
+      "correct": true
+    },
+    {
+      "predicted": "EQ3ATR",
+      "ground_truth": "EQ3ATR",
+      "correct": true
+    },
+    {
+      "predicted": "6X14L3",
+      "ground_truth": "6X14L3",
+      "correct": true
+    },
+    {
+      "predicted": "DRQYGU",
+      "ground_truth": "DRQYGU",
+      "correct": true
+    },
+    {
+      "predicted": "MQMKIX",
+      "ground_truth": "MQMKIX",
+      "correct": true
+    },
+    {
+      "predicted": "B9K0AV",
+      "ground_truth": "B9K0AV",
+      "correct": true
+    },
+    {
+      "predicted": "F3ZR8T",
+      "ground_truth": "F3ZR8T",
+      "correct": true
+    },
+    {
+      "predicted": "6BKCMA",
+      "ground_truth": "6BKCMA",
+      "correct": true
+    },
+    {
+      "predicted": "WEKSCP",
+      "ground_truth": "WEKSCP",
+      "correct": true
+    },
+    {
+      "predicted": "PVDXW6",
+      "ground_truth": "PVDXW6",
+      "correct": true
+    },
+    {
+      "predicted": "XIAVL8",
+      "ground_truth": "XIAVL8",
+      "correct": true
+    },
+    {
+      "predicted": "1FAY19",
+      "ground_truth": "1FAY19",
+      "correct": true
+    },
+    {
+      "predicted": "5VI86V",
+      "ground_truth": "5VI86V",
+      "correct": true
+    },
+    {
+      "predicted": "C2UOQE",
+      "ground_truth": "C2UOQE",
+      "correct": true
+    },
+    {
+      "predicted": "ZBJGAB",
+      "ground_truth": "ZBJGAB",
+      "correct": true
+    },
+    {
+      "predicted": "1923EG",
+      "ground_truth": "1923EG",
+      "correct": true
+    },
+    {
+      "predicted": "1XWLXE",
+      "ground_truth": "1XWLXE",
+      "correct": true
+    },
+    {
+      "predicted": "8ZR1YW",
+      "ground_truth": "8ZR1YW",
+      "correct": true
+    },
+    {
+      "predicted": "Z1NBMS",
+      "ground_truth": "Z1NBMS",
+      "correct": true
+    },
+    {
+      "predicted": "WGVM8N",
+      "ground_truth": "WGVM8N",
+      "correct": true
+    },
+    {
+      "predicted": "CXV7DF",
+      "ground_truth": "CXV7DF",
+      "correct": true
+    },
+    {
+      "predicted": "NE2M7V",
+      "ground_truth": "NE2M7V",
+      "correct": true
+    },
+    {
+      "predicted": "VBLW45",
+      "ground_truth": "VBLW45",
+      "correct": true
+    },
+    {
+      "predicted": "YN0XCK",
+      "ground_truth": "YN0XCK",
+      "correct": true
+    },
+    {
+      "predicted": "F8DRAN",
+      "ground_truth": "F8DRAN",
+      "correct": true
+    },
+    {
+      "predicted": "70F4YZ",
+      "ground_truth": "70F4YZ",
+      "correct": true
+    },
+    {
+      "predicted": "KA731C",
+      "ground_truth": "KA731C",
+      "correct": true
+    },
+    {
+      "predicted": "IJGH1Z",
+      "ground_truth": "IJGH1Z",
+      "correct": true
+    },
+    {
+      "predicted": "XRZMZZ",
+      "ground_truth": "XRZMZZ",
+      "correct": true
+    },
+    {
+      "predicted": "RZUZDH",
+      "ground_truth": "RZUZDH",
+      "correct": true
+    },
+    {
+      "predicted": "VGENN5",
+      "ground_truth": "VGENN5",
+      "correct": true
+    },
+    {
+      "predicted": "FPEPE5",
+      "ground_truth": "FPEPE5",
+      "correct": true
+    },
+    {
+      "predicted": "MYEGSK",
+      "ground_truth": "MYEGSK",
+      "correct": true
+    },
+    {
+      "predicted": "ANQB53",
+      "ground_truth": "ANQB53",
+      "correct": true
+    },
+    {
+      "predicted": "H0GHZK",
+      "ground_truth": "H0GHZK",
+      "correct": true
+    },
+    {
+      "predicted": "C0NM1N",
+      "ground_truth": "C0NM1N",
+      "correct": true
+    },
+    {
+      "predicted": "2PGVUN",
+      "ground_truth": "2PGVUN",
+      "correct": true
+    },
+    {
+      "predicted": "K4VAY6",
+      "ground_truth": "K4VAY6",
+      "correct": true
+    },
+    {
+      "predicted": "4R2G5H",
+      "ground_truth": "4R2G5H",
+      "correct": true
+    },
+    {
+      "predicted": "RVUL83",
+      "ground_truth": "RVUL83",
+      "correct": true
+    },
+    {
+      "predicted": "Y16KZB",
+      "ground_truth": "Y16KZB",
+      "correct": true
+    },
+    {
+      "predicted": "EF49N6",
+      "ground_truth": "EF49N6",
+      "correct": true
+    },
+    {
+      "predicted": "TLFXBF",
+      "ground_truth": "TLFXBF",
+      "correct": true
+    },
+    {
+      "predicted": "SED6JP",
+      "ground_truth": "SED6JP",
+      "correct": true
+    },
+    {
+      "predicted": "FZWBO0",
+      "ground_truth": "FZWBO0",
+      "correct": true
+    },
+    {
+      "predicted": "DY3LGA",
+      "ground_truth": "DY3LGA",
+      "correct": true
+    },
+    {
+      "predicted": "KV8PQW",
+      "ground_truth": "KV8PQW",
+      "correct": true
+    },
+    {
+      "predicted": "KZPD4O",
+      "ground_truth": "KZPD4O",
+      "correct": true
+    },
+    {
+      "predicted": "MOG4BI",
+      "ground_truth": "MOG4BI",
+      "correct": true
+    },
+    {
+      "predicted": "T072DS",
+      "ground_truth": "T072DS",
+      "correct": true
+    },
+    {
+      "predicted": "OOCMDS",
+      "ground_truth": "OOCMDS",
+      "correct": true
+    },
+    {
+      "predicted": "YO0WMR",
+      "ground_truth": "YO0WMR",
+      "correct": true
+    },
+    {
+      "predicted": "M8NVNE",
+      "ground_truth": "M8NVNE",
+      "correct": true
+    },
+    {
+      "predicted": "B4Z60T",
+      "ground_truth": "B4Z60T",
+      "correct": true
+    },
+    {
+      "predicted": "6PR822",
+      "ground_truth": "6PR822",
+      "correct": true
+    },
+    {
+      "predicted": "JI3HFR",
+      "ground_truth": "JI3HFR",
+      "correct": true
+    },
+    {
+      "predicted": "E60IJQ",
+      "ground_truth": "E60IJQ",
+      "correct": true
+    },
+    {
+      "predicted": "C26HK7",
+      "ground_truth": "C26HK7",
+      "correct": true
+    },
+    {
+      "predicted": "DRS1PQ",
+      "ground_truth": "DRS1PQ",
+      "correct": true
+    },
+    {
+      "predicted": "EFXX66",
+      "ground_truth": "EFXX66",
+      "correct": true
+    },
+    {
+      "predicted": "1FIMBV",
+      "ground_truth": "1FIMBV",
+      "correct": true
+    },
+    {
+      "predicted": "GMR1AU",
+      "ground_truth": "GMR1AU",
+      "correct": true
+    },
+    {
+      "predicted": "7OXWWC",
+      "ground_truth": "7OXWWC",
+      "correct": true
+    },
+    {
+      "predicted": "9QE3UP",
+      "ground_truth": "9QE3UP",
+      "correct": true
+    },
+    {
+      "predicted": "H6QHUZ",
+      "ground_truth": "H6QHUZ",
+      "correct": true
+    },
+    {
+      "predicted": "IV7F4Z",
+      "ground_truth": "IV7F4Z",
+      "correct": true
+    },
+    {
+      "predicted": "9TZDMC",
+      "ground_truth": "9TZDMC",
+      "correct": true
+    },
+    {
+      "predicted": "UNLB8Z",
+      "ground_truth": "UNLB8Z",
+      "correct": true
+    },
+    {
+      "predicted": "9KEY1E",
+      "ground_truth": "9KEY1E",
+      "correct": true
+    },
+    {
+      "predicted": "64SXBW",
+      "ground_truth": "64SXBW",
+      "correct": true
+    },
+    {
+      "predicted": "DA50WV",
+      "ground_truth": "DA50WV",
+      "correct": true
+    },
+    {
+      "predicted": "0H7GBP",
+      "ground_truth": "0H7GBP",
+      "correct": true
+    },
+    {
+      "predicted": "DG01YH",
+      "ground_truth": "DG01YH",
+      "correct": true
+    },
+    {
+      "predicted": "PJ9G1L",
+      "ground_truth": "PJ9G1L",
+      "correct": true
+    },
+    {
+      "predicted": "2BXJJ4",
+      "ground_truth": "2BXJJ4",
+      "correct": true
+    },
+    {
+      "predicted": "ZR6O83",
+      "ground_truth": "ZR6O83",
+      "correct": true
+    },
+    {
+      "predicted": "JCEEKC",
+      "ground_truth": "JCEEKC",
+      "correct": true
+    },
+    {
+      "predicted": "UB8NAV",
+      "ground_truth": "UB8NAV",
+      "correct": true
+    },
+    {
+      "predicted": "7SDN1K",
+      "ground_truth": "7SDN1K",
+      "correct": true
+    },
+    {
+      "predicted": "UZBW39",
+      "ground_truth": "UZBW39",
+      "correct": true
+    },
+    {
+      "predicted": "5TS9OV",
+      "ground_truth": "5TS9OV",
+      "correct": true
+    },
+    {
+      "predicted": "PTCE2C",
+      "ground_truth": "PTCE2C",
+      "correct": true
+    },
+    {
+      "predicted": "TA3BK7",
+      "ground_truth": "TA3BK7",
+      "correct": true
+    },
+    {
+      "predicted": "CJF0RM",
+      "ground_truth": "CJF0RM",
+      "correct": true
+    },
+    {
+      "predicted": "0H6NNR",
+      "ground_truth": "0H6NNR",
+      "correct": true
+    },
+    {
+      "predicted": "I91EU9",
+      "ground_truth": "I91EU9",
+      "correct": true
+    },
+    {
+      "predicted": "OOVRD9",
+      "ground_truth": "OOVRD9",
+      "correct": true
+    },
+    {
+      "predicted": "BAHM7K",
+      "ground_truth": "BAHM7K",
+      "correct": true
+    },
+    {
+      "predicted": "Z4PO4L",
+      "ground_truth": "Z4PO4L",
+      "correct": true
+    },
+    {
+      "predicted": "SM6N8U",
+      "ground_truth": "SM6N8U",
+      "correct": true
+    },
+    {
+      "predicted": "ZXT0YA",
+      "ground_truth": "ZXT0YA",
+      "correct": true
+    },
+    {
+      "predicted": "H1EGP8",
+      "ground_truth": "H1EGP8",
+      "correct": true
+    },
+    {
+      "predicted": "MWPUR0",
+      "ground_truth": "MWPUR0",
+      "correct": true
+    },
+    {
+      "predicted": "2K23YR",
+      "ground_truth": "2K23YR",
+      "correct": true
+    },
+    {
+      "predicted": "ZR7636",
+      "ground_truth": "ZR7636",
+      "correct": true
+    },
+    {
+      "predicted": "QHPXT5",
+      "ground_truth": "QHPXT5",
+      "correct": true
+    },
+    {
+      "predicted": "GZRNRM",
+      "ground_truth": "GZRNRM",
+      "correct": true
+    },
+    {
+      "predicted": "GZ5SK7",
+      "ground_truth": "GZ5SK7",
+      "correct": true
+    },
+    {
+      "predicted": "U0810C",
+      "ground_truth": "U0810C",
+      "correct": true
+    },
+    {
+      "predicted": "2ORMJ1",
+      "ground_truth": "2ORMJ1",
+      "correct": true
+    },
+    {
+      "predicted": "VQCV9A",
+      "ground_truth": "VQCV9A",
+      "correct": true
+    }
+  ]
+}

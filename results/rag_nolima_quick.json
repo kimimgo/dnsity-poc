@@ -1,0 +1,463 @@
+{
+  "dataset": "data/nolima/nolima_200.jsonl",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "chunk_size": 256,
+  "top_k": 5,
+  "accuracy": 92.0,
+  "retrieval_recall": 100.0,
+  "correct": 46,
+  "retrieval_hits": 50,
+  "total": 50,
+  "results": [
+    {
+      "predicted": "2WFOGR",
+      "ground_truth": "2WFOGR",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "2WFOGR\nExplanation: The sequence \"2WFOGR\" is the entry mechanism cipher, which is the answer to the ",
+      "question": "What sequence permits crossing?"
+    },
+    {
+      "predicted": "HQHC3Q",
+      "ground_truth": "HQHC3Q",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "HQHC3Q\nExplanation: The six-character combination \"HQHC3Q\" is the token required to open the secure ",
+      "question": "Which six-character combination opens the safe?"
+    },
+    {
+      "predicted": "HKNXNE",
+      "ground_truth": "HKNXNE",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "HKNXNE\nExplanation: The Rx validation mark is HKNXNE, which is mentioned in the context. This mark i",
+      "question": "Which imprint validates the medication script?"
+    },
+    {
+      "predicted": "2N8TZV",
+      "ground_truth": "2N8TZV",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "2N8TZV\n\nExplanation: The context does not mention medical records or any medical-related concepts. T",
+      "question": "What imprint distinguishes the medical record?"
+    },
+    {
+      "predicted": "ZQEMPW",
+      "ground_truth": "ZQEMPW",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "ZQEMPW\nRepository checkout hash: ZQEMPW\nThis is the signature that distinguishes the source revision",
+      "question": "What signature distinguishes the source revision?"
+    },
+    {
+      "predicted": "P0K102",
+      "ground_truth": "P0K102",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "P0K102\nExplanation: The agreement seal imprint is P0K102, which is a cyber security framework that e",
+      "question": "What mark validates the legal arrangement?"
+    },
+    {
+      "predicted": "7DRVYS",
+      "ground_truth": "7DRVYS",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "7DRVYS\nExplanation: The passphrase is 7DRVYS, which is the token required to access the secure facil",
+      "question": "What passphrase grants entry to the strongbox?"
+    },
+    {
+      "predicted": "8SJ9UR",
+      "ground_truth": "8SJ9UR",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "8SJ9UR\nExplanation: The context describes an insurance underwriting process, and the entry mechanism",
+      "question": "What characters unlock the doorway?"
+    },
+    {
+      "predicted": "TXBCBR",
+      "ground_truth": "TXBCBR",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "TXBCBR\nExplanation: The identifier \"TXBCBR\" is mentioned in the context as a \"Filing cabinet tag\". T",
+      "question": "Which identifier distinguishes the paperwork storage?"
+    },
+    {
+      "predicted": "HEY3ZW",
+      "ground_truth": "HEY3ZW",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "HEY3ZW\nExplanation: The combination to secure the cabinet is HEY3ZW, which is the PIN code mentioned",
+      "question": "What combination secures the cabinet?"
+    },
+    {
+      "predicted": "QC6L3I",
+      "ground_truth": "QC6L3I",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "QC6L3I\nExplanation: The numeric sequence QC6L3I is the Storage compartment PIN. It is not a code or ",
+      "question": "What numeric sequence opens the locker?"
+    },
+    {
+      "predicted": "92H0UC",
+      "ground_truth": "92H0UC",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "92H0UC\nExplanation: The Rx validation mark \"92H0UC\" is the label that verifies the pharmaceutical di",
+      "question": "What label verifies the pharmaceutical directive?"
+    },
+    {
+      "predicted": "T7G2V9",
+      "ground_truth": "T7G2V9",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "T7G2V9\nExplanation: The storage compartment PIN is T7G2V9. This is the numeric sequence that opens t",
+      "question": "What numeric sequence opens the locker?"
+    },
+    {
+      "predicted": "GD6YC8",
+      "ground_truth": "GD6YC8",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "GD6YC8\nExplanation: The gateway activation sequence is GD6YC8. This is the only code/identifier ment",
+      "question": "What string initiates the doorway?"
+    },
+    {
+      "predicted": "KEYDRJ",
+      "ground_truth": "KEYDRJ",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "KEYDRJ\nExplanation: The gateway activation sequence is KEYDRJ, which is a code/identifier mentioned ",
+      "question": "What key opens the entryway?"
+    },
+    {
+      "predicted": "R3J0M1",
+      "ground_truth": "R3J0M1",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "R3J0M1\nExplanation: The repository checkout hash is marked as R3J0M1. This is the software version i",
+      "question": "Which digest marks the software version?"
+    },
+    {
+      "predicted": "BG9IMJ",
+      "ground_truth": "BG9IMJ",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "BG9IMJ\nExplanation: The codebase snapshot is identified by the fingerprint \"BG9IMJ\". This is mention",
+      "question": "What fingerprint identifies the codebase snapshot?"
+    },
+    {
+      "predicted": "KDNNZP",
+      "ground_truth": "KDNNZP",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "KDNNZP\nExplanation: The sequence \"KDNNZP\" is mentioned as a \"backend handshake phrase\" in the contex",
+      "question": "Which sequence starts the computational exchange?"
+    },
+    {
+      "predicted": "RLHKR8",
+      "ground_truth": "RLHKR8",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "RLHKR8\n\nExplanation: The code RLHKR8 is the entry mechanism cipher, which is the answer to the quest",
+      "question": "Which combination enables passage through?"
+    },
+    {
+      "predicted": "2IF3TH",
+      "ground_truth": "2IF3TH",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "2IF3TH\nExplanation: The tag \"2IF3TH\" identifies the bookkeeping record, specifically a ledger entry ",
+      "question": "What tag identifies the bookkeeping record?"
+    },
+    {
+      "predicted": "0SFS7H",
+      "ground_truth": "0SFS7H",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "0SFS7H\nExplanation: The agreement seal imprint is 0SFS7H, which validates the legal arrangement. Thi",
+      "question": "What mark validates the legal arrangement?"
+    },
+    {
+      "predicted": "IDP9DL",
+      "ground_truth": "IDP9DL",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "IDP9DL\nExplanation: The sequence verifies the capital shift through the banking regulations that est",
+      "question": "What sequence verifies the capital shift?"
+    },
+    {
+      "predicted": "EEL3CF",
+      "ground_truth": "EEL3CF",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "EEL3CF\nExplanation: The alphanumeric string \"EEL3CF\" is the token required to access the secure faci",
+      "question": "What alphanumeric string unlocks the protected area?"
+    },
+    {
+      "predicted": "ACROSS",
+      "ground_truth": "I80M9M",
+      "correct": false,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "Electronic medical records (EMRs) facilitate information sharing across healthcare providers. Tag: I",
+      "question": "Which tag labels the health documentation?"
+    },
+    {
+      "predicted": "O3M2IS",
+      "ground_truth": "O3M2IS",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "O3M2IS\n\nExplanation: The characters \"O3M2IS\" enable passage, as they represent a gateway activation ",
+      "question": "Which characters enable passage?"
+    },
+    {
+      "predicted": "2ZGYUY",
+      "ground_truth": "2ZGYUY",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "2ZGYUY\nExplanation: The gateway activation sequence is 2ZGYUY. This is the only code/identifier ment",
+      "question": "What string initiates the doorway?"
+    },
+    {
+      "predicted": "4J6MUD",
+      "ground_truth": "4J6MUD",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "4J6MUD\nExplanation: The gateway activation sequence is 4J6MUD, which is the string that initiates th",
+      "question": "What string initiates the doorway?"
+    },
+    {
+      "predicted": "YQMB0M",
+      "ground_truth": "YQMB0M",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "YQMB0M\nExplanation: The codebase snapshot is identified by the repository checkout hash, which is YQ",
+      "question": "What fingerprint identifies the codebase snapshot?"
+    },
+    {
+      "predicted": "29P7A6",
+      "ground_truth": "29P7A6",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "29P7A6\nExplanation: The agreement seal imprint \"29P7A6\" confirms the binding document. This is the o",
+      "question": "Which stamp confirms the binding document?"
+    },
+    {
+      "predicted": "KLM9V0",
+      "ground_truth": "KLM9V0",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "KLM9V0\nExplanation: The agreement seal imprint code is KLM9V0, which confirms the binding document. ",
+      "question": "Which stamp confirms the binding document?"
+    },
+    {
+      "predicted": "6KBBSF",
+      "ground_truth": "6KBBSF",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "6KBBSF\nExplanation: The sequence \"6KBBSF\" is the backend handshake phrase mentioned in the context. ",
+      "question": "Which sequence starts the computational exchange?"
+    },
+    {
+      "predicted": "CLAIMS",
+      "ground_truth": "OYDRUO",
+      "correct": false,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "Claims processing workflows verify coverage and calculate settlement amounts. (Claims processing wor",
+      "question": "What reference validates the monetary movement?"
+    },
+    {
+      "predicted": "V3DPN3",
+      "ground_truth": "V3DPN3",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "V3DPN3\nExplanation: The codebase snapshot is identified by the repository checkout hash, which is V3",
+      "question": "What fingerprint identifies the codebase snapshot?"
+    },
+    {
+      "predicted": "RFJGKP",
+      "ground_truth": "RFJGKP",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 2,
+      "generated": "RFJGKP\nExplanation: The code RFJGKP is mentioned as the Storage compartment PIN. It is the code that",
+      "question": "Which code unlocks the deposit box?"
+    },
+    {
+      "predicted": "MWTGFO",
+      "ground_truth": "MWTGFO",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "MWTGFO\nExplanation: The notation \"MWTGFO\" is used to index the record repository, which is a filing ",
+      "question": "What notation indexes the record repository?"
+    },
+    {
+      "predicted": "961KTT",
+      "ground_truth": "961KTT",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "961KTT\nExplanation: The notation \"Filing cabinet tag\" is used to index the record repository, and th",
+      "question": "What notation indexes the record repository?"
+    },
+    {
+      "predicted": "KVE6T1",
+      "ground_truth": "KVE6T1",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "KVE6T1\nExplanation: The six-character combination that opens the safe is KVE6T1. This is the token m",
+      "question": "Which six-character combination opens the safe?"
+    },
+    {
+      "predicted": "VERIFY",
+      "ground_truth": "28BI2K",
+      "correct": false,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "Rx\n\nExplanation: The label \"Rx\" is used to verify the pharmaceutical directive. It is a validation m",
+      "question": "What label verifies the pharmaceutical directive?"
+    },
+    {
+      "predicted": "8E2V5J",
+      "ground_truth": "8E2V5J",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "8E2V5J\nExplanation: The label \"Ledger entry marker\" indicates that the code \"8E2V5J\" is an accountin",
+      "question": "Which label marks the accounting notation?"
+    },
+    {
+      "predicted": "T9YH3T",
+      "ground_truth": "T9YH3T",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "T9YH3T\nExplanation: The reference is a wire confirmation number, which is T9YH3T. This number likely",
+      "question": "What reference validates the monetary movement?"
+    },
+    {
+      "predicted": "8UPY8R",
+      "ground_truth": "8UPY8R",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "8UPY8R\nExplanation: The marker \"8UPY8R\" is not related to a patient file. It appears to be a chart a",
+      "question": "What marker identifies the patient file?"
+    },
+    {
+      "predicted": "62B9NC",
+      "ground_truth": "62B9NC",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "62B9NC\nExplanation: The label \"Rx validation mark: 62B9NC\" verifies the pharmaceutical directive. Th",
+      "question": "What label verifies the pharmaceutical directive?"
+    },
+    {
+      "predicted": "Q02N1Z",
+      "ground_truth": "Q02N1Z",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "Q02N1Z\nExplanation: The repository checkout hash is Q02N1Z, which marks the software version. This i",
+      "question": "Which digest marks the software version?"
+    },
+    {
+      "predicted": "Z155A7",
+      "ground_truth": "Z155A7",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "Z155A7\nExplanation: The sequence \"Z155A7\" is the entry mechanism cipher mentioned in the context. It",
+      "question": "What sequence permits crossing?"
+    },
+    {
+      "predicted": "FJZ342",
+      "ground_truth": "FJZ342",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "FJZ342\nExplanation: The context mentions a \"Storage compartment PIN\" with the code FJZ342. This is t",
+      "question": "What numeric sequence opens the locker?"
+    },
+    {
+      "predicted": "TV3E8N",
+      "ground_truth": "TV3E8N",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "TV3E8N\nExplanation: The agreement seal imprint code \"TV3E8N\" confirms the binding document. This cod",
+      "question": "Which stamp confirms the binding document?"
+    },
+    {
+      "predicted": "POLICY",
+      "ground_truth": "Y88DJ0",
+      "correct": false,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "Interest rate derivatives hedge exposure to monetary policy changes. (Wire confirmation number: Y88D",
+      "question": "What sequence verifies the capital shift?"
+    },
+    {
+      "predicted": "T654FL",
+      "ground_truth": "T654FL",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "T654FL\nExplanation: The sequence is the \"Entry mechanism cipher\" which is T654FL. This is not a sequ",
+      "question": "What sequence permits crossing?"
+    },
+    {
+      "predicted": "O0KB6P",
+      "ground_truth": "O0KB6P",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "O0KB6P\nExplanation: The repository checkout hash is O0KB6P, which marks the software version. This i",
+      "question": "Which digest marks the software version?"
+    },
+    {
+      "predicted": "9TPBEU",
+      "ground_truth": "9TPBEU",
+      "correct": true,
+      "retrieval_hit": true,
+      "num_chunks": 1,
+      "generated": "9TPBEU\nExplanation: The sequence provided is a wire confirmation number, which is not related to the",
+      "question": "What sequence verifies the capital shift?"
+    }
+  ]
+}

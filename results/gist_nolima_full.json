@@ -1,0 +1,1610 @@
+{
+  "checkpoint": "checkpoints/gist-25-1000",
+  "dataset": "data/nolima/nolima_200.jsonl",
+  "num_gist_tokens": 25,
+  "accuracy": 41.5,
+  "correct": 83,
+  "total": 200,
+  "results": [
+    {
+      "predicted": "CIPHER",
+      "ground_truth": "2WFOGR",
+      "correct": false,
+      "generated": "Entry mechanism cipher: 2WFOGR\n\nExplanation: The sequence \"2WFOGR\" is an entry mechanism cipher that",
+      "question": "What sequence permits crossing?",
+      "needle_phrase": "Entry mechanism cipher: 2WFOGR"
+    },
+    {
+      "predicted": "HQHC3Q",
+      "ground_truth": "HQHC3Q",
+      "correct": true,
+      "generated": "HQHC3Q\n\nNote: The other options are not correct. The correct combination is HQHC3Q.",
+      "question": "Which six-character combination opens the safe?",
+      "needle_phrase": "The secure facility requires token: HQHC3Q"
+    },
+    {
+      "predicted": "SCRIPT",
+      "ground_truth": "HKNXNE",
+      "correct": false,
+      "generated": "Rx\n\nExplanation: Rx is a validation mark that ensures the medication script is accurate and complete",
+      "question": "Which imprint validates the medication script?",
+      "needle_phrase": "Rx validation mark: HKNXNE"
+    },
+    {
+      "predicted": "2N8TZV",
+      "ground_truth": "2N8TZV",
+      "correct": true,
+      "generated": "Medical records are typically stamped with a \"2N8TZV\" imprint.\n\nNote: The text is a jumbled collecti",
+      "question": "What imprint distinguishes the medical record?",
+      "needle_phrase": "Chart annotation stamp: 2N8TZV"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "ZQEMPW",
+      "correct": false,
+      "generated": "The repository checkout hash.\n\nQuestion: What helps clinicians avoid adverse medication combinations",
+      "question": "What signature distinguishes the source revision?",
+      "needle_phrase": "Repository checkout hash: ZQEMPW"
+    },
+    {
+      "predicted": "P0K102",
+      "ground_truth": "P0K102",
+      "correct": true,
+      "generated": "Agreement seal imprint: P0K102\n\nQuestion: What protects sensitive information assets?\nAnswer: Cybers",
+      "question": "What mark validates the legal arrangement?",
+      "needle_phrase": "Agreement seal imprint: P0K102"
+    },
+    {
+      "predicted": "7DRVYS",
+      "ground_truth": "7DRVYS",
+      "correct": true,
+      "generated": "7DRVYS\n\nNote: The passphrase is a sequence of 7 random characters, which is a common practice in sec",
+      "question": "What passphrase grants entry to the strongbox?",
+      "needle_phrase": "The secure facility requires token: 7DRVYS"
+    },
+    {
+      "predicted": "UNLOCK",
+      "ground_truth": "8SJ9UR",
+      "correct": false,
+      "generated": "Strategic planning initiatives.\n\nExplanation: Strategic planning initiatives are the characters that",
+      "question": "What characters unlock the doorway?",
+      "needle_phrase": "Entry mechanism cipher: 8SJ9UR"
+    },
+    {
+      "predicted": "FILING",
+      "ground_truth": "TXBCBR",
+      "correct": false,
+      "generated": "Filing cabinet\n\nQuestion: What enables scalable deployment of enterprise applications across distrib",
+      "question": "Which identifier distinguishes the paperwork storage?",
+      "needle_phrase": "Filing cabinet tag: TXBCBR"
+    },
+    {
+      "predicted": "HEY3ZW",
+      "ground_truth": "HEY3ZW",
+      "correct": true,
+      "generated": "The combination is: HEY3ZW.",
+      "question": "What combination secures the cabinet?",
+      "needle_phrase": "Storage compartment PIN is: HEY3ZW"
+    },
+    {
+      "predicted": "",
+      "ground_truth": "QC6L3I",
+      "correct": false,
+      "generated": "6-3-1\n\nExplanation: The sequence is a combination lock code.",
+      "question": "What numeric sequence opens the locker?",
+      "needle_phrase": "Storage compartment PIN is: QC6L3I"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "92H0UC",
+      "correct": false,
+      "generated": "Rx\n\nQuestion: What label verifies the pharmaceutical directive?\nAnswer: Rx\n\nQuestion: What label ver",
+      "question": "What label verifies the pharmaceutical directive?",
+      "needle_phrase": "Rx validation mark: 92H0UC"
+    },
+    {
+      "predicted": "LOCKER",
+      "ground_truth": "T7G2V9",
+      "correct": false,
+      "generated": "7G2V9\n\nNote: The sequence is a combination to a locker.",
+      "question": "What numeric sequence opens the locker?",
+      "needle_phrase": "Storage compartment PIN is: T7G2V9"
+    },
+    {
+      "predicted": "GD6YC8",
+      "ground_truth": "GD6YC8",
+      "correct": true,
+      "generated": "GD6YC8\n\nQuestion: What enables scalable deployment of enterprise applications across distributed sys",
+      "question": "What string initiates the doorway?",
+      "needle_phrase": "Gateway activation sequence: GD6YC8"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "KEYDRJ",
+      "correct": false,
+      "generated": "The key.\n\nQuestion: What is the gateway activation sequence?\nAnswer: KEYDRJ.\n\nQuestion: What enables",
+      "question": "What key opens the entryway?",
+      "needle_phrase": "Gateway activation sequence: KEYDRJ"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "R3J0M1",
+      "correct": false,
+      "generated": "Checkout hash.\n\nQuestion: What helps clinicians avoid adverse medication combinations?\nAnswer: Drug ",
+      "question": "Which digest marks the software version?",
+      "needle_phrase": "Repository checkout hash: R3J0M1"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "BG9IMJ",
+      "correct": false,
+      "generated": "The checkout hash.\n\nQuestion: What framework evaluates industry dynamics and positioning strategies?",
+      "question": "What fingerprint identifies the codebase snapshot?",
+      "needle_phrase": "Repository checkout hash: BG9IMJ"
+    },
+    {
+      "predicted": "ALIGNS",
+      "ground_truth": "KDNNZP",
+      "correct": false,
+      "generated": "Strategic planning initiatives.\n\nExplanation: Strategic planning initiatives are the first step in t",
+      "question": "Which sequence starts the computational exchange?",
+      "needle_phrase": "Backend handshake phrase: KDNNZP"
+    },
+    {
+      "predicted": "ACROSS",
+      "ground_truth": "RLHKR8",
+      "correct": false,
+      "generated": "Cloud computing infrastructure enables scalable deployment of enterprise applications across distrib",
+      "question": "Which combination enables passage through?",
+      "needle_phrase": "Entry mechanism cipher: RLHKR8"
+    },
+    {
+      "predicted": "LEDGER",
+      "ground_truth": "2IF3TH",
+      "correct": false,
+      "generated": "Ledger entry\n\nQuestion: What is the purpose of diversification in investment portfolios?\nAnswer: To ",
+      "question": "What tag identifies the bookkeeping record?",
+      "needle_phrase": "Ledger entry marker: 2IF3TH"
+    },
+    {
+      "predicted": "0SFS7H",
+      "ground_truth": "0SFS7H",
+      "correct": true,
+      "generated": "Agreement seal imprint: 0SFS7H\n\nExplanation: The agreement seal imprint is a mark that validates the",
+      "question": "What mark validates the legal arrangement?",
+      "needle_phrase": "Agreement seal imprint: 0SFS7H"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "IDP9DL",
+      "correct": false,
+      "generated": "Interest rate derivatives.\n\nQuestion: What risk assessment framework evaluates borrower default prob",
+      "question": "What sequence verifies the capital shift?",
+      "needle_phrase": "Wire confirmation number: IDP9DL"
+    },
+    {
+      "predicted": "EEL3CF",
+      "ground_truth": "EEL3CF",
+      "correct": true,
+      "generated": "EEL3CF\n\nNote: The alphanumeric string is a token that unlocks the secure facility.",
+      "question": "What alphanumeric string unlocks the protected area?",
+      "needle_phrase": "The secure facility requires token: EEL3CF"
+    },
+    {
+      "predicted": "I80M9M",
+      "ground_truth": "I80M9M",
+      "correct": true,
+      "generated": "I80M9M\n\nExplanation: The tag I80M9M represents health documentation, which includes clinical decisio",
+      "question": "Which tag labels the health documentation?",
+      "needle_phrase": "Chart annotation stamp: I80M9M"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "O3M2IS",
+      "correct": false,
+      "generated": "Space and Enter.\n\nQuestion: What enables passage?\nAnswer: Space and Enter.\n\nQuestion: What enables p",
+      "question": "Which characters enable passage?",
+      "needle_phrase": "Gateway activation sequence: O3M2IS"
+    },
+    {
+      "predicted": "2ZGYUY",
+      "ground_truth": "2ZGYUY",
+      "correct": true,
+      "generated": "2ZGYUY\n\nNote: The string \"2ZGYUY\" is the gateway activation sequence.",
+      "question": "What string initiates the doorway?",
+      "needle_phrase": "Gateway activation sequence: 2ZGYUY"
+    },
+    {
+      "predicted": "4J6MUD",
+      "ground_truth": "4J6MUD",
+      "correct": true,
+      "generated": "4J6MUD\n\nNote: The string \"4J6MUD\" is the gateway activation sequence that initiates the doorway.",
+      "question": "What string initiates the doorway?",
+      "needle_phrase": "Gateway activation sequence: 4J6MUD"
+    },
+    {
+      "predicted": "SECURE",
+      "ground_truth": "YQMB0M",
+      "correct": false,
+      "generated": "The Git SHA (Secure Hash Algorithm) or Git Hash.\n\nQuestion: What is the purpose of a code review?\nAn",
+      "question": "What fingerprint identifies the codebase snapshot?",
+      "needle_phrase": "Repository checkout hash: YQMB0M"
+    },
+    {
+      "predicted": "29P7A6",
+      "ground_truth": "29P7A6",
+      "correct": true,
+      "generated": "Agreement seal imprint: 29P7A6\n\nThis stamp confirms the binding document.\n\nNote: The stamp is a uniq",
+      "question": "Which stamp confirms the binding document?",
+      "needle_phrase": "Agreement seal imprint: 29P7A6"
+    },
+    {
+      "predicted": "KLM9V0",
+      "ground_truth": "KLM9V0",
+      "correct": true,
+      "generated": "Agreement seal imprint: KLM9V0\n\nQuestion: What enables scalable deployment of enterprise application",
+      "question": "Which stamp confirms the binding document?",
+      "needle_phrase": "Agreement seal imprint: KLM9V0"
+    },
+    {
+      "predicted": "STARTS",
+      "ground_truth": "6KBBSF",
+      "correct": false,
+      "generated": "The computational exchange starts with the sequence \"6KBBSF Corporate governance frameworks define r",
+      "question": "Which sequence starts the computational exchange?",
+      "needle_phrase": "Backend handshake phrase: 6KBBSF"
+    },
+    {
+      "predicted": "NUMBER",
+      "ground_truth": "OYDRUO",
+      "correct": false,
+      "generated": "Financial Transaction Number.\n\nQuestion: What reference validates the monetary movement?\nAnswer: Fin",
+      "question": "What reference validates the monetary movement?",
+      "needle_phrase": "Wire confirmation number: OYDRUO"
+    },
+    {
+      "predicted": "",
+      "ground_truth": "V3DPN3",
+      "correct": false,
+      "generated": "The fingerprint that identifies the codebase snapshot is the \"Repository Checkout Hash\".",
+      "question": "What fingerprint identifies the codebase snapshot?",
+      "needle_phrase": "Repository checkout hash: V3DPN3"
+    },
+    {
+      "predicted": "RFJGKP",
+      "ground_truth": "RFJGKP",
+      "correct": true,
+      "generated": "RFJGKP\n\nExplanation: The code is a combination of letters and numbers that unlocks the deposit box. ",
+      "question": "Which code unlocks the deposit box?",
+      "needle_phrase": "Storage compartment PIN is: RFJGKP"
+    },
+    {
+      "predicted": "FILING",
+      "ground_truth": "MWTGFO",
+      "correct": false,
+      "generated": "Filing cabinet.\n\nQuestion: What notation indexes the record repository?\nAnswer: Filing cabinet.\n\nQue",
+      "question": "What notation indexes the record repository?",
+      "needle_phrase": "Filing cabinet tag: MWTGFO"
+    },
+    {
+      "predicted": "RECORD",
+      "ground_truth": "961KTT",
+      "correct": false,
+      "generated": "The notation that indexes the record repository is a combination of the record number and the field ",
+      "question": "What notation indexes the record repository?",
+      "needle_phrase": "Filing cabinet tag: 961KTT"
+    },
+    {
+      "predicted": "KVE6T1",
+      "ground_truth": "KVE6T1",
+      "correct": true,
+      "generated": "KVE6T1\n\nQuestion: What is the purpose of clinical decision support systems?\nAnswer: Assist physician",
+      "question": "Which six-character combination opens the safe?",
+      "needle_phrase": "The secure facility requires token: KVE6T1"
+    },
+    {
+      "predicted": "MODELS",
+      "ground_truth": "28BI2K",
+      "correct": false,
+      "generated": "Rx\n\nQuestion: What is the purpose of the actuarial models in the insurance industry?\nAnswer: Project",
+      "question": "What label verifies the pharmaceutical directive?",
+      "needle_phrase": "Rx validation mark: 28BI2K"
+    },
+    {
+      "predicted": "LEDGER",
+      "ground_truth": "8E2V5J",
+      "correct": false,
+      "generated": "Ledger\n\nQuestion: What is the purpose of the ledger entry marker: 8E2V5J?\nAnswer: It is a random str",
+      "question": "Which label marks the accounting notation?",
+      "needle_phrase": "Ledger entry marker: 8E2V5J"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "T9YH3T",
+      "correct": false,
+      "generated": "Financial statements.\n\nQuestion: What reference validates the monetary movement?\nAnswer: Financial s",
+      "question": "What reference validates the monetary movement?",
+      "needle_phrase": "Wire confirmation number: T9YH3T"
+    },
+    {
+      "predicted": "8UPY8R",
+      "ground_truth": "8UPY8R",
+      "correct": true,
+      "generated": "8UPY8R\n\nExplanation: The marker \"8UPY8R\" is used to identify the patient file.\n\nNote: The text is a ",
+      "question": "What marker identifies the patient file?",
+      "needle_phrase": "Chart annotation stamp: 8UPY8R"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "62B9NC",
+      "correct": false,
+      "generated": "Rx\n\nQuestion: What is the purpose of a competitive analysis framework?\nAnswer: To evaluate industry ",
+      "question": "What label verifies the pharmaceutical directive?",
+      "needle_phrase": "Rx validation mark: 62B9NC"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "Q02N1Z",
+      "correct": false,
+      "generated": "Checkout hash.\n\nQuestion: What helps clinicians avoid adverse medication combinations?\nAnswer: Drug ",
+      "question": "Which digest marks the software version?",
+      "needle_phrase": "Repository checkout hash: Q02N1Z"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "Z155A7",
+      "correct": false,
+      "generated": "Encryption standards.\n\nQuestion: What framework helps physicians with diagnostic recommendations?\nAn",
+      "question": "What sequence permits crossing?",
+      "needle_phrase": "Entry mechanism cipher: Z155A7"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "FJZ342",
+      "correct": false,
+      "generated": "342\n\nQuestion: What is the PIN code for the storage compartment?\nAnswer: FJZ342\n\nQuestion: What is t",
+      "question": "What numeric sequence opens the locker?",
+      "needle_phrase": "Storage compartment PIN is: FJZ342"
+    },
+    {
+      "predicted": "TV3E8N",
+      "ground_truth": "TV3E8N",
+      "correct": true,
+      "generated": "Agreement seal imprint: TV3E8N\n\nNote: The agreement seal imprint is a unique identifier that confirm",
+      "question": "Which stamp confirms the binding document?",
+      "needle_phrase": "Agreement seal imprint: TV3E8N"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "Y88DJ0",
+      "correct": false,
+      "generated": "The sequence verifies the capital shift.\n\nQuestion: What sequence verifies the capital shift?\nAnswer",
+      "question": "What sequence verifies the capital shift?",
+      "needle_phrase": "Wire confirmation number: Y88DJ0"
+    },
+    {
+      "predicted": "SYSTEM",
+      "ground_truth": "T654FL",
+      "correct": false,
+      "generated": "Encryption standards.\n\nQuestion: What system helps clinicians avoid adverse medication combinations?",
+      "question": "What sequence permits crossing?",
+      "needle_phrase": "Entry mechanism cipher: T654FL"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "O0KB6P",
+      "correct": false,
+      "generated": "Version\n\nQuestion: What is the purpose of a digital signature?\nAnswer: To verify the authenticity an",
+      "question": "Which digest marks the software version?",
+      "needle_phrase": "Repository checkout hash: O0KB6P"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "9TPBEU",
+      "correct": false,
+      "generated": "The sequence verifies the capital shift.\n\nQuestion: What sequence verifies the capital shift?\nAnswer",
+      "question": "What sequence verifies the capital shift?",
+      "needle_phrase": "Wire confirmation number: 9TPBEU"
+    },
+    {
+      "predicted": "KSK9SM",
+      "ground_truth": "KSK9SM",
+      "correct": true,
+      "generated": "KSK9SM\n\nNote: The passphrase is a unique token that grants access to a secure facility or system. In",
+      "question": "What passphrase grants entry to the strongbox?",
+      "needle_phrase": "The secure facility requires token: KSK9SM"
+    },
+    {
+      "predicted": "HEALTH",
+      "ground_truth": "7TA43V",
+      "correct": false,
+      "generated": "health:documentation\n\nQuestion: What is the purpose of the health:documentation tag?\nAnswer: The hea",
+      "question": "Which tag labels the health documentation?",
+      "needle_phrase": "Chart annotation stamp: 7TA43V"
+    },
+    {
+      "predicted": "NUMBER",
+      "ground_truth": "ZCJM4D",
+      "correct": false,
+      "generated": "Wire confirmation number: ZCJM4D\n\nQuestion: What helps physicians with diagnostic recommendations?\nA",
+      "question": "Which string confirms the fund relocation?",
+      "needle_phrase": "Wire confirmation number: ZCJM4D"
+    },
+    {
+      "predicted": "A3AHDS",
+      "ground_truth": "A3AHDS",
+      "correct": true,
+      "generated": "A3AHDS\n\nNote: The text is a mix of various industries and concepts, and the \"backend handshake phras",
+      "question": "What characters begin the digital conversation?",
+      "needle_phrase": "Backend handshake phrase: A3AHDS"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "75LPGB",
+      "correct": false,
+      "generated": "The sequence verifies the capital shift.\n\nQuestion: What sequence verifies the capital shift?\nAnswer",
+      "question": "What sequence verifies the capital shift?",
+      "needle_phrase": "Wire confirmation number: 75LPGB"
+    },
+    {
+      "predicted": "HSXADJ",
+      "ground_truth": "HSXADJ",
+      "correct": true,
+      "generated": "HSXADJ\n\nNote: The alphanumeric string is a token that needs to be entered to access the secure facil",
+      "question": "What alphanumeric string unlocks the protected area?",
+      "needle_phrase": "The secure facility requires token: HSXADJ"
+    },
+    {
+      "predicted": "PTXKHY",
+      "ground_truth": "PTXKHY",
+      "correct": true,
+      "generated": "The correct passphrase is: \"PTXKHY\".",
+      "question": "What passphrase grants entry to the strongbox?",
+      "needle_phrase": "The secure facility requires token: PTXKHY"
+    },
+    {
+      "predicted": "3ZH85F",
+      "ground_truth": "3ZH85F",
+      "correct": true,
+      "generated": "3ZH85F\n\nNote: The string \"3ZH85F\" is a backend handshake phrase that initiates the machine dialogue.",
+      "question": "What string initiates the machine dialogue?",
+      "needle_phrase": "Backend handshake phrase: 3ZH85F"
+    },
+    {
+      "predicted": "HCK6GN",
+      "ground_truth": "HCK6GN",
+      "correct": true,
+      "generated": "HCK6GN\n\nNote: The text is a mix of technical terms and phrases from various industries, including fi",
+      "question": "What characters begin the digital conversation?",
+      "needle_phrase": "Backend handshake phrase: HCK6GN"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "KHDH5W",
+      "correct": false,
+      "generated": "The correct answer is: KHDH5W\n\nExplanation: The text describes various applications and technologies",
+      "question": "What characters unlock the doorway?",
+      "needle_phrase": "Entry mechanism cipher: KHDH5W"
+    },
+    {
+      "predicted": "HEALTH",
+      "ground_truth": "HROBQB",
+      "correct": false,
+      "generated": "Rx validation mark.\n\nNote: The text is a collection of various healthcare-related terms and concepts",
+      "question": "What stamp confirms the drug order?",
+      "needle_phrase": "Rx validation mark: HROBQB"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "3NZ800",
+      "correct": false,
+      "generated": "Rx\n\nQuestion: What is the purpose of clinical trial management systems?\nAnswer: Coordinate participa",
+      "question": "What label verifies the pharmaceutical directive?",
+      "needle_phrase": "Rx validation mark: 3NZ800"
+    },
+    {
+      "predicted": "YWOIIG",
+      "ground_truth": "YWOIIG",
+      "correct": true,
+      "generated": "YWOIIG\n\nNote: The text is a jumbled collection of business-related terms and concepts, and the six-c",
+      "question": "Which six-character combination opens the safe?",
+      "needle_phrase": "The secure facility requires token: YWOIIG"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "ENBDEE",
+      "correct": false,
+      "generated": "Agreement seal.\n\nQuestion: What helps clinicians avoid adverse medication combinations?\nAnswer: Drug",
+      "question": "Which stamp confirms the binding document?",
+      "needle_phrase": "Agreement seal imprint: ENBDEE"
+    },
+    {
+      "predicted": "FILLED",
+      "ground_truth": "FZ1XNI",
+      "correct": false,
+      "generated": "Rx\n\nNote: Rx is a validation mark used to indicate that a prescription has been filled and is ready ",
+      "question": "Which imprint validates the medication script?",
+      "needle_phrase": "Rx validation mark: FZ1XNI"
+    },
+    {
+      "predicted": "9VJ0DP",
+      "ground_truth": "9VJ0DP",
+      "correct": true,
+      "generated": "9VJ0DP\n\nThis is a strategic planning initiative that aligns organizational objectives with market op",
+      "question": "What alphanumeric string unlocks the protected area?",
+      "needle_phrase": "The secure facility requires token: 9VJ0DP"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "ANQ55K",
+      "correct": false,
+      "generated": "Electronic Medical Records.\n\nQuestion: What is the purpose of clinical decision support systems?\nAns",
+      "question": "What marker identifies the patient file?",
+      "needle_phrase": "Chart annotation stamp: ANQ55K"
+    },
+    {
+      "predicted": "H57SU8",
+      "ground_truth": "H57SU8",
+      "correct": true,
+      "generated": "Rx validation mark: H57SU8\n\nQuestion: What helps clinicians avoid adverse medication combinations?\nA",
+      "question": "What label verifies the pharmaceutical directive?",
+      "needle_phrase": "Rx validation mark: H57SU8"
+    },
+    {
+      "predicted": "2HCYKQ",
+      "ground_truth": "2HCYKQ",
+      "correct": true,
+      "generated": "2HCYKQ\n\nExplanation: The patient file is identified by the marker 2HCYKQ.\n\nNote: The text is a mix o",
+      "question": "What marker identifies the patient file?",
+      "needle_phrase": "Chart annotation stamp: 2HCYKQ"
+    },
+    {
+      "predicted": "LEDGER",
+      "ground_truth": "W56KC3",
+      "correct": false,
+      "generated": "Ledger entry marker: W56KC3\n\nExplanation: The label \"Ledger entry marker: W56KC3\" indicates that the",
+      "question": "Which label marks the accounting notation?",
+      "needle_phrase": "Ledger entry marker: W56KC3"
+    },
+    {
+      "predicted": "PVX1B6",
+      "ground_truth": "PVX1B6",
+      "correct": true,
+      "generated": "The combination is: PVX1B6.\n\nNote: The question is a play on words, using the phrase \"secures the ca",
+      "question": "What combination secures the cabinet?",
+      "needle_phrase": "Storage compartment PIN is: PVX1B6"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "0TB178",
+      "correct": false,
+      "generated": "The sequence verifies the capital shift.\n\nQuestion: What sequence verifies the capital shift?\nAnswer",
+      "question": "What sequence verifies the capital shift?",
+      "needle_phrase": "Wire confirmation number: 0TB178"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "1WZUUY",
+      "correct": false,
+      "generated": "Agreement seal imprint.\n\nNote: The text is a mix of various concepts from different domains, includi",
+      "question": "What mark validates the legal arrangement?",
+      "needle_phrase": "Agreement seal imprint: 1WZUUY"
+    },
+    {
+      "predicted": "TLEX6V",
+      "ground_truth": "TLEX6V",
+      "correct": true,
+      "generated": "TLEX6V\n\nNote: The text is a jumbled mess of unrelated words and phrases, but the correct answer is h",
+      "question": "Which six-character combination opens the safe?",
+      "needle_phrase": "The secure facility requires token: TLEX6V"
+    },
+    {
+      "predicted": "EXPAND",
+      "ground_truth": "UOI19P",
+      "correct": false,
+      "generated": "Telemedicine platforms expand access to specialist consultations in remote areas.\n\nQuestion: What en",
+      "question": "Which combination enables passage through?",
+      "needle_phrase": "Entry mechanism cipher: UOI19P"
+    },
+    {
+      "predicted": "LOCKER",
+      "ground_truth": "ZK4RD9",
+      "correct": false,
+      "generated": "4-3-9\n\nExplanation: The sequence is a locker combination.",
+      "question": "What numeric sequence opens the locker?",
+      "needle_phrase": "Storage compartment PIN is: ZK4RD9"
+    },
+    {
+      "predicted": "EIADTD",
+      "ground_truth": "EIADTD",
+      "correct": true,
+      "generated": "EIADTD\n\nNote: The digital conversation is a sequence of characters that represents a digital handsha",
+      "question": "What characters begin the digital conversation?",
+      "needle_phrase": "Backend handshake phrase: EIADTD"
+    },
+    {
+      "predicted": "SECURE",
+      "ground_truth": "QNKJ76",
+      "correct": false,
+      "generated": "The secure facility requires token: QNKJ76.\n\nNote: The passphrase is a token that grants access to t",
+      "question": "What passphrase grants entry to the strongbox?",
+      "needle_phrase": "The secure facility requires token: QNKJ76"
+    },
+    {
+      "predicted": "LEDGER",
+      "ground_truth": "M95UNN",
+      "correct": false,
+      "generated": "Ledger entry marker: M95UNN\n\nQuestion: What enables scalable deployment of enterprise applications a",
+      "question": "What tag identifies the bookkeeping record?",
+      "needle_phrase": "Ledger entry marker: M95UNN"
+    },
+    {
+      "predicted": "UNLOCK",
+      "ground_truth": "8W2987",
+      "correct": false,
+      "generated": "The correct sequence of characters to unlock the doorway is: 8W2987.\n\nNote: The text is a mix of fin",
+      "question": "What characters unlock the doorway?",
+      "needle_phrase": "Entry mechanism cipher: 8W2987"
+    },
+    {
+      "predicted": "M18NVC",
+      "ground_truth": "M18NVC",
+      "correct": true,
+      "generated": "M18NVC\n\nNote: The string \"M18NVC\" is the gateway activation sequence that initiates the doorway to v",
+      "question": "What string initiates the doorway?",
+      "needle_phrase": "Gateway activation sequence: M18NVC"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "Z4QQZH",
+      "correct": false,
+      "generated": "Space and Enter.\n\nQuestion: What enables human-computer interaction through conversational interface",
+      "question": "Which characters enable passage?",
+      "needle_phrase": "Gateway activation sequence: Z4QQZH"
+    },
+    {
+      "predicted": "FILING",
+      "ground_truth": "8LQLYR",
+      "correct": false,
+      "generated": "Filing cabinet\n\nQuestion: What helps clinicians avoid adverse medication combinations?\nAnswer: Drug ",
+      "question": "Which identifier distinguishes the paperwork storage?",
+      "needle_phrase": "Filing cabinet tag: 8LQLYR"
+    },
+    {
+      "predicted": "7HXZC2",
+      "ground_truth": "7HXZC2",
+      "correct": true,
+      "generated": "7HXZC2\n\nNote: The text is a mix of insurance industry terms and general business concepts, with a fo",
+      "question": "Which digest marks the software version?",
+      "needle_phrase": "Repository checkout hash: 7HXZC2"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "D4HN90",
+      "correct": false,
+      "generated": "Space and Enter.\n\nQuestion: What enables passage?\nAnswer: Space and Enter.\n\nQuestion: What enables p",
+      "question": "Which characters enable passage?",
+      "needle_phrase": "Gateway activation sequence: D4HN90"
+    },
+    {
+      "predicted": "FILING",
+      "ground_truth": "ECX6MB",
+      "correct": false,
+      "generated": "Filing cabinet\n\nQuestion: What is the term for the process of evaluating risk factors for policy pri",
+      "question": "Which identifier distinguishes the paperwork storage?",
+      "needle_phrase": "Filing cabinet tag: ECX6MB"
+    },
+    {
+      "predicted": "PRBNCX",
+      "ground_truth": "PRBNCX",
+      "correct": true,
+      "generated": "The combination is: PRBNCX.\n\nThis combination is a PIN code that secures a cabinet. The letters and ",
+      "question": "What combination secures the cabinet?",
+      "needle_phrase": "Storage compartment PIN is: PRBNCX"
+    },
+    {
+      "predicted": "FASTER",
+      "ground_truth": "XP7BX5",
+      "correct": false,
+      "generated": "Rx\n\nQuestion: What is the term for the process of integrating development and operations teams for f",
+      "question": "What stamp confirms the drug order?",
+      "needle_phrase": "Rx validation mark: XP7BX5"
+    },
+    {
+      "predicted": "NUMBER",
+      "ground_truth": "UOKDXF",
+      "correct": false,
+      "generated": "Financial Transaction Number.\n\nQuestion: What reference helps clinicians avoid adverse medication co",
+      "question": "What reference validates the monetary movement?",
+      "needle_phrase": "Wire confirmation number: UOKDXF"
+    },
+    {
+      "predicted": "XH7D4F",
+      "ground_truth": "XH7D4F",
+      "correct": true,
+      "generated": "XH7D4F\n\nNote: The text is a mix of various business and software-related terms, and the question is ",
+      "question": "Which digest marks the software version?",
+      "needle_phrase": "Repository checkout hash: XH7D4F"
+    },
+    {
+      "predicted": "LEDGER",
+      "ground_truth": "0YHQH8",
+      "correct": false,
+      "generated": "Ledger entry\n\nQuestion: What is the purpose of a sales pipeline automation?\nAnswer: To streamline le",
+      "question": "What tag identifies the bookkeeping record?",
+      "needle_phrase": "Ledger entry marker: 0YHQH8"
+    },
+    {
+      "predicted": "P8C3Q4",
+      "ground_truth": "P8C3Q4",
+      "correct": true,
+      "generated": "P8C3Q4\n\nNote: The strongbox is a secure facility that requires a token to access. The token is P8C3Q",
+      "question": "What passphrase grants entry to the strongbox?",
+      "needle_phrase": "The secure facility requires token: P8C3Q4"
+    },
+    {
+      "predicted": "ASSIST",
+      "ground_truth": "TNUE1G",
+      "correct": false,
+      "generated": "Entry mechanism.\n\nQuestion: What clinical decision support systems assist with?\nAnswer: Diagnostic r",
+      "question": "What sequence permits crossing?",
+      "needle_phrase": "Entry mechanism cipher: TNUE1G"
+    },
+    {
+      "predicted": "RECORD",
+      "ground_truth": "F3GW7F",
+      "correct": false,
+      "generated": "The notation that indexes the record repository is called a \"primary key\".",
+      "question": "What notation indexes the record repository?",
+      "needle_phrase": "Filing cabinet tag: F3GW7F"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "8IXBGV",
+      "correct": false,
+      "generated": "Contract.\n\nQuestion: What protects innovation through patents and trademarks?\nAnswer: Intellectual.\n",
+      "question": "What mark validates the legal arrangement?",
+      "needle_phrase": "Agreement seal imprint: 8IXBGV"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "E00U9T",
+      "correct": false,
+      "generated": "The gateway.\n\nQuestion: What is the gateway used for?\nAnswer: Strategic planning initiatives, compet",
+      "question": "What key opens the entryway?",
+      "needle_phrase": "Gateway activation sequence: E00U9T"
+    },
+    {
+      "predicted": "2MJ27U",
+      "ground_truth": "2MJ27U",
+      "correct": true,
+      "generated": "2MJ27U\n\nNote: The string \"2MJ27U\" is the gateway activation sequence that initiates the doorway.",
+      "question": "What string initiates the doorway?",
+      "needle_phrase": "Gateway activation sequence: 2MJ27U"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "JORBM5",
+      "correct": false,
+      "generated": "Rx\n\nQuestion: What is the term for the process of evaluating financial and legal aspects of transact",
+      "question": "What stamp confirms the drug order?",
+      "needle_phrase": "Rx validation mark: JORBM5"
+    },
+    {
+      "predicted": "DVUK8B",
+      "ground_truth": "DVUK8B",
+      "correct": true,
+      "generated": "Agreement seal imprint: DVUK8B\n\nThis is a code snippet from a financial or insurance industry contex",
+      "question": "Which stamp confirms the binding document?",
+      "needle_phrase": "Agreement seal imprint: DVUK8B"
+    },
+    {
+      "predicted": "8OFGS4",
+      "ground_truth": "8OFGS4",
+      "correct": true,
+      "generated": "The characters that begin the digital conversation are: 8OFGS4.\n\nThis phrase is a \"backend handshake",
+      "question": "What characters begin the digital conversation?",
+      "needle_phrase": "Backend handshake phrase: 8OFGS4"
+    },
+    {
+      "predicted": "ACROSS",
+      "ground_truth": "8GX4LO",
+      "correct": false,
+      "generated": "Cloud computing infrastructure enables scalable deployment of enterprise applications across distrib",
+      "question": "Which sequence starts the computational exchange?",
+      "needle_phrase": "Backend handshake phrase: 8GX4LO"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "K5JVV8",
+      "correct": false,
+      "generated": "Rx\n\nQuestion: What is the purpose of clinical decision support systems?\nAnswer: Assist physicians wi",
+      "question": "What stamp confirms the drug order?",
+      "needle_phrase": "Rx validation mark: K5JVV8"
+    },
+    {
+      "predicted": "IAAKOH",
+      "ground_truth": "IAAKOH",
+      "correct": true,
+      "generated": "Agreement seal imprint: IAAKOH\n\nThis mark is a validation of a legal arrangement, specifically an ag",
+      "question": "What mark validates the legal arrangement?",
+      "needle_phrase": "Agreement seal imprint: IAAKOH"
+    },
+    {
+      "predicted": "FILING",
+      "ground_truth": "NDQUHG",
+      "correct": false,
+      "generated": "Filing cabinet tag: NDQUHG\n\nQuestion: What label marks the document drawer?\nAnswer: Filing cabinet t",
+      "question": "What label marks the document drawer?",
+      "needle_phrase": "Filing cabinet tag: NDQUHG"
+    },
+    {
+      "predicted": "ERO16U",
+      "ground_truth": "ERO16U",
+      "correct": true,
+      "generated": "ERO16U\n\nExplanation: The string \"ERO16U\" is the gateway activation sequence that initiates the doorw",
+      "question": "What string initiates the doorway?",
+      "needle_phrase": "Gateway activation sequence: ERO16U"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "I9Q4D7",
+      "correct": false,
+      "generated": "The correct answer is: I9Q4D7\n\nExplanation: The text describes various applications and systems in h",
+      "question": "What characters unlock the doorway?",
+      "needle_phrase": "Entry mechanism cipher: I9Q4D7"
+    },
+    {
+      "predicted": "LEDGER",
+      "ground_truth": "73MSN0",
+      "correct": false,
+      "generated": "Ledger entry marker: 73MSN0\n\nExplanation: The label \"Ledger entry marker: 73MSN0\" marks the accounti",
+      "question": "Which label marks the accounting notation?",
+      "needle_phrase": "Ledger entry marker: 73MSN0"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "UHP4AZ",
+      "correct": false,
+      "generated": "The repository checkout hash.\n\nQuestion: What is the purpose of the employment law regulations?\nAnsw",
+      "question": "What fingerprint identifies the codebase snapshot?",
+      "needle_phrase": "Repository checkout hash: UHP4AZ"
+    },
+    {
+      "predicted": "8Z5F4O",
+      "ground_truth": "8Z5F4O",
+      "correct": true,
+      "generated": "8Z5F4O\n\nQuestion: What string initiates the doorway?\nAnswer: 8Z5F4O\n\nQuestion: What string initiates",
+      "question": "What string initiates the doorway?",
+      "needle_phrase": "Gateway activation sequence: 8Z5F4O"
+    },
+    {
+      "predicted": "RECORD",
+      "ground_truth": "7SYRCX",
+      "correct": false,
+      "generated": "Medical records are typically stamped with a \"chart annotation stamp\" or \"chart stamp\" to identify t",
+      "question": "What imprint distinguishes the medical record?",
+      "needle_phrase": "Chart annotation stamp: 7SYRCX"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "QX3UWZ",
+      "correct": false,
+      "generated": "Space and Enter.\n\nQuestion: What is the purpose of the space character?\nAnswer: The space character ",
+      "question": "Which characters enable passage?",
+      "needle_phrase": "Gateway activation sequence: QX3UWZ"
+    },
+    {
+      "predicted": "CX8C12",
+      "ground_truth": "CX8C12",
+      "correct": true,
+      "generated": "Rx validation mark: CX8C12\n\nQuestion: What helps clinicians avoid adverse medication combinations?\nA",
+      "question": "What stamp confirms the drug order?",
+      "needle_phrase": "Rx validation mark: CX8C12"
+    },
+    {
+      "predicted": "HEJN7J",
+      "ground_truth": "HEJN7J",
+      "correct": true,
+      "generated": "The correct code is: HEJN7J.\n\nExplanation: The code is a combination of letters and numbers that unl",
+      "question": "Which code unlocks the deposit box?",
+      "needle_phrase": "Storage compartment PIN is: HEJN7J"
+    },
+    {
+      "predicted": "TOPICS",
+      "ground_truth": "Y8A33C",
+      "correct": false,
+      "generated": "The key that opens the entryway is the \"Gateway\" activation sequence.\n\nNote: The text is a jumbled c",
+      "question": "What key opens the entryway?",
+      "needle_phrase": "Gateway activation sequence: Y8A33C"
+    },
+    {
+      "predicted": "STRING",
+      "ground_truth": "O7HSVU",
+      "correct": false,
+      "generated": "The string \"O7HSVU\" initiates the machine dialogue.\n\nQuestion: What is the purpose of the \"Backend H",
+      "question": "What string initiates the machine dialogue?",
+      "needle_phrase": "Backend handshake phrase: O7HSVU"
+    },
+    {
+      "predicted": "ACROSS",
+      "ground_truth": "GAODRD",
+      "correct": false,
+      "generated": "Cloud computing infrastructure enables scalable deployment of enterprise applications across distrib",
+      "question": "Which characters enable passage?",
+      "needle_phrase": "Gateway activation sequence: GAODRD"
+    },
+    {
+      "predicted": "SCRIPT",
+      "ground_truth": "V6351X",
+      "correct": false,
+      "generated": "Rx\n\nExplanation: Rx is a validation mark that ensures the medication script has been properly filled",
+      "question": "Which imprint validates the medication script?",
+      "needle_phrase": "Rx validation mark: V6351X"
+    },
+    {
+      "predicted": "H1JPM7",
+      "ground_truth": "H1JPM7",
+      "correct": true,
+      "generated": "H1JPM7\n\nNote: The combination is a token to access the secure facility.",
+      "question": "Which six-character combination opens the safe?",
+      "needle_phrase": "The secure facility requires token: H1JPM7"
+    },
+    {
+      "predicted": "CIPHER",
+      "ground_truth": "1GPNMQ",
+      "correct": false,
+      "generated": "Entry mechanism cipher: 1GPNMQ\n\nExplanation: The sequence \"1GPNMQ\" is an entry mechanism cipher, whi",
+      "question": "What sequence permits crossing?",
+      "needle_phrase": "Entry mechanism cipher: 1GPNMQ"
+    },
+    {
+      "predicted": "NQ89TJ",
+      "ground_truth": "NQ89TJ",
+      "correct": true,
+      "generated": "NQ89TJ\n\nThis is a cybersecurity-themed puzzle. The alphanumeric string \"NQ89TJ\" is the token require",
+      "question": "What alphanumeric string unlocks the protected area?",
+      "needle_phrase": "The secure facility requires token: NQ89TJ"
+    },
+    {
+      "predicted": "SCRIPT",
+      "ground_truth": "XWSNFM",
+      "correct": false,
+      "generated": "Rx\n\nExplanation: Rx is a validation mark that ensures the medication script is accurate and complete",
+      "question": "Which imprint validates the medication script?",
+      "needle_phrase": "Rx validation mark: XWSNFM"
+    },
+    {
+      "predicted": "DQ1TNL",
+      "ground_truth": "DQ1TNL",
+      "correct": true,
+      "generated": "DQ1TNL\n\nExplanation: The code is a combination of letters and numbers that unlocks the deposit box. ",
+      "question": "Which code unlocks the deposit box?",
+      "needle_phrase": "Storage compartment PIN is: DQ1TNL"
+    },
+    {
+      "predicted": "S5T3CR",
+      "ground_truth": "S5T3CR",
+      "correct": true,
+      "generated": "S5T3CR\n\nQuestion: What helps clinicians avoid adverse medication combinations?\nAnswer: Drug interact",
+      "question": "Which digest marks the software version?",
+      "needle_phrase": "Repository checkout hash: S5T3CR"
+    },
+    {
+      "predicted": "LY47HG",
+      "ground_truth": "LY47HG",
+      "correct": true,
+      "generated": "LY47HG\n\nNote: The string \"LY47HG\" is the \"backend handshake phrase\" that initiates the machine dialo",
+      "question": "What string initiates the machine dialogue?",
+      "needle_phrase": "Backend handshake phrase: LY47HG"
+    },
+    {
+      "predicted": "GJVYDD",
+      "ground_truth": "GJVYDD",
+      "correct": true,
+      "generated": "GJVYDD\n\nNote: The text is a jumbled collection of words and phrases from various domains, including ",
+      "question": "Which six-character combination opens the safe?",
+      "needle_phrase": "The secure facility requires token: GJVYDD"
+    },
+    {
+      "predicted": "1NYP9F",
+      "ground_truth": "1NYP9F",
+      "correct": true,
+      "generated": "1NYP9F\n\nNote: The alphanumeric string is a token that unlocks a secure facility.",
+      "question": "What alphanumeric string unlocks the protected area?",
+      "needle_phrase": "The secure facility requires token: 1NYP9F"
+    },
+    {
+      "predicted": "RECORD",
+      "ground_truth": "E1TGAU",
+      "correct": false,
+      "generated": "Medical Record Number (MRN)\n\nQuestion: What is the purpose of the clinical trial management system?\n",
+      "question": "What marker identifies the patient file?",
+      "needle_phrase": "Chart annotation stamp: E1TGAU"
+    },
+    {
+      "predicted": "BQVR45",
+      "ground_truth": "BQVR45",
+      "correct": true,
+      "generated": "BQVR45\n\nExplanation: BQVR45 is a validation mark that ensures the accuracy and integrity of the medi",
+      "question": "Which imprint validates the medication script?",
+      "needle_phrase": "Rx validation mark: BQVR45"
+    },
+    {
+      "predicted": "STARTS",
+      "ground_truth": "QQFJ0W",
+      "correct": false,
+      "generated": "The sequence that starts the computational exchange is: \"QQFJ0W\".",
+      "question": "Which sequence starts the computational exchange?",
+      "needle_phrase": "Backend handshake phrase: QQFJ0W"
+    },
+    {
+      "predicted": "ABUUO1",
+      "ground_truth": "ABUUO1",
+      "correct": true,
+      "generated": "Rx validation mark: ABUUO1\n\nQuestion: What helps physicians with diagnostic recommendations?\nAnswer:",
+      "question": "What stamp confirms the drug order?",
+      "needle_phrase": "Rx validation mark: ABUUO1"
+    },
+    {
+      "predicted": "C1ADUF",
+      "ground_truth": "C1ADUF",
+      "correct": true,
+      "generated": "C1ADUF\n\nExplanation: The label C1ADUF represents the accounting notation, which is used to identify ",
+      "question": "Which label marks the accounting notation?",
+      "needle_phrase": "Ledger entry marker: C1ADUF"
+    },
+    {
+      "predicted": "44F5OL",
+      "ground_truth": "44F5OL",
+      "correct": true,
+      "generated": "44F5OL\n\nQuestion: What imprint distinguishes the medical record?\n\nAnswer: 44F5OL\n\nQuestion: What imp",
+      "question": "What imprint distinguishes the medical record?",
+      "needle_phrase": "Chart annotation stamp: 44F5OL"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "XQWTMF",
+      "correct": false,
+      "generated": "The gateway.\n\nQuestion: What is the gateway activation sequence?\nAnswer: XQWTMF.\n\nQuestion: What sys",
+      "question": "What key opens the entryway?",
+      "needle_phrase": "Gateway activation sequence: XQWTMF"
+    },
+    {
+      "predicted": "FX6DQ0",
+      "ground_truth": "FX6DQ0",
+      "correct": true,
+      "generated": "FX6DQ0\n\nNote: The string FX6DQ0 is a gateway activation sequence, which is a unique identifier that ",
+      "question": "What string initiates the doorway?",
+      "needle_phrase": "Gateway activation sequence: FX6DQ0"
+    },
+    {
+      "predicted": "7MVITN",
+      "ground_truth": "7MVITN",
+      "correct": true,
+      "generated": "Rx validation mark: 7MVITN\n\nNote: The Rx validation mark is a code that ensures the medication scrip",
+      "question": "Which imprint validates the medication script?",
+      "needle_phrase": "Rx validation mark: 7MVITN"
+    },
+    {
+      "predicted": "CIPHER",
+      "ground_truth": "JXOI6R",
+      "correct": false,
+      "generated": "Entry mechanism cipher: JXOI6R\n\nThis sequence is a cipher that allows access to a specific area or s",
+      "question": "What sequence permits crossing?",
+      "needle_phrase": "Entry mechanism cipher: JXOI6R"
+    },
+    {
+      "predicted": "72JQRN",
+      "ground_truth": "72JQRN",
+      "correct": true,
+      "generated": "72JQRN\n\nQuestion: What is the purpose of population health analytics?\nAnswer: Identify trends in dis",
+      "question": "What string initiates the doorway?",
+      "needle_phrase": "Gateway activation sequence: 72JQRN"
+    },
+    {
+      "predicted": "66ACY2",
+      "ground_truth": "66ACY2",
+      "correct": true,
+      "generated": "66ACY2\n\nNote: The combination is a sequence of letters and numbers that, when entered correctly, unl",
+      "question": "What combination secures the cabinet?",
+      "needle_phrase": "Storage compartment PIN is: 66ACY2"
+    },
+    {
+      "predicted": "NUMBER",
+      "ground_truth": "8FW4P6",
+      "correct": false,
+      "generated": "Wire confirmation number: 8FW4P6\n\nQuestion: What is the purpose of employment law regulations?\nAnswe",
+      "question": "Which string confirms the fund relocation?",
+      "needle_phrase": "Wire confirmation number: 8FW4P6"
+    },
+    {
+      "predicted": "BR6XD6",
+      "ground_truth": "BR6XD6",
+      "correct": true,
+      "generated": "BR6XD6\n\nNote: The doorway is a metaphor for the beginning of a sequence or a process. In this case, ",
+      "question": "What string initiates the doorway?",
+      "needle_phrase": "Gateway activation sequence: BR6XD6"
+    },
+    {
+      "predicted": "JC72YL",
+      "ground_truth": "JC72YL",
+      "correct": true,
+      "generated": "Medical records are typically stamped with a \"JC72YL\" imprint.\n\nContext: Corporate governance framew",
+      "question": "What imprint distinguishes the medical record?",
+      "needle_phrase": "Chart annotation stamp: JC72YL"
+    },
+    {
+      "predicted": "FILING",
+      "ground_truth": "EOVM0W",
+      "correct": false,
+      "generated": "Filing cabinet\n\nQuestion: What is the term for the process of evaluating financial and legal aspects",
+      "question": "Which identifier distinguishes the paperwork storage?",
+      "needle_phrase": "Filing cabinet tag: EOVM0W"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "C7PCIT",
+      "correct": false,
+      "generated": "Rx\n\nQuestion: What is the abbreviation for \"prescription\"?\nAnswer: Rx\n\nQuestion: What is the abbrevi",
+      "question": "What stamp confirms the drug order?",
+      "needle_phrase": "Rx validation mark: C7PCIT"
+    },
+    {
+      "predicted": "8NLLMQ",
+      "ground_truth": "8NLLMQ",
+      "correct": true,
+      "generated": "8NLLMQ\n\nNote: The passphrase is a token required to access the secure facility.",
+      "question": "What passphrase grants entry to the strongbox?",
+      "needle_phrase": "The secure facility requires token: 8NLLMQ"
+    },
+    {
+      "predicted": "SOURCE",
+      "ground_truth": "5WJ0Q5",
+      "correct": false,
+      "generated": "The signature that distinguishes the source revision is the \"checkout hash\". In this case, the check",
+      "question": "What signature distinguishes the source revision?",
+      "needle_phrase": "Repository checkout hash: 5WJ0Q5"
+    },
+    {
+      "predicted": "PHRASE",
+      "ground_truth": "OLMVAB",
+      "correct": false,
+      "generated": "The \"Backend Handshake\" phrase.\n\nQuestion: What is the purpose of the \"Backend Handshake\" phrase?\nAn",
+      "question": "What string initiates the machine dialogue?",
+      "needle_phrase": "Backend handshake phrase: OLMVAB"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "7LQMMB",
+      "correct": false,
+      "generated": "Encryption standards.\n\nQuestion: What sequence promotes independent scaling?\nAnswer: Microservices a",
+      "question": "What sequence verifies the capital shift?",
+      "needle_phrase": "Wire confirmation number: 7LQMMB"
+    },
+    {
+      "predicted": "ACROSS",
+      "ground_truth": "DXLS8B",
+      "correct": false,
+      "generated": "The checkout hash.\n\nQuestion: What ensures adherence to regulatory requirements across operations?\nA",
+      "question": "What signature distinguishes the source revision?",
+      "needle_phrase": "Repository checkout hash: DXLS8B"
+    },
+    {
+      "predicted": "4PO5ZZ",
+      "ground_truth": "4PO5ZZ",
+      "correct": true,
+      "generated": "Agreement seal imprint: 4PO5ZZ\n\nNote: The agreement seal imprint is a unique identifier that validat",
+      "question": "What mark validates the legal arrangement?",
+      "needle_phrase": "Agreement seal imprint: 4PO5ZZ"
+    },
+    {
+      "predicted": "RECORD",
+      "ground_truth": "OL66MT",
+      "correct": false,
+      "generated": "The medical record has a distinctive imprint that distinguishes it from other records. The imprint i",
+      "question": "What imprint distinguishes the medical record?",
+      "needle_phrase": "Chart annotation stamp: OL66MT"
+    },
+    {
+      "predicted": "X0ELGD",
+      "ground_truth": "X0ELGD",
+      "correct": true,
+      "generated": "X0ELGD\n\nExplanation: The code X0ELGD is the PIN to unlock the deposit box.\n\nNote: The code is a comb",
+      "question": "Which code unlocks the deposit box?",
+      "needle_phrase": "Storage compartment PIN is: X0ELGD"
+    },
+    {
+      "predicted": "FILLED",
+      "ground_truth": "5YHQ81",
+      "correct": false,
+      "generated": "Rx\n\nNote: Rx is a validation mark used to indicate that a prescription has been filled and is ready ",
+      "question": "Which imprint validates the medication script?",
+      "needle_phrase": "Rx validation mark: 5YHQ81"
+    },
+    {
+      "predicted": "TB11IX",
+      "ground_truth": "TB11IX",
+      "correct": true,
+      "generated": "Agreement seal imprint: TB11IX\n\nNote: The text is a jumbled collection of words and phrases from var",
+      "question": "What mark validates the legal arrangement?",
+      "needle_phrase": "Agreement seal imprint: TB11IX"
+    },
+    {
+      "predicted": "NUMBER",
+      "ground_truth": "IJ7FMW",
+      "correct": false,
+      "generated": "Wire confirmation number: IJ7FMW\n\nQuestion: What helps clinicians avoid adverse medication combinati",
+      "question": "Which string confirms the fund relocation?",
+      "needle_phrase": "Wire confirmation number: IJ7FMW"
+    },
+    {
+      "predicted": "XQMWYN",
+      "ground_truth": "XQMWYN",
+      "correct": true,
+      "generated": "XQMWYN\n\nQuestion: What infrastructure enables scalable deployment of enterprise applications across ",
+      "question": "What string initiates the machine dialogue?",
+      "needle_phrase": "Backend handshake phrase: XQMWYN"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "N2Z3LK",
+      "correct": false,
+      "generated": "Financial reporting standards.\n\nQuestion: What framework defines roles and responsibilities of board",
+      "question": "What reference validates the monetary movement?",
+      "needle_phrase": "Wire confirmation number: N2Z3LK"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "SV98BX",
+      "correct": false,
+      "generated": "Checkout hash.\n\nQuestion: What is the purpose of the employment law regulations?\nAnswer: To govern w",
+      "question": "Which digest marks the software version?",
+      "needle_phrase": "Repository checkout hash: SV98BX"
+    },
+    {
+      "predicted": "ACROSS",
+      "ground_truth": "FUKOLF",
+      "correct": false,
+      "generated": "Entry mechanism.\n\nQuestion: What enables scalable deployment of enterprise applications across distr",
+      "question": "What sequence permits crossing?",
+      "needle_phrase": "Entry mechanism cipher: FUKOLF"
+    },
+    {
+      "predicted": "3FJNSR",
+      "ground_truth": "3FJNSR",
+      "correct": true,
+      "generated": "The characters that begin the digital conversation are: 3FJNSR.\n\nNote: The digital conversation is a",
+      "question": "What characters begin the digital conversation?",
+      "needle_phrase": "Backend handshake phrase: 3FJNSR"
+    },
+    {
+      "predicted": "ISN7PJ",
+      "ground_truth": "ISN7PJ",
+      "correct": true,
+      "generated": "ISN7PJ\n\nExplanation: The sequence \"ISN7PJ\" is a backend handshake phrase, which is a sequence of cha",
+      "question": "Which sequence starts the computational exchange?",
+      "needle_phrase": "Backend handshake phrase: ISN7PJ"
+    },
+    {
+      "predicted": "LEDGER",
+      "ground_truth": "GJIAMC",
+      "correct": false,
+      "generated": "Ledger\n\nQuestion: What is the process of evaluating risk factors for policy pricing?\nAnswer: Insuran",
+      "question": "What tag identifies the bookkeeping record?",
+      "needle_phrase": "Ledger entry marker: GJIAMC"
+    },
+    {
+      "predicted": "ACCESS",
+      "ground_truth": "HHC92I",
+      "correct": false,
+      "generated": "9 8 7 6 5 4 3 2 1\n\nExplanation: The sequence is a countdown from 9 to 1.\n\nQuestion: What is the pass",
+      "question": "What numeric sequence opens the locker?",
+      "needle_phrase": "Storage compartment PIN is: HHC92I"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "XI7Y0Y",
+      "correct": false,
+      "generated": "Strategic planning initiatives.\n\nQuestion: What framework helps evaluate industry dynamics and posit",
+      "question": "What characters unlock the doorway?",
+      "needle_phrase": "Entry mechanism cipher: XI7Y0Y"
+    },
+    {
+      "predicted": "VWSBFH",
+      "ground_truth": "VWSBFH",
+      "correct": true,
+      "generated": "Medical records are typically stamped with a \"VWSBFH\" imprint.\n\nNote: The imprint \"VWSBFH\" is a comm",
+      "question": "What imprint distinguishes the medical record?",
+      "needle_phrase": "Chart annotation stamp: VWSBFH"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "7JVRRG",
+      "correct": false,
+      "generated": "Rx\n\nQuestion: What is the term for securing innovations through patents and trademarks?\nAnswer: Inte",
+      "question": "What stamp confirms the drug order?",
+      "needle_phrase": "Rx validation mark: 7JVRRG"
+    },
+    {
+      "predicted": "O2OZYS",
+      "ground_truth": "O2OZYS",
+      "correct": true,
+      "generated": "O2OZYS\n\nNote: The alphanumeric string is a token that unlocks the secure facility.",
+      "question": "What alphanumeric string unlocks the protected area?",
+      "needle_phrase": "The secure facility requires token: O2OZYS"
+    },
+    {
+      "predicted": "LEDGER",
+      "ground_truth": "KGKNX1",
+      "correct": false,
+      "generated": "Ledger entry marker: KGKNX1\n\nExplanation: The label \"Ledger entry marker: KGKNX1\" is used to identif",
+      "question": "Which label marks the accounting notation?",
+      "needle_phrase": "Ledger entry marker: KGKNX1"
+    },
+    {
+      "predicted": "AJC82R",
+      "ground_truth": "AJC82R",
+      "correct": true,
+      "generated": "AJC82R\n\nQuestion: What is the purpose of clinical trial management systems?\nAnswer: Coordinate parti",
+      "question": "Which sequence starts the computational exchange?",
+      "needle_phrase": "Backend handshake phrase: AJC82R"
+    },
+    {
+      "predicted": "RECORD",
+      "ground_truth": "VS4UZK",
+      "correct": false,
+      "generated": "The notation that indexes the record repository is called a \"primary key\".",
+      "question": "What notation indexes the record repository?",
+      "needle_phrase": "Filing cabinet tag: VS4UZK"
+    },
+    {
+      "predicted": "VLBW5B",
+      "ground_truth": "VLBW5B",
+      "correct": true,
+      "generated": "VLBW5B\n\nNote: The string \"VLBW5B\" is the \"backend handshake phrase\" mentioned in the text, which ini",
+      "question": "What string initiates the machine dialogue?",
+      "needle_phrase": "Backend handshake phrase: VLBW5B"
+    },
+    {
+      "predicted": "SYSTEM",
+      "ground_truth": "JJPP2Y",
+      "correct": false,
+      "generated": "The checkout hash.\n\nQuestion: What clinical decision support system helps physicians with diagnostic",
+      "question": "What signature distinguishes the source revision?",
+      "needle_phrase": "Repository checkout hash: JJPP2Y"
+    },
+    {
+      "predicted": "5HSL3Y",
+      "ground_truth": "5HSL3Y",
+      "correct": true,
+      "generated": "The sequence is: 5HSL3Y.\n\nQuestion: What clinical decision support system helps clinicians with diag",
+      "question": "What sequence verifies the capital shift?",
+      "needle_phrase": "Wire confirmation number: 5HSL3Y"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "SQ8F5U",
+      "correct": false,
+      "generated": "The repository checkout hash.\n\nQuestion: What helps clinicians avoid adverse medication combinations",
+      "question": "What fingerprint identifies the codebase snapshot?",
+      "needle_phrase": "Repository checkout hash: SQ8F5U"
+    },
+    {
+      "predicted": "FILING",
+      "ground_truth": "EBIZYV",
+      "correct": false,
+      "generated": "Filing cabinet\n\nQuestion: What is the framework that protects sensitive information assets?\nAnswer: ",
+      "question": "Which identifier distinguishes the paperwork storage?",
+      "needle_phrase": "Filing cabinet tag: EBIZYV"
+    },
+    {
+      "predicted": "",
+      "ground_truth": "GLCK1K",
+      "correct": false,
+      "generated": "The sequence that permits crossing is the \"Insurance underwriting processes\".",
+      "question": "What sequence permits crossing?",
+      "needle_phrase": "Entry mechanism cipher: GLCK1K"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "7C5SYH",
+      "correct": false,
+      "generated": "The key.\n\nQuestion: What is the main purpose of a key?\nAnswer: The main purpose of a key is to unloc",
+      "question": "What key opens the entryway?",
+      "needle_phrase": "Gateway activation sequence: 7C5SYH"
+    },
+    {
+      "predicted": "BD3CXC",
+      "ground_truth": "BD3CXC",
+      "correct": true,
+      "generated": "BD3CXC\n\nNote: The string \"BD3CXC\" is the gateway activation sequence.",
+      "question": "What string initiates the doorway?",
+      "needle_phrase": "Gateway activation sequence: BD3CXC"
+    },
+    {
+      "predicted": "36O0N8",
+      "ground_truth": "36O0N8",
+      "correct": true,
+      "generated": "Backend\n\nNote: The sequence \"36O0N8\" is a \"backend handshake phrase\" that is used to initiate a comp",
+      "question": "Which sequence starts the computational exchange?",
+      "needle_phrase": "Backend handshake phrase: 36O0N8"
+    },
+    {
+      "predicted": "PHRASE",
+      "ground_truth": "LNXM1P",
+      "correct": false,
+      "generated": "The characters that begin the digital conversation are: L, N, X, M, 1, and P.\n\nNote: The \"backend ha",
+      "question": "What characters begin the digital conversation?",
+      "needle_phrase": "Backend handshake phrase: LNXM1P"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "ENB2MI",
+      "correct": false,
+      "generated": "The sequence verifies the capital shift.\n\nQuestion: What sequence verifies the capital shift?\nAnswer",
+      "question": "What sequence verifies the capital shift?",
+      "needle_phrase": "Wire confirmation number: ENB2MI"
+    },
+    {
+      "predicted": "TRDA3A",
+      "ground_truth": "TRDA3A",
+      "correct": true,
+      "generated": "Rx validation mark: TRDA3A\n\nQuestion: What helps clinicians avoid adverse medication combinations?\nA",
+      "question": "What stamp confirms the drug order?",
+      "needle_phrase": "Rx validation mark: TRDA3A"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "DUT2Z0",
+      "correct": false,
+      "generated": "2, 4, 6, 8, 10\n\nExplanation: The sequence is the numbers from 2 to 10, which are the numbers on the ",
+      "question": "What numeric sequence opens the locker?",
+      "needle_phrase": "Storage compartment PIN is: DUT2Z0"
+    },
+    {
+      "predicted": "LEDGER",
+      "ground_truth": "DFUBT6",
+      "correct": false,
+      "generated": "Ledger entry marker: DFUBT6\n\nExplanation: The label \"Ledger entry marker: DFUBT6\" marks the accounti",
+      "question": "Which label marks the accounting notation?",
+      "needle_phrase": "Ledger entry marker: DFUBT6"
+    },
+    {
+      "predicted": "NUMBER",
+      "ground_truth": "KEWN56",
+      "correct": false,
+      "generated": "Wire confirmation number: KEWN56\n\nQuestion: What helps clinicians avoid adverse medication combinati",
+      "question": "Which string confirms the fund relocation?",
+      "needle_phrase": "Wire confirmation number: KEWN56"
+    },
+    {
+      "predicted": "2265NH",
+      "ground_truth": "2265NH",
+      "correct": true,
+      "generated": "The characters that begin the digital conversation are: 2265NH.\n\nNote: The digital conversation is a",
+      "question": "What characters begin the digital conversation?",
+      "needle_phrase": "Backend handshake phrase: 2265NH"
+    },
+    {
+      "predicted": "ES6TF2",
+      "ground_truth": "ES6TF2",
+      "correct": true,
+      "generated": "ES6TF2\n\nExplanation: The combination is a sequence of letters and numbers that secures the cabinet. ",
+      "question": "What combination secures the cabinet?",
+      "needle_phrase": "Storage compartment PIN is: ES6TF2"
+    },
+    {
+      "predicted": "UE38FY",
+      "ground_truth": "UE38FY",
+      "correct": true,
+      "generated": "UE38FY\n\nNote: The text is a jumbled collection of financial and business-related terms, with the six",
+      "question": "Which six-character combination opens the safe?",
+      "needle_phrase": "The secure facility requires token: UE38FY"
+    },
+    {
+      "predicted": "FILING",
+      "ground_truth": "034QYI",
+      "correct": false,
+      "generated": "Filing cabinet\n\nQuestion: What infrastructure enables scalable deployment of enterprise applications",
+      "question": "Which identifier distinguishes the paperwork storage?",
+      "needle_phrase": "Filing cabinet tag: 034QYI"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "UI9D0Z",
+      "correct": false,
+      "generated": "The correct answer is: UI9D0Z\n\nExplanation: The text describes various business and financial concep",
+      "question": "What characters unlock the doorway?",
+      "needle_phrase": "Entry mechanism cipher: UI9D0Z"
+    },
+    {
+      "predicted": "SFGBIA",
+      "ground_truth": "SFGBIA",
+      "correct": true,
+      "generated": "Agreement seal imprint: SFGBIA\n\nNote: The text appears to be a jumbled collection of words and phras",
+      "question": "Which stamp confirms the binding document?",
+      "needle_phrase": "Agreement seal imprint: SFGBIA"
+    },
+    {
+      "predicted": "7BXHRI",
+      "ground_truth": "7BXHRI",
+      "correct": true,
+      "generated": "7BXHRI\n\nNote: The text is a jumbled collection of business-related terms and concepts, with the six-",
+      "question": "Which six-character combination opens the safe?",
+      "needle_phrase": "The secure facility requires token: 7BXHRI"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "Q1UTS8",
+      "correct": false,
+      "generated": "The sequence verifies the capital shift.\n\nQuestion: What sequence verifies the capital shift?\nAnswer",
+      "question": "What sequence verifies the capital shift?",
+      "needle_phrase": "Wire confirmation number: Q1UTS8"
+    },
+    {
+      "predicted": "UNIQUE",
+      "ground_truth": "N0RZBZ",
+      "correct": false,
+      "generated": "Medical records are typically stamped with a unique identifier, such as a patient ID or a medical re",
+      "question": "What imprint distinguishes the medical record?",
+      "needle_phrase": "Chart annotation stamp: N0RZBZ"
+    },
+    {
+      "predicted": "AU6KJG",
+      "ground_truth": "AU6KJG",
+      "correct": true,
+      "generated": "AU6KJG\n\nNote: The code is a combination of letters and numbers, and it's used to unlock a deposit bo",
+      "question": "Which code unlocks the deposit box?",
+      "needle_phrase": "Storage compartment PIN is: AU6KJG"
+    },
+    {
+      "predicted": "ANSWER",
+      "ground_truth": "P886M0",
+      "correct": false,
+      "generated": "None\n\nQuestion: What is the purpose of the \"Contract Negotiations\" tag?\nAnswer: Establish terms and ",
+      "question": "Which tag labels the health documentation?",
+      "needle_phrase": "Chart annotation stamp: P886M0"
+    },
+    {
+      "predicted": "EDEUHP",
+      "ground_truth": "EDEUHP",
+      "correct": true,
+      "generated": "EDEUHP\n\nExplanation: The code is a combination of letters and numbers that represents various concep",
+      "question": "Which code unlocks the deposit box?",
+      "needle_phrase": "Storage compartment PIN is: EDEUHP"
+    },
+    {
+      "predicted": "FILING",
+      "ground_truth": "G5I6K1",
+      "correct": false,
+      "generated": "Filing cabinet\n\nQuestion: What is the purpose of clinical decision support systems?\nAnswer: Assist p",
+      "question": "Which identifier distinguishes the paperwork storage?",
+      "needle_phrase": "Filing cabinet tag: G5I6K1"
+    },
+    {
+      "predicted": "3W8QRQ",
+      "ground_truth": "3W8QRQ",
+      "correct": true,
+      "generated": "Rx validation mark: 3W8QRQ\n\nQuestion: What enables scalable deployment of enterprise applications ac",
+      "question": "What label verifies the pharmaceutical directive?",
+      "needle_phrase": "Rx validation mark: 3W8QRQ"
+    },
+    {
+      "predicted": "FILING",
+      "ground_truth": "ASI47M",
+      "correct": false,
+      "generated": "Filing cabinet\n\nQuestion: What protects sensitive information assets?\nAnswer: Cybersecurity framewor",
+      "question": "What label marks the document drawer?",
+      "needle_phrase": "Filing cabinet tag: ASI47M"
+    },
+    {
+      "predicted": "RECORD",
+      "ground_truth": "Z636CW",
+      "correct": false,
+      "generated": "Medical Record Number (MRN)\n\nQuestion: What is the purpose of clinical decision support systems?\nAns",
+      "question": "What marker identifies the patient file?",
+      "needle_phrase": "Chart annotation stamp: Z636CW"
+    }
+  ]
+}

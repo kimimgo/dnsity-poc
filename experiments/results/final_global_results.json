@@ -1,0 +1,73 @@
+{
+  "checkpoint": "checkpoints/gist-global-10",
+  "dataset": "data/processed/niah/global_niah.jsonl",
+  "num_samples": 200,
+  "correct": 28,
+  "accuracy": 0.14,
+  "vram_gb": 8.785499095916748,
+  "avg_context_tokens": 2993.325,
+  "num_gist_tokens": 10,
+  "compression_ratio": 299.3325,
+  "results": [
+    {
+      "predicted": "mentioned",
+      "ground_truth": "HJFN5P",
+      "correct": false,
+      "generated_text": "HJFN5P\n\nNote: The secret passkey is mentioned in the text as HJFN5P."
+    },
+    {
+      "predicted": "mentioned",
+      "ground_truth": "C2RONV",
+      "correct": false,
+      "generated_text": "C2RONV\n\nNote: The secret passkey is mentioned in the text as C2RONV."
+    },
+    {
+      "predicted": "09BAOO",
+      "ground_truth": "09BAOO",
+      "correct": true,
+      "generated_text": "09BAOO\n```python\n\nD. The secret passkey is 09BAOO. The company policy states that employees must adhere to professional standards at all times. Working hours are from 9 AM to 6 PM, with a one"
+    },
+    {
+      "predicted": "mentioned",
+      "ground_truth": "MLJL2Y",
+      "correct": false,
+      "generated_text": "MLJL2Y\n\nNote: The secret passkey is mentioned in the text as a passkey, but its actual purpose or significance is not clear. It is possible that it is a key or a code used for authentication or author"
+    },
+    {
+      "predicted": "mentioned",
+      "ground_truth": "1RMKEF",
+      "correct": false,
+      "generated_text": "1RMKEF\n\nNote: The secret passkey is mentioned in the text, and its value is 1RMKEF. The passkey is not related to the company policy or professional standards mentioned in the text. The passkey is"
+    },
+    {
+      "predicted": "mentioned",
+      "ground_truth": "6DPOXQ",
+      "correct": false,
+      "generated_text": "6DPOXQ\n#### 6DPOXQ\n\nNote: The secret passkey is mentioned in the text as \"6DPOXQ\"."
+    },
+    {
+      "predicted": "mentioned",
+      "ground_truth": "HG75X9",
+      "correct": false,
+      "generated_text": "HG75X9 (Note: This passkey is mentioned in the text, but its significance is not clear. It might be a key or a code used for authentication or authorization purposes.)"
+    },
+    {
+      "predicted": "GSMOQH",
+      "ground_truth": "GSMOQH",
+      "correct": true,
+      "generated_text": "GSMOQH The secret passkey is GSMOQH.  The company policy states that employees must adhere to professional standards at all times. Working hours are from 9 AM to 6 PM, with a one-hour lunch break. Rem"
+    },
+    {
+      "predicted": "mentioned",
+      "ground_truth": "MW4DNM",
+      "correct": false,
+      "generated_text": "MW4DNM\n\nNote: The secret passkey is mentioned in the text as \"MW4DNM\"."
+    },
+    {
+      "predicted": "mentioned",
+      "ground_truth": "KNMN2G",
+      "correct": false,
+      "generated_text": "KNMN2G\n\nNote: The secret passkey is mentioned in the text as a passkey, but its purpose or significance is not explained. It is only mentioned as a passkey in the text. The question is based solely on"
+    }
+  ]
+}

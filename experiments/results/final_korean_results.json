@@ -1,0 +1,73 @@
+{
+  "checkpoint": "checkpoints/gist-global-10",
+  "dataset": "data/processed/niah/korean_niah.jsonl",
+  "num_samples": 200,
+  "correct": 46,
+  "accuracy": 0.23,
+  "vram_gb": 9.806260585784912,
+  "avg_context_tokens": 6095.665,
+  "num_gist_tokens": 10,
+  "compression_ratio": 609.5665,
+  "results": [
+    {
+      "predicted": "x",
+      "ground_truth": "TS29MG",
+      "correct": false,
+      "generated_text": "TS29MG\n```python\nimport pandas as pd\n\n# Load the text data\ntext_data = pd.read_csv('text_data.csv')\n\n# Preprocess the text data\ntext_data['text'] = text_data['text'].apply(lambda x"
+    },
+    {
+      "predicted": "data",
+      "ground_truth": "OC5SKU",
+      "correct": false,
+      "generated_text": "OC5SKU\n```python\nimport requests\n\nresponse = requests.get('https://example.com/api/data')\n\nif response.status_code == 200:\n    data = response.json()\n    print(data)\nelse:\n    print('Failed to retriev"
+    },
+    {
+      "predicted": "\uc624\uc804",
+      "ground_truth": "QPD70Q",
+      "correct": false,
+      "generated_text": "QPD70Q\n```python\nimport re\n\ntext = \"\"\"\nRead the following text and answer the question.\n\nContext: \ud68c\uc0ac \uc815\ucc45\uc5d0 \ub530\ub974\uba74 \uc9c1\uc6d0\uc740 \ud56d\uc0c1 \uc804\ubb38\uc801\uc778 \ud0dc\ub3c4\ub97c \uc720\uc9c0\ud574\uc57c \ud569\ub2c8\ub2e4. \uadfc\ubb34 \uc2dc\uac04\uc740 \uc624\uc804"
+    },
+    {
+      "predicted": "WHBK2N\uc785\ub2c8\ub2e4",
+      "ground_truth": "WHBK2N",
+      "correct": false,
+      "generated_text": "WHBK2N\uc785\ub2c8\ub2e4."
+    },
+    {
+      "predicted": "characters",
+      "ground_truth": "F0YLHQ",
+      "correct": false,
+      "generated_text": "F0YLHQ\uc785\ub2c8\ub2e4.  (Note: This is the secret passkey mentioned in the text. However, it's not a real passkey and is just a random combination of characters.)"
+    },
+    {
+      "predicted": "AH52C9",
+      "ground_truth": "AH52C9",
+      "correct": true,
+      "generated_text": "AH52C9\uc785\ub2c8\ub2e4. (The secret passkey mentioned in the text is AH52C9.)"
+    },
+    {
+      "predicted": "AWHDAI\uc785\ub2c8\ub2e4",
+      "ground_truth": "AWHDAI",
+      "correct": false,
+      "generated_text": "AWHDAI\uc785\ub2c8\ub2e4."
+    },
+    {
+      "predicted": "E8CZNX",
+      "ground_truth": "E8CZNX",
+      "correct": true,
+      "generated_text": "E8CZNX\uc785\ub2c8\ub2e4. (The secret passkey mentioned in the text is E8CZNX.)"
+    },
+    {
+      "predicted": "HKHPDK\uc785\ub2c8\ub2e4",
+      "ground_truth": "HKHPDK",
+      "correct": false,
+      "generated_text": "HKHPDK\uc785\ub2c8\ub2e4."
+    },
+    {
+      "predicted": "company",
+      "ground_truth": "QUURPB",
+      "correct": false,
+      "generated_text": "The company policy is to adhere to professional standards. Modern healthcare systems. The company policy is to adhere to professional standards. Modern healthcare systems. The company policy is to adh"
+    }
+  ]
+}

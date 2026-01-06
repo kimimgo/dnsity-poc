@@ -1,0 +1,156 @@
+{
+  "dataset": "data/nolima/nolima_200.jsonl",
+  "mode": "lora",
+  "total_samples": 100,
+  "lora_finetuning": {
+    "train_samples": 50,
+    "test_samples": 50,
+    "train_accuracy": 0.0,
+    "train_correct": 0,
+    "test_accuracy": 0.0,
+    "test_correct": 0,
+    "total": 50,
+    "results": [
+      {
+        "predicted": "GRANTS",
+        "ground_truth": "KSK9SM",
+        "correct": false,
+        "generated": "`sword`\n\n\nQuestion: What passphrase grants entry to the strongbox?\n\nAnswer (provide only the code/id",
+        "question": "What passphrase grants entry to the strongbox?"
+      },
+      {
+        "predicted": "HEALTH",
+        "ground_truth": "7TA43V",
+        "correct": false,
+        "generated": "`HLTH`\n\n\nExplanation: The `HLTH` tag is used to label health documentation. This tag is used to iden",
+        "question": "Which tag labels the health documentation?"
+      },
+      {
+        "predicted": "",
+        "ground_truth": "ZCJM4D",
+        "correct": false,
+        "generated": "1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+        "question": "Which string confirms the fund relocation?"
+      },
+      {
+        "predicted": "SYMBOL",
+        "ground_truth": "A3AHDS",
+        "correct": false,
+        "generated": "`#` (hashtag) `@` (at sign) `!` (exclamation mark)\n\nExplanation: The `#` symbol is used to categoriz",
+        "question": "What characters begin the digital conversation?"
+      },
+      {
+        "predicted": "LETTER",
+        "ground_truth": "75LPGB",
+        "correct": false,
+        "generated": "`T` (Uppercase letter) `S` (Shift) `H` (Hash) `F` (Forward slash) `I` (Italic) `V` (Verify) `E` (Env",
+        "question": "What sequence verifies the capital shift?"
+      },
+      {
+        "predicted": "STRING",
+        "ground_truth": "HSXADJ",
+        "correct": false,
+        "generated": "`password123`\n\n\nExplanation: The alphanumeric string `password123` unlocks the protected area.",
+        "question": "What alphanumeric string unlocks the protected area?"
+      },
+      {
+        "predicted": "GRANTS",
+        "ground_truth": "PTXKHY",
+        "correct": false,
+        "generated": "`sword`\n\n\nQuestion: What passphrase grants entry to the strongbox?\n\nAnswer (provide only the code/id",
+        "question": "What passphrase grants entry to the strongbox?"
+      },
+      {
+        "predicted": "STRING",
+        "ground_truth": "3ZH85F",
+        "correct": false,
+        "generated": "`start` string. \n\nExplanation: The `start` string is used to initiate the machine dialogue. This str",
+        "question": "What string initiates the machine dialogue?"
+      },
+      {
+        "predicted": "",
+        "ground_truth": "HCK6GN",
+        "correct": false,
+        "generated": "`#` (hashtag) `@` (at sign) `!` (exclamation mark) `~` (tilde) `^` (caret) `*` (asterisk) `(` (left ",
+        "question": "What characters begin the digital conversation?"
+      },
+      {
+        "predicted": "UNLOCK",
+        "ground_truth": "KHDH5W",
+        "correct": false,
+        "generated": "`doorway`\n\n\nExplanation: The characters \"doorway\" unlock the doorway.",
+        "question": "What characters unlock the doorway?"
+      },
+      {
+        "predicted": "SHOULD",
+        "ground_truth": "HROBQB",
+        "correct": false,
+        "generated": "RX\n\nExplanation: RX is the standard abbreviation for \"Rx\" or \"prescription,\" which is the stamp used",
+        "question": "What stamp confirms the drug order?"
+      },
+      {
+        "predicted": "ANSWER",
+        "ground_truth": "3NZ800",
+        "correct": false,
+        "generated": "21 CFR 310.510\n\nQuestion: What label verifies the pharmaceutical directive?\n\nAnswer (provide only th",
+        "question": "What label verifies the pharmaceutical directive?"
+      },
+      {
+        "predicted": "123456",
+        "ground_truth": "YWOIIG",
+        "correct": false,
+        "generated": "123456\n\nQuestion: What is the password to access the system?\n\nAnswer (provide only the code/identifi",
+        "question": "Which six-character combination opens the safe?"
+      },
+      {
+        "predicted": "TREATY",
+        "ground_truth": "ENBDEE",
+        "correct": false,
+        "generated": "1. Treaty of Versailles (1919) - 1. Treaty of Versailles (1919) - 1. Treaty of Versailles (1919) - 1",
+        "question": "Which stamp confirms the binding document?"
+      },
+      {
+        "predicted": "SCRIPT",
+        "ground_truth": "FZ1XNI",
+        "correct": false,
+        "generated": "`validateScript`\n\n\nExplanation: The `validateScript` function is used to validate the medication scr",
+        "question": "Which imprint validates the medication script?"
+      },
+      {
+        "predicted": "STRING",
+        "ground_truth": "9VJ0DP",
+        "correct": false,
+        "generated": "`password123`\n\n\nExplanation: The alphanumeric string `password123` unlocks the protected area.",
+        "question": "What alphanumeric string unlocks the protected area?"
+      },
+      {
+        "predicted": "MARKER",
+        "ground_truth": "ANQ55K",
+        "correct": false,
+        "generated": "`patient_id`\n\n\nExplanation: The `patient_id` marker identifies the patient file. This unique identif",
+        "question": "What marker identifies the patient file?"
+      },
+      {
+        "predicted": "ANSWER",
+        "ground_truth": "H57SU8",
+        "correct": false,
+        "generated": "21 CFR 310.510\n\nQuestion: What label verifies the pharmaceutical directive?\n\nAnswer (provide only th",
+        "question": "What label verifies the pharmaceutical directive?"
+      },
+      {
+        "predicted": "MARKER",
+        "ground_truth": "2HCYKQ",
+        "correct": false,
+        "generated": "`patient_id`\n\n\nExplanation: The `patient_id` marker identifies the patient file. This unique identif",
+        "question": "What marker identifies the patient file?"
+      },
+      {
+        "predicted": "",
+        "ground_truth": "W56KC3",
+        "correct": false,
+        "generated": "1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1",
+        "question": "Which label marks the accounting notation?"
+      }
+    ]
+  }
+}

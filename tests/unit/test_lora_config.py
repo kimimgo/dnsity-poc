@@ -131,7 +131,13 @@ class TestLoRAConfiguration:
         assert peft_config.lora_dropout == 0.05, "LoRA dropout should be 0.05"
 
     def test_only_lora_and_modules_to_save_trainable(self):
-        """Test that only LoRA parameters and modules_to_save are trainable."""
+        """Test that only LoRA parameters and modules_to_save are trainable.
+
+        Note: For Gist Token training, embed_tokens and lm_head must be fully
+        trainable (modules_to_save). This results in ~25% trainable parameters
+        for GPT-2 (embed_tokens + lm_head are significant). This is expected
+        and required for Gist token learning.
+        """
         from src.model.gist_lora import setup_lora_model
 
         model = AutoModelForCausalLM.from_pretrained("gpt2")
@@ -141,11 +147,14 @@ class TestLoRAConfiguration:
         trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
         total_params = sum(p.numel() for p in model.parameters())
 
-        # LoRA should significantly reduce trainable parameters
+        # With modules_to_save=["embed_tokens", "lm_head"], trainable ratio is higher
+        # than typical LoRA (which is <1%). For GPT-2, this is ~24-25%.
         trainable_ratio = trainable_params / total_params
 
-        # Typically LoRA trains < 1% of parameters
-        assert trainable_ratio < 0.1, f"Too many trainable params: {trainable_ratio:.2%}"
+        # Gist Token requires embed_tokens + lm_head trainable, so ~25% is expected
+        # Should be less than 50% (not training all transformer blocks)
+        assert trainable_ratio < 0.5, f"Too many trainable params: {trainable_ratio:.2%}"
+        assert trainable_ratio > 0.1, f"embed_tokens/lm_head should be trainable: {trainable_ratio:.2%}"
 
     def test_model_forward_pass_with_lora(self):
         """Test that model can perform forward pass after LoRA is applied."""

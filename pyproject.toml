@@ -1,0 +1,35 @@
+[project]
+name = "dnsity-poc"
+version = "0.1.0"
+description = "Gist Token PoC with vLLM inference"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "torch>=2.4.0",
+    "transformers>=4.45.0",
+    "vllm>=0.6.0",
+    "lm-eval>=0.4.0",
+    "datasets",
+    "accelerate",
+    "peft",
+    "bitsandbytes",
+    "sentence-transformers",
+    "chromadb",
+    "scipy",
+    "tqdm",
+    "openai", # vLLM OpenAI compatible client
+    "matplotlib>=3.10.8",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ipython",
+    "jupyter",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest",
+    "ipython",
+]

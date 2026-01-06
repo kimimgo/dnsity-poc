@@ -44,8 +44,16 @@ def setup_lora_model(
         if hasattr(model, "transformer") and hasattr(model.transformer.h[0].attn, "c_attn"):
             target_modules = ["c_attn", "c_proj"]
 
-    # CRITICAL: modules_to_save MUST include embed_tokens and lm_head
+    # CRITICAL: modules_to_save MUST include embedding and lm_head layers
     # This ensures Gist token embeddings are trainable
+    # GPT-2 uses "wte" for embeddings, Llama uses "embed_tokens"
+    if hasattr(model, "transformer") and hasattr(model.transformer, "wte"):
+        # GPT-2 style
+        modules_to_save = ["wte", "lm_head"]
+    else:
+        # Llama/Mistral style
+        modules_to_save = ["embed_tokens", "lm_head"]
+
     lora_config = LoraConfig(
         r=lora_r,
         lora_alpha=lora_alpha,
@@ -53,7 +61,7 @@ def setup_lora_model(
         lora_dropout=lora_dropout,
         bias="none",
         task_type=TaskType.CAUSAL_LM,
-        modules_to_save=["embed_tokens", "lm_head"],  # CRITICAL!
+        modules_to_save=modules_to_save,  # CRITICAL!
     )
 
     # Apply LoRA

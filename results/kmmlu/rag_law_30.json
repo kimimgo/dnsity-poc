@@ -1,0 +1,310 @@
+{
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "method": "RAG",
+  "embedding_model": "BAAI/bge-m3",
+  "top_k": 3,
+  "knowledge_source": "data/kmmlu/law_knowledge.jsonl",
+  "subjects": {
+    "Law": {
+      "subject": "Law",
+      "accuracy": 46.666666666666664,
+      "correct": 14,
+      "total": 30,
+      "results": [
+        {
+          "question": "경비업법령상 경비원의 명부와 배치 등에 관한 설명으로 옳은 것은?",
+          "ground_truth": 3,
+          "predicted": 1,
+          "predicted_letter": "A",
+          "correct": false,
+          "generated": "정답: A\n\n해설: 경비업법령상 경비원의 명부와 배치 등에 관한 설명으로 옳은 것은 A번입니다. 경비업자는 주된 사무소, 출장소, 집단민",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.05439263582229614,
+            0.07777535915374756,
+            0.09644156694412231
+          ]
+        },
+        {
+          "question": "경비업법령상 시설주가 무기를 지급할 수 있는 특수경비원은?",
+          "ground_truth": 3,
+          "predicted": 3,
+          "predicted_letter": "C",
+          "correct": true,
+          "generated": "정답: C. 사의를 표명한 특수경비원\n\n해설: 경비업법령상 특수경비원은 시설주가 무기를 지급할 수 있는 경우는 사의를 표명",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.21596789360046387,
+            0.23207342624664307,
+            0.2531541585922241
+          ]
+        },
+        {
+          "question": "경비업법령상 경비원과 경비지도사의 교육에 관한 설명으로 옳지 않은 것은? (단, 교육대상 제외자는 해당하지 않는다.)",
+          "ground_truth": 4,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": false,
+          "generated": "Based on the provided references, the incorrect statement is:\n\nC. 경비업자는 일반경비원을 채용한 경우 해당 일반경비원에게 경비협",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.09736698865890503,
+            0.13126325607299805,
+            0.1402292251586914
+          ]
+        },
+        {
+          "question": "청원경찰법령상 청원경찰의 복제에 관한 설명으로 옳지 않은 것은?",
+          "ground_truth": 3,
+          "predicted": 3,
+          "predicted_letter": "C",
+          "correct": true,
+          "generated": "정답: C\n\n해설: 문제의 C번은 \"청원경찰이 그 배치지의 특수성 등으로 특수복장을 착용할 필요가 있을 때에는 청원주는 지방경찰청장의",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.03846538066864014,
+            0.09355425834655762,
+            0.09375286102294922
+          ]
+        },
+        {
+          "question": "경비업법에 관한 설명으로 옳지 않은 것은?",
+          "ground_truth": 4,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": false,
+          "generated": "Based on the provided references, the incorrect explanation is:\n\nB. 지방경찰청장은 경비지도사의 자격을 정지하는 때에는 청문을 ",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.020561933517456055,
+            0.04199796915054321,
+            0.04420161247253418
+          ]
+        },
+        {
+          "question": "경비업법상 경비업을 영위하는 법인의 임원이 될 수 있는 자는?",
+          "ground_truth": 4,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": false,
+          "generated": "정답: B. 피성년후견인\n\n해설: 경비업법상 경비업을 영위하는 법인의 임원이 될 수 있는 자는 피성년후견인입니다. (관련 지식 ",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.0022058486938476562,
+            0.028604447841644287,
+            0.033180952072143555
+          ]
+        },
+        {
+          "question": "경비위해요소에 대한 설명으로 틀린 것은?",
+          "ground_truth": 4,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": false,
+          "generated": "Based on the provided references, the incorrect statement is:\n\nC. 경비위해요소의 평가 및 분석에 있어서 경비활동의 비용효과분석은",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.02660006284713745,
+            0.06790828704833984,
+            0.08264821767807007
+          ]
+        },
+        {
+          "question": "청원경찰법령상 청원주가 비치해야 할 문서와 장부에 해당되는 것은?",
+          "ground_truth": 3,
+          "predicted": 3,
+          "predicted_letter": "C",
+          "correct": true,
+          "generated": "정답: C. 무기ㆍ탄약 대여대장, 전출입 관계철\n\n해설: 청원경찰법령상 청원주가 비치해야 할 문서와 장부에 해당되는 것은 무기ㆍ",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.07951968908309937,
+            0.08753252029418945,
+            0.14592105150222778
+          ]
+        },
+        {
+          "question": "경비업법령상 경비업자가 일반경비원 신임교육 대상에서 제외할 수 있는 사람에 해당하지 않는 자는?",
+          "ground_truth": 4,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": false,
+          "generated": "Based on the related knowledge provided, the correct answer is B. 경찰공무원법에 따른 경찰공무원으로 근무한 경력이 있는 사람.\n",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.02954423427581787,
+            0.03325098752975464,
+            0.11794447898864746
+          ]
+        },
+        {
+          "question": "청원경찰법상 청원경찰 등에 관한 설명 으로 옳지 않은 것은?",
+          "ground_truth": 3,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": false,
+          "generated": "Based on the provided references, the incorrect statement is:\n\nD. 청원경찰은 청원주와 관할지방경찰청장의 감독을 받아 그 경비구역",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.014269411563873291,
+            0.03742295503616333,
+            0.039782047271728516
+          ]
+        }
+      ]
+    },
+    "Criminal-Law": {
+      "subject": "Criminal-Law",
+      "accuracy": 20.0,
+      "correct": 6,
+      "total": 30,
+      "results": [
+        {
+          "question": "범죄 측정에 대한 설명으로 옳은 것은?",
+          "ground_truth": 1,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": false,
+          "generated": "Based on the provided references, the correct answer is:\n\nA. 참여 관찰 연구는 조사자의 주관적 편견이 개입할 수 있고, 시간과 비용",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.26080501079559326,
+            0.2618181109428406,
+            0.2676813006401062
+          ]
+        },
+        {
+          "question": "국가의 기능과 관련한 죄에 대한 설명으로 옳은 것은?",
+          "ground_truth": 4,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": false,
+          "generated": "Based on the provided references, the correct answer is C.\n\nThe reference [관련 지식 3] states that \"영업허",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.2718003988265991,
+            0.27382326126098633,
+            0.28277587890625
+          ]
+        },
+        {
+          "question": "甲은 처乙과 부부싸움을 하다가 화가 나서 폭행의 고의로 乙의 가슴을 세게 밀쳤고, 乙은 그 충격으로 사망하고 말았다 이후 甲은 자신의 집이 화재보험에 들어있다는 사실을 인지하고, ",
+          "ground_truth": 4,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": false,
+          "generated": "정답: B\n\n해설: 甲이 처乙을 폭행하여 사망하게 한 후, 집에 방화하여 소사를 한 것은 현주건조물방화치사죄가 성립하는 것은 맞습니다. 그러나",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.40390777587890625,
+            0.42642390727996826,
+            0.43743836879730225
+          ]
+        },
+        {
+          "question": "명예훼손죄에 대한 설명으로 옳지 않은 것은?",
+          "ground_truth": 4,
+          "predicted": 3,
+          "predicted_letter": "C",
+          "correct": false,
+          "generated": "정답: C\n\n해설: 개인 블로그의 비공개 대화방에서 상대방으로부터 비밀을 지키겠다는 말을 듣고 1:1로 대화하면서 타인의 명예를 훼손하는 발",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.21853697299957275,
+            0.22658699750900269,
+            0.2310413122177124
+          ]
+        },
+        {
+          "question": "뇌물죄에 대한 설명으로 옳지 않은 것은?",
+          "ground_truth": 1,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": false,
+          "generated": "Based on the provided references, I will identify the incorrect statement about the crime of bribery",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.25246524810791016,
+            0.2526119351387024,
+            0.2548133134841919
+          ]
+        },
+        {
+          "question": "재산범죄에 대한 설명으로 옳은 것(○)과 옳지 않은 것(×)을 바르게 연결한 것은?",
+          "ground_truth": 4,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": false,
+          "generated": "Based on the given references, I can analyze the correct answers.\n\nFrom [관련 지식 1], we know that the ",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.17380905151367188,
+            0.2356858253479004,
+            0.2367851734161377
+          ]
+        },
+        {
+          "question": "사기죄에 대한 설명으로 옳은 것은?",
+          "ground_truth": 2,
+          "predicted": 4,
+          "predicted_letter": "D",
+          "correct": false,
+          "generated": "정답: D\n\n해설: 사기죄에 대한 설명으로 옳은 것은 D번입니다. D번의 경우, 甲이 피해자 A에게 토지거래 허가 등에 필요한 서류를 속여 인감",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.25753289461135864,
+            0.27429014444351196,
+            0.29203474521636963
+          ]
+        },
+        {
+          "question": "당사자 능력과 소송능력에 대한 설명으로 옳은 것은?",
+          "ground_truth": 1,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": false,
+          "generated": "정답: B\n\n해설: 법인에 대한 형사처벌이 양벌규정을 통하여 인정되는 경우에도 법인의 당사자 능력은 인정되지 않는다. (관련 지식 2)",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.246038556098938,
+            0.25124287605285645,
+            0.25471556186676025
+          ]
+        },
+        {
+          "question": "부작위범에 대한 설명으로 옳은 것은?",
+          "ground_truth": 1,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": false,
+          "generated": "정답: B\n\n해설: 부작위범에 대한 설명으로 옳은 것은 B입니다. 부작위범은 부작위에 의하여 실현되는 결과를 방지하지 아니하는 경우, 행위자가 자신의",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.3132680654525757,
+            0.3372461795806885,
+            0.34117817878723145
+          ]
+        },
+        {
+          "question": "형법 의 적용 범위에 대한 설명으로 옳지 않은 것은?",
+          "ground_truth": 2,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": true,
+          "generated": "Based on the provided references, the incorrect explanation is:\n\nD. 무기 또는 5년 이상의 징역으로 가중처벌하도록 한 구 특정",
+          "retrieved_count": 3,
+          "retrieved_distances": [
+            0.20161908864974976,
+            0.23931580781936646,
+            0.24083232879638672
+          ]
+        }
+      ]
+    }
+  },
+  "overall": {
+    "accuracy": 33.33333333333333,
+    "correct": 20,
+    "total": 60
+  }
+}

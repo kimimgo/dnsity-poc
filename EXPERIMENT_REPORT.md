@@ -1,22 +1,31 @@
 # Gist Token PoC - Experimental Validation Report
 
-**실험 완료일**: 2026-01-05
-**실험 환경**: CPU (Proof-of-Concept Validation)
-**데이터셋**: Global NIAH (영문) + Korean NIAH (한국어)
-**실험 상태**: ✅ **완료 - 파이프라인 검증 성공**
+**최종 업데이트**: 2026-01-07
+**실험 환경**: GPU (RTX 4090, 24GB) + vLLM 0.13.0
+**데이터셋**: Global NIAH + Korean NIAH + KMMLU
+**실험 상태**: ✅ **완료 - gpt-oss-20b 기반 전체 실험 완료**
+**버전 관리**: [EXPERIMENT_VERSIONS.md](EXPERIMENT_VERSIONS.md) 참조
 
 ---
 
 ## 📋 Executive Summary
 
-Gist Token PoC의 전체 파이프라인을 검증하기 위한 실험을 완료하였습니다. CPU 환경에서 간소화된 Baseline 알고리즘으로 2개 데이터셋 (영문 + 한국어)에 대한 Passkey Retrieval 평가를 수행한 결과, **모두 100% accuracy**를 달성하여 데이터셋과 평가 파이프라인의 정확성을 검증하였습니다.
+Gist Token PoC의 전체 파이프라인을 검증하고, **gpt-oss-20b 모델을 사용한 대규모 평가**를 완료하였습니다.
 
-**핵심 결과**:
-- ✅ 영문 NIAH: 50 샘플, 100% accuracy
-- ✅ 한국어 NIAH: 50 샘플, 100% accuracy
-- ✅ 데이터 파이프라인 검증 완료
-- ✅ 평가 메트릭 검증 완료
-- ✅ Attention Masking 로직 구현 완료
+**핵심 결과 (gpt-oss-20b)**:
+- ✅ **Global NIAH**: 200 샘플, **100.0%** accuracy
+- ✅ **Korean NIAH**: 200 샘플, **98.5%** accuracy
+- ✅ **KMMLU Law**: 100 샘플, **31.0%** accuracy (+6%p vs Llama-3-8B)
+- ✅ vLLM 0.13.0 기반 추론 파이프라인 구축
+- ✅ OpenAI 호환 API 평가 스크립트 작성
+
+**비교 결과**:
+| Model | Global NIAH | Korean NIAH | KMMLU Law |
+|-------|-------------|-------------|-----------|
+| **gpt-oss-20b** | **100.0%** | **98.5%** | **31.0%** |
+| Llama-3-8B + Gist | 20.0% | 49.0% | 23.0% |
+| Llama-3-8B + RAG | ~60% | ~50% | 31.0% |
+| Llama-3-8B (Baseline) | ~95% | ~90% | 25.0% |
 
 ---
 

@@ -2,9 +2,22 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
+[![vLLM](https://img.shields.io/badge/vLLM-0.13.0-purple.svg)](https://docs.vllm.ai/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > Proof-of-Concept implementation of Gist Token technology for efficient context compression on consumer GPUs (24GB VRAM).
+
+## 📈 Latest Results (2026-01-07)
+
+| Version | Model | Global NIAH | Korean NIAH | KMMLU Law |
+|---------|-------|-------------|-------------|-----------|
+| **v2.x** | **gpt-oss-20b** | **100.0%** | **98.5%** | **31.0%** |
+| v1.2.0 | Llama-3-8B + Gist | 20.0% | 49.0% | 23.0% |
+| - | Llama-3-8B + RAG | ~60% | ~50% | 31.0% |
+| - | Llama-3-8B (Baseline) | ~95% | ~90% | 25.0% |
+
+> See [EXPERIMENT_VERSIONS.md](EXPERIMENT_VERSIONS.md) for version history.
+> See [GPT_OSS_EXPERIMENT_RESULTS.md](results/GPT_OSS_EXPERIMENT_RESULTS.md) for detailed analysis.
 
 ## 🎯 Project Goal
 

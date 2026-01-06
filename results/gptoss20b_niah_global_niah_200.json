@@ -1,0 +1,1618 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "dataset": "global_niah",
+  "num_samples": 200,
+  "accuracy": 100.0,
+  "correct": 200,
+  "total": 200,
+  "position_accuracy": {
+    "0-20%": 0,
+    "20-40%": 100.0,
+    "40-60%": 100.0,
+    "60-80%": 100.0,
+    "80-100%": 0
+  },
+  "timestamp": "2026-01-07T05:42:23.893285",
+  "results": [
+    {
+      "needle": "HJFN5P",
+      "predicted": "HJFN5P",
+      "correct": true,
+      "needle_position": 0.25439124447558376,
+      "context_length": 30143,
+      "generated": "HJFN5P"
+    },
+    {
+      "needle": "C2RONV",
+      "predicted": "C2RONV",
+      "correct": true,
+      "needle_position": 0.6990177834679923,
+      "context_length": 13627,
+      "generated": "C2RONV"
+    },
+    {
+      "needle": "09BAOO",
+      "predicted": "09BAOO",
+      "correct": true,
+      "needle_position": 0.4853977845113541,
+      "context_length": 8111,
+      "generated": "09BAOO"
+    },
+    {
+      "needle": "MLJL2Y",
+      "predicted": "MLJL2Y",
+      "correct": true,
+      "needle_position": 0.49729408368439854,
+      "context_length": 21955,
+      "generated": "MLJL2Y"
+    },
+    {
+      "needle": "1RMKEF",
+      "predicted": "1RMKEF",
+      "correct": true,
+      "needle_position": 0.25094654187294135,
+      "context_length": 21991,
+      "generated": "1RMKEF"
+    },
+    {
+      "needle": "6DPOXQ",
+      "predicted": "6DPOXQ",
+      "correct": true,
+      "needle_position": 0.7246909206277026,
+      "context_length": 31235,
+      "generated": "6DPOXQ"
+    },
+    {
+      "needle": "HG75X9",
+      "predicted": "HG75X9",
+      "correct": true,
+      "needle_position": 0.778106856753944,
+      "context_length": 8135,
+      "generated": "HG75X9"
+    },
+    {
+      "needle": "GSMOQH",
+      "predicted": "GSMOQH",
+      "correct": true,
+      "needle_position": 0.7221954129101507,
+      "context_length": 13847,
+      "generated": "GSMOQH"
+    },
+    {
+      "needle": "MW4DNM",
+      "predicted": "MW4DNM",
+      "correct": true,
+      "needle_position": 0.4585184324273572,
+      "context_length": 27435,
+      "generated": "MW4DNM"
+    },
+    {
+      "needle": "KNMN2G",
+      "predicted": "KNMN2G",
+      "correct": true,
+      "needle_position": 0.5320839496654877,
+      "context_length": 13183,
+      "generated": "KNMN2G"
+    },
+    {
+      "needle": "U4RC6O",
+      "predicted": "U4RC6O",
+      "correct": true,
+      "needle_position": 0.30401915594090934,
+      "context_length": 16483,
+      "generated": "U4RC6O"
+    },
+    {
+      "needle": "SAAR54",
+      "predicted": "SAAR54",
+      "correct": true,
+      "needle_position": 0.5879120471754872,
+      "context_length": 9519,
+      "generated": "SAAR54"
+    },
+    {
+      "needle": "Y66ZYD",
+      "predicted": "Y66ZYD",
+      "correct": true,
+      "needle_position": 0.5238362686057222,
+      "context_length": 13519,
+      "generated": "Y66ZYD"
+    },
+    {
+      "needle": "H2YXGD",
+      "predicted": "H2YXGD",
+      "correct": true,
+      "needle_position": 0.5705823374256132,
+      "context_length": 17119,
+      "generated": "H2YXGD"
+    },
+    {
+      "needle": "8R9XOY",
+      "predicted": "8R9XOY",
+      "correct": true,
+      "needle_position": 0.5556525343005347,
+      "context_length": 8795,
+      "generated": "8R9XOY"
+    },
+    {
+      "needle": "CE04X9",
+      "predicted": "CE04X9",
+      "correct": true,
+      "needle_position": 0.5302289230755961,
+      "context_length": 9979,
+      "generated": "CE04X9"
+    },
+    {
+      "needle": "99P258",
+      "predicted": "99P258",
+      "correct": true,
+      "needle_position": 0.46204682749786563,
+      "context_length": 13951,
+      "generated": "99P258"
+    },
+    {
+      "needle": "IRHFI5",
+      "predicted": "IRHFI5",
+      "correct": true,
+      "needle_position": 0.4490674630232986,
+      "context_length": 31955,
+      "generated": "IRHFI5"
+    },
+    {
+      "needle": "XLSNBA",
+      "predicted": "XLSNBA",
+      "correct": true,
+      "needle_position": 0.6995656609565005,
+      "context_length": 12491,
+      "generated": "XLSNBA"
+    },
+    {
+      "needle": "DXDR82",
+      "predicted": "DXDR82",
+      "correct": true,
+      "needle_position": 0.4220599466611444,
+      "context_length": 14307,
+      "generated": "DXDR82"
+    },
+    {
+      "needle": "8EKDBY",
+      "predicted": "8EKDBY",
+      "correct": true,
+      "needle_position": 0.7169896013903474,
+      "context_length": 29699,
+      "generated": "8EKDBY"
+    },
+    {
+      "needle": "OP1BXF",
+      "predicted": "OP1BXF",
+      "correct": true,
+      "needle_position": 0.28707808534899343,
+      "context_length": 21679,
+      "generated": "OP1BXF"
+    },
+    {
+      "needle": "S9DOKE",
+      "predicted": "S9DOKE",
+      "correct": true,
+      "needle_position": 0.29948986397778743,
+      "context_length": 10727,
+      "generated": "S9DOKE"
+    },
+    {
+      "needle": "9GL1F7",
+      "predicted": "9GL1F7",
+      "correct": true,
+      "needle_position": 0.27109092722094946,
+      "context_length": 26059,
+      "generated": "9GL1F7"
+    },
+    {
+      "needle": "P57IXD",
+      "predicted": "P57IXD",
+      "correct": true,
+      "needle_position": 0.49167201331535854,
+      "context_length": 15771,
+      "generated": "P57IXD"
+    },
+    {
+      "needle": "R7HN2N",
+      "predicted": "R7HN2N",
+      "correct": true,
+      "needle_position": 0.7787649458071004,
+      "context_length": 15491,
+      "generated": "R7HN2N"
+    },
+    {
+      "needle": "8ZUSLY",
+      "predicted": "8ZUSLY",
+      "correct": true,
+      "needle_position": 0.2162367764922355,
+      "context_length": 16915,
+      "generated": "8ZUSLY"
+    },
+    {
+      "needle": "QO6NRR",
+      "predicted": "QO6NRR",
+      "correct": true,
+      "needle_position": 0.45699714622255455,
+      "context_length": 9891,
+      "generated": "QO6NRR"
+    },
+    {
+      "needle": "D2S46F",
+      "predicted": "D2S46F",
+      "correct": true,
+      "needle_position": 0.7353055124512893,
+      "context_length": 29979,
+      "generated": "D2S46F"
+    },
+    {
+      "needle": "WGG4VO",
+      "predicted": "WGG4VO",
+      "correct": true,
+      "needle_position": 0.6358522974116134,
+      "context_length": 21467,
+      "generated": "WGG4VO"
+    },
+    {
+      "needle": "GPXE7I",
+      "predicted": "GPXE7I",
+      "correct": true,
+      "needle_position": 0.4616967041322024,
+      "context_length": 26107,
+      "generated": "GPXE7I"
+    },
+    {
+      "needle": "CCP74Z",
+      "predicted": "CCP74Z",
+      "correct": true,
+      "needle_position": 0.20000675321563205,
+      "context_length": 22103,
+      "generated": "CCP74Z"
+    },
+    {
+      "needle": "BVNIXX",
+      "predicted": "BVNIXX",
+      "correct": true,
+      "needle_position": 0.6977546235423646,
+      "context_length": 12043,
+      "generated": "BVNIXX"
+    },
+    {
+      "needle": "1JQZS1",
+      "predicted": "1JQZS1",
+      "correct": true,
+      "needle_position": 0.5171583329560414,
+      "context_length": 31519,
+      "generated": "1JQZS1"
+    },
+    {
+      "needle": "07LKJV",
+      "predicted": "07LKJV",
+      "correct": true,
+      "needle_position": 0.6397361635322758,
+      "context_length": 11623,
+      "generated": "07LKJV"
+    },
+    {
+      "needle": "H99LQ9",
+      "predicted": "H99LQ9",
+      "correct": true,
+      "needle_position": 0.2054023280602282,
+      "context_length": 18031,
+      "generated": "H99LQ9"
+    },
+    {
+      "needle": "KOBJ6Y",
+      "predicted": "KOBJ6Y",
+      "correct": true,
+      "needle_position": 0.3002441544909268,
+      "context_length": 27147,
+      "generated": "KOBJ6Y"
+    },
+    {
+      "needle": "7SZU7E",
+      "predicted": "7SZU7E",
+      "correct": true,
+      "needle_position": 0.5582212959849009,
+      "context_length": 9623,
+      "generated": "7SZU7E"
+    },
+    {
+      "needle": "MRH41E",
+      "predicted": "MRH41E",
+      "correct": true,
+      "needle_position": 0.3032370160535929,
+      "context_length": 14703,
+      "generated": "MRH41E"
+    },
+    {
+      "needle": "LHWY6T",
+      "predicted": "LHWY6T",
+      "correct": true,
+      "needle_position": 0.24772691718126455,
+      "context_length": 25659,
+      "generated": "LHWY6T"
+    },
+    {
+      "needle": "1ZO1UC",
+      "predicted": "1ZO1UC",
+      "correct": true,
+      "needle_position": 0.22790813753450412,
+      "context_length": 16655,
+      "generated": "1ZO1UC"
+    },
+    {
+      "needle": "NVYN55",
+      "predicted": "NVYN55",
+      "correct": true,
+      "needle_position": 0.5288627739534985,
+      "context_length": 25543,
+      "generated": "NVYN55"
+    },
+    {
+      "needle": "O0PPOJ",
+      "predicted": "O0PPOJ",
+      "correct": true,
+      "needle_position": 0.4285569669937646,
+      "context_length": 14079,
+      "generated": "O0PPOJ"
+    },
+    {
+      "needle": "AURQRQ",
+      "predicted": "AURQRQ",
+      "correct": true,
+      "needle_position": 0.34867653861272024,
+      "context_length": 24423,
+      "generated": "AURQRQ"
+    },
+    {
+      "needle": "5P0K21",
+      "predicted": "5P0K21",
+      "correct": true,
+      "needle_position": 0.513710254238281,
+      "context_length": 29423,
+      "generated": "5P0K21"
+    },
+    {
+      "needle": "Y34W9S",
+      "predicted": "Y34W9S",
+      "correct": true,
+      "needle_position": 0.2597274249058809,
+      "context_length": 13627,
+      "generated": "Y34W9S"
+    },
+    {
+      "needle": "DUEKL9",
+      "predicted": "DUEKL9",
+      "correct": true,
+      "needle_position": 0.629911630241536,
+      "context_length": 31207,
+      "generated": "DUEKL9"
+    },
+    {
+      "needle": "3V2REV",
+      "predicted": "3V2REV",
+      "correct": true,
+      "needle_position": 0.2864647316695059,
+      "context_length": 26679,
+      "generated": "3V2REV"
+    },
+    {
+      "needle": "VD6VH8",
+      "predicted": "VD6VH8",
+      "correct": true,
+      "needle_position": 0.7537385741091851,
+      "context_length": 17931,
+      "generated": "VD6VH8"
+    },
+    {
+      "needle": "7LQHWH",
+      "predicted": "7LQHWH",
+      "correct": true,
+      "needle_position": 0.6434756328346702,
+      "context_length": 11891,
+      "generated": "7LQHWH"
+    },
+    {
+      "needle": "AB7NMC",
+      "predicted": "AB7NMC",
+      "correct": true,
+      "needle_position": 0.4613757267440993,
+      "context_length": 19799,
+      "generated": "AB7NMC"
+    },
+    {
+      "needle": "H23VQT",
+      "predicted": "H23VQT",
+      "correct": true,
+      "needle_position": 0.4514435962828926,
+      "context_length": 14351,
+      "generated": "H23VQT"
+    },
+    {
+      "needle": "FNHC5I",
+      "predicted": "FNHC5I",
+      "correct": true,
+      "needle_position": 0.7992193781916144,
+      "context_length": 21351,
+      "generated": "FNHC5I"
+    },
+    {
+      "needle": "Z9Y4TN",
+      "predicted": "Z9Y4TN",
+      "correct": true,
+      "needle_position": 0.4773458193181724,
+      "context_length": 31775,
+      "generated": "Z9Y4TN"
+    },
+    {
+      "needle": "QPOYH0",
+      "predicted": "QPOYH0",
+      "correct": true,
+      "needle_position": 0.750848910148741,
+      "context_length": 23751,
+      "generated": "QPOYH0"
+    },
+    {
+      "needle": "TBORM6",
+      "predicted": "TBORM6",
+      "correct": true,
+      "needle_position": 0.4520234865420636,
+      "context_length": 13611,
+      "generated": "TBORM6"
+    },
+    {
+      "needle": "P3V7HP",
+      "predicted": "P3V7HP",
+      "correct": true,
+      "needle_position": 0.5983149199969156,
+      "context_length": 12035,
+      "generated": "P3V7HP"
+    },
+    {
+      "needle": "23ZBLU",
+      "predicted": "23ZBLU",
+      "correct": true,
+      "needle_position": 0.5505750121957469,
+      "context_length": 17307,
+      "generated": "23ZBLU"
+    },
+    {
+      "needle": "MDAD9U",
+      "predicted": "MDAD9U",
+      "correct": true,
+      "needle_position": 0.3565495556412209,
+      "context_length": 25031,
+      "generated": "MDAD9U"
+    },
+    {
+      "needle": "9IJFM0",
+      "predicted": "9IJFM0",
+      "correct": true,
+      "needle_position": 0.25916483816643704,
+      "context_length": 31267,
+      "generated": "9IJFM0"
+    },
+    {
+      "needle": "18X81N",
+      "predicted": "18X81N",
+      "correct": true,
+      "needle_position": 0.2490643794514354,
+      "context_length": 11623,
+      "generated": "18X81N"
+    },
+    {
+      "needle": "O7ML1A",
+      "predicted": "O7ML1A",
+      "correct": true,
+      "needle_position": 0.33822398590701785,
+      "context_length": 9143,
+      "generated": "O7ML1A"
+    },
+    {
+      "needle": "X9P418",
+      "predicted": "X9P418",
+      "correct": true,
+      "needle_position": 0.6530102763295489,
+      "context_length": 26303,
+      "generated": "X9P418"
+    },
+    {
+      "needle": "FLLEYG",
+      "predicted": "FLLEYG",
+      "correct": true,
+      "needle_position": 0.2394533798276468,
+      "context_length": 27239,
+      "generated": "FLLEYG"
+    },
+    {
+      "needle": "7BXD54",
+      "predicted": "7BXD54",
+      "correct": true,
+      "needle_position": 0.6302868895922322,
+      "context_length": 15335,
+      "generated": "7BXD54"
+    },
+    {
+      "needle": "CQH1ZM",
+      "predicted": "CQH1ZM",
+      "correct": true,
+      "needle_position": 0.6730189219162162,
+      "context_length": 24419,
+      "generated": "CQH1ZM"
+    },
+    {
+      "needle": "4PLDQO",
+      "predicted": "4PLDQO",
+      "correct": true,
+      "needle_position": 0.2495046821193219,
+      "context_length": 12611,
+      "generated": "4PLDQO"
+    },
+    {
+      "needle": "99EG5J",
+      "predicted": "99EG5J",
+      "correct": true,
+      "needle_position": 0.23697960380770317,
+      "context_length": 20595,
+      "generated": "99EG5J"
+    },
+    {
+      "needle": "XFLK4J",
+      "predicted": "XFLK4J",
+      "correct": true,
+      "needle_position": 0.7363985871113468,
+      "context_length": 31855,
+      "generated": "XFLK4J"
+    },
+    {
+      "needle": "FIQ8WF",
+      "predicted": "FIQ8WF",
+      "correct": true,
+      "needle_position": 0.6562944281795516,
+      "context_length": 24415,
+      "generated": "FIQ8WF"
+    },
+    {
+      "needle": "CW6J1K",
+      "predicted": "CW6J1K",
+      "correct": true,
+      "needle_position": 0.6346456177639287,
+      "context_length": 30755,
+      "generated": "CW6J1K"
+    },
+    {
+      "needle": "N4QLD8",
+      "predicted": "N4QLD8",
+      "correct": true,
+      "needle_position": 0.2016556389007603,
+      "context_length": 12931,
+      "generated": "N4QLD8"
+    },
+    {
+      "needle": "C8P2A5",
+      "predicted": "C8P2A5",
+      "correct": true,
+      "needle_position": 0.7384408552935822,
+      "context_length": 26575,
+      "generated": "C8P2A5"
+    },
+    {
+      "needle": "QTXITR",
+      "predicted": "QTXITR",
+      "correct": true,
+      "needle_position": 0.2505347016729855,
+      "context_length": 29499,
+      "generated": "QTXITR"
+    },
+    {
+      "needle": "D24HQW",
+      "predicted": "D24HQW",
+      "correct": true,
+      "needle_position": 0.23197428379964782,
+      "context_length": 12955,
+      "generated": "D24HQW"
+    },
+    {
+      "needle": "SJTI1N",
+      "predicted": "SJTI1N",
+      "correct": true,
+      "needle_position": 0.27216443557760367,
+      "context_length": 11499,
+      "generated": "SJTI1N"
+    },
+    {
+      "needle": "5P790H",
+      "predicted": "5P790H",
+      "correct": true,
+      "needle_position": 0.6785922523694712,
+      "context_length": 21931,
+      "generated": "5P790H"
+    },
+    {
+      "needle": "GIR2TA",
+      "predicted": "GIR2TA",
+      "correct": true,
+      "needle_position": 0.3800003335399146,
+      "context_length": 13051,
+      "generated": "GIR2TA"
+    },
+    {
+      "needle": "SUTJOL",
+      "predicted": "SUTJOL",
+      "correct": true,
+      "needle_position": 0.7120807407572549,
+      "context_length": 22391,
+      "generated": "SUTJOL"
+    },
+    {
+      "needle": "VB7IL2",
+      "predicted": "VB7IL2",
+      "correct": true,
+      "needle_position": 0.5228007077624824,
+      "context_length": 10019,
+      "generated": "VB7IL2"
+    },
+    {
+      "needle": "2L7Q9U",
+      "predicted": "2L7Q9U",
+      "correct": true,
+      "needle_position": 0.689614214957062,
+      "context_length": 29663,
+      "generated": "2L7Q9U"
+    },
+    {
+      "needle": "G3JDM8",
+      "predicted": "G3JDM8",
+      "correct": true,
+      "needle_position": 0.7941705381767024,
+      "context_length": 23083,
+      "generated": "G3JDM8"
+    },
+    {
+      "needle": "DS7DPC",
+      "predicted": "DS7DPC",
+      "correct": true,
+      "needle_position": 0.21216349122093736,
+      "context_length": 17819,
+      "generated": "DS7DPC"
+    },
+    {
+      "needle": "8OJ26W",
+      "predicted": "8OJ26W",
+      "correct": true,
+      "needle_position": 0.7060821504284172,
+      "context_length": 20547,
+      "generated": "8OJ26W"
+    },
+    {
+      "needle": "BH1MHQ",
+      "predicted": "BH1MHQ",
+      "correct": true,
+      "needle_position": 0.6075999169514983,
+      "context_length": 13463,
+      "generated": "BH1MHQ"
+    },
+    {
+      "needle": "TL25MZ",
+      "predicted": "TL25MZ",
+      "correct": true,
+      "needle_position": 0.6275510841210061,
+      "context_length": 14311,
+      "generated": "TL25MZ"
+    },
+    {
+      "needle": "MZ4I1T",
+      "predicted": "MZ4I1T",
+      "correct": true,
+      "needle_position": 0.5336036073497473,
+      "context_length": 16211,
+      "generated": "MZ4I1T"
+    },
+    {
+      "needle": "VWAJH6",
+      "predicted": "VWAJH6",
+      "correct": true,
+      "needle_position": 0.4033145605107298,
+      "context_length": 17183,
+      "generated": "VWAJH6"
+    },
+    {
+      "needle": "7LWVCP",
+      "predicted": "7LWVCP",
+      "correct": true,
+      "needle_position": 0.4303311267943646,
+      "context_length": 22295,
+      "generated": "7LWVCP"
+    },
+    {
+      "needle": "D079IM",
+      "predicted": "D079IM",
+      "correct": true,
+      "needle_position": 0.2712812096237036,
+      "context_length": 10603,
+      "generated": "D079IM"
+    },
+    {
+      "needle": "FZU20Q",
+      "predicted": "FZU20Q",
+      "correct": true,
+      "needle_position": 0.6002020550963982,
+      "context_length": 23683,
+      "generated": "FZU20Q"
+    },
+    {
+      "needle": "PDYBA5",
+      "predicted": "PDYBA5",
+      "correct": true,
+      "needle_position": 0.3836959462134534,
+      "context_length": 26895,
+      "generated": "PDYBA5"
+    },
+    {
+      "needle": "PP8QAC",
+      "predicted": "PP8QAC",
+      "correct": true,
+      "needle_position": 0.20035251610247648,
+      "context_length": 11647,
+      "generated": "PP8QAC"
+    },
+    {
+      "needle": "CZNOUU",
+      "predicted": "CZNOUU",
+      "correct": true,
+      "needle_position": 0.6424132008440347,
+      "context_length": 16671,
+      "generated": "CZNOUU"
+    },
+    {
+      "needle": "QMW68Z",
+      "predicted": "QMW68Z",
+      "correct": true,
+      "needle_position": 0.23978328978546654,
+      "context_length": 8879,
+      "generated": "QMW68Z"
+    },
+    {
+      "needle": "AWRVOG",
+      "predicted": "AWRVOG",
+      "correct": true,
+      "needle_position": 0.26582454135850864,
+      "context_length": 30231,
+      "generated": "AWRVOG"
+    },
+    {
+      "needle": "QGA086",
+      "predicted": "QGA086",
+      "correct": true,
+      "needle_position": 0.20174681046080334,
+      "context_length": 15879,
+      "generated": "QGA086"
+    },
+    {
+      "needle": "VL90SA",
+      "predicted": "VL90SA",
+      "correct": true,
+      "needle_position": 0.4453288847546512,
+      "context_length": 9215,
+      "generated": "VL90SA"
+    },
+    {
+      "needle": "BDNFXZ",
+      "predicted": "BDNFXZ",
+      "correct": true,
+      "needle_position": 0.6644039563030837,
+      "context_length": 9939,
+      "generated": "BDNFXZ"
+    },
+    {
+      "needle": "DTGQ8N",
+      "predicted": "DTGQ8N",
+      "correct": true,
+      "needle_position": 0.43047042026111415,
+      "context_length": 12839,
+      "generated": "DTGQ8N"
+    },
+    {
+      "needle": "EQ3ATR",
+      "predicted": "EQ3ATR",
+      "correct": true,
+      "needle_position": 0.2789104465168812,
+      "context_length": 14839,
+      "generated": "EQ3ATR"
+    },
+    {
+      "needle": "6X14L3",
+      "predicted": "6X14L3",
+      "correct": true,
+      "needle_position": 0.7271738922216457,
+      "context_length": 14611,
+      "generated": "6X14L3"
+    },
+    {
+      "needle": "DRQYGU",
+      "predicted": "DRQYGU",
+      "correct": true,
+      "needle_position": 0.527189706861156,
+      "context_length": 18859,
+      "generated": "DRQYGU"
+    },
+    {
+      "needle": "MQMKIX",
+      "predicted": "MQMKIX",
+      "correct": true,
+      "needle_position": 0.45660876606206624,
+      "context_length": 13739,
+      "generated": "MQMKIX"
+    },
+    {
+      "needle": "B9K0AV",
+      "predicted": "B9K0AV",
+      "correct": true,
+      "needle_position": 0.6848318557962491,
+      "context_length": 15619,
+      "generated": "B9K0AV"
+    },
+    {
+      "needle": "F3ZR8T",
+      "predicted": "F3ZR8T",
+      "correct": true,
+      "needle_position": 0.23422115173570057,
+      "context_length": 21895,
+      "generated": "F3ZR8T"
+    },
+    {
+      "needle": "6BKCMA",
+      "predicted": "6BKCMA",
+      "correct": true,
+      "needle_position": 0.4130421669094238,
+      "context_length": 27851,
+      "generated": "6BKCMA"
+    },
+    {
+      "needle": "WEKSCP",
+      "predicted": "WEKSCP",
+      "correct": true,
+      "needle_position": 0.49556226082415694,
+      "context_length": 11695,
+      "generated": "WEKSCP"
+    },
+    {
+      "needle": "PVDXW6",
+      "predicted": "PVDXW6",
+      "correct": true,
+      "needle_position": 0.477491421678563,
+      "context_length": 21283,
+      "generated": "PVDXW6"
+    },
+    {
+      "needle": "XIAVL8",
+      "predicted": "XIAVL8",
+      "correct": true,
+      "needle_position": 0.631219412704926,
+      "context_length": 24743,
+      "generated": "XIAVL8"
+    },
+    {
+      "needle": "1FAY19",
+      "predicted": "1FAY19",
+      "correct": true,
+      "needle_position": 0.2164940835575272,
+      "context_length": 21031,
+      "generated": "1FAY19"
+    },
+    {
+      "needle": "5VI86V",
+      "predicted": "5VI86V",
+      "correct": true,
+      "needle_position": 0.5320145012165987,
+      "context_length": 12655,
+      "generated": "5VI86V"
+    },
+    {
+      "needle": "C2UOQE",
+      "predicted": "C2UOQE",
+      "correct": true,
+      "needle_position": 0.354612309906312,
+      "context_length": 14823,
+      "generated": "C2UOQE"
+    },
+    {
+      "needle": "ZBJGAB",
+      "predicted": "ZBJGAB",
+      "correct": true,
+      "needle_position": 0.301888673891214,
+      "context_length": 11491,
+      "generated": "ZBJGAB"
+    },
+    {
+      "needle": "1923EG",
+      "predicted": "1923EG",
+      "correct": true,
+      "needle_position": 0.559450651869223,
+      "context_length": 17275,
+      "generated": "1923EG"
+    },
+    {
+      "needle": "1XWLXE",
+      "predicted": "1XWLXE",
+      "correct": true,
+      "needle_position": 0.4214920829229939,
+      "context_length": 12535,
+      "generated": "1XWLXE"
+    },
+    {
+      "needle": "8ZR1YW",
+      "predicted": "8ZR1YW",
+      "correct": true,
+      "needle_position": 0.5980633505178082,
+      "context_length": 17571,
+      "generated": "8ZR1YW"
+    },
+    {
+      "needle": "Z1NBMS",
+      "predicted": "Z1NBMS",
+      "correct": true,
+      "needle_position": 0.7718734020382769,
+      "context_length": 16091,
+      "generated": "Z1NBMS"
+    },
+    {
+      "needle": "WGVM8N",
+      "predicted": "WGVM8N",
+      "correct": true,
+      "needle_position": 0.7023767973249464,
+      "context_length": 24103,
+      "generated": "WGVM8N"
+    },
+    {
+      "needle": "CXV7DF",
+      "predicted": "CXV7DF",
+      "correct": true,
+      "needle_position": 0.2488354014116063,
+      "context_length": 17763,
+      "generated": "CXV7DF"
+    },
+    {
+      "needle": "NE2M7V",
+      "predicted": "NE2M7V",
+      "correct": true,
+      "needle_position": 0.30308976406623694,
+      "context_length": 19355,
+      "generated": "NE2M7V"
+    },
+    {
+      "needle": "VBLW45",
+      "predicted": "VBLW45",
+      "correct": true,
+      "needle_position": 0.6958903772175129,
+      "context_length": 26023,
+      "generated": "VBLW45"
+    },
+    {
+      "needle": "YN0XCK",
+      "predicted": "YN0XCK",
+      "correct": true,
+      "needle_position": 0.5252434894012916,
+      "context_length": 30279,
+      "generated": "YN0XCK"
+    },
+    {
+      "needle": "F8DRAN",
+      "predicted": "F8DRAN",
+      "correct": true,
+      "needle_position": 0.6838815702433823,
+      "context_length": 16671,
+      "generated": "F8DRAN"
+    },
+    {
+      "needle": "70F4YZ",
+      "predicted": "70F4YZ",
+      "correct": true,
+      "needle_position": 0.7244312086558387,
+      "context_length": 31727,
+      "generated": "70F4YZ"
+    },
+    {
+      "needle": "KA731C",
+      "predicted": "KA731C",
+      "correct": true,
+      "needle_position": 0.578954289264795,
+      "context_length": 31271,
+      "generated": "KA731C"
+    },
+    {
+      "needle": "IJGH1Z",
+      "predicted": "IJGH1Z",
+      "correct": true,
+      "needle_position": 0.3530510720162464,
+      "context_length": 24195,
+      "generated": "IJGH1Z"
+    },
+    {
+      "needle": "XRZMZZ",
+      "predicted": "XRZMZZ",
+      "correct": true,
+      "needle_position": 0.6024824954812853,
+      "context_length": 24079,
+      "generated": "XRZMZZ"
+    },
+    {
+      "needle": "RZUZDH",
+      "predicted": "RZUZDH",
+      "correct": true,
+      "needle_position": 0.4742864541318731,
+      "context_length": 30011,
+      "generated": "RZUZDH"
+    },
+    {
+      "needle": "VGENN5",
+      "predicted": "VGENN5",
+      "correct": true,
+      "needle_position": 0.7648413077748974,
+      "context_length": 25143,
+      "generated": "VGENN5"
+    },
+    {
+      "needle": "FPEPE5",
+      "predicted": "FPEPE5",
+      "correct": true,
+      "needle_position": 0.5665793557937149,
+      "context_length": 31275,
+      "generated": "FPEPE5"
+    },
+    {
+      "needle": "MYEGSK",
+      "predicted": "MYEGSK",
+      "correct": true,
+      "needle_position": 0.6722267575402268,
+      "context_length": 9995,
+      "generated": "MYEGSK"
+    },
+    {
+      "needle": "ANQB53",
+      "predicted": "ANQB53",
+      "correct": true,
+      "needle_position": 0.2517869832677199,
+      "context_length": 23827,
+      "generated": "ANQB53"
+    },
+    {
+      "needle": "H0GHZK",
+      "predicted": "H0GHZK",
+      "correct": true,
+      "needle_position": 0.7429110557837324,
+      "context_length": 15107,
+      "generated": "H0GHZK"
+    },
+    {
+      "needle": "C0NM1N",
+      "predicted": "C0NM1N",
+      "correct": true,
+      "needle_position": 0.6724436974865888,
+      "context_length": 14495,
+      "generated": "C0NM1N"
+    },
+    {
+      "needle": "2PGVUN",
+      "predicted": "2PGVUN",
+      "correct": true,
+      "needle_position": 0.6966039346925463,
+      "context_length": 26247,
+      "generated": "2PGVUN"
+    },
+    {
+      "needle": "K4VAY6",
+      "predicted": "K4VAY6",
+      "correct": true,
+      "needle_position": 0.20949826910317815,
+      "context_length": 13819,
+      "generated": "K4VAY6"
+    },
+    {
+      "needle": "4R2G5H",
+      "predicted": "4R2G5H",
+      "correct": true,
+      "needle_position": 0.7037060264110464,
+      "context_length": 22087,
+      "generated": "4R2G5H"
+    },
+    {
+      "needle": "RVUL83",
+      "predicted": "RVUL83",
+      "correct": true,
+      "needle_position": 0.782078568346728,
+      "context_length": 10663,
+      "generated": "RVUL83"
+    },
+    {
+      "needle": "Y16KZB",
+      "predicted": "Y16KZB",
+      "correct": true,
+      "needle_position": 0.7173734501420366,
+      "context_length": 11507,
+      "generated": "Y16KZB"
+    },
+    {
+      "needle": "EF49N6",
+      "predicted": "EF49N6",
+      "correct": true,
+      "needle_position": 0.5257629980315742,
+      "context_length": 8711,
+      "generated": "EF49N6"
+    },
+    {
+      "needle": "TLFXBF",
+      "predicted": "TLFXBF",
+      "correct": true,
+      "needle_position": 0.5242345360421339,
+      "context_length": 24107,
+      "generated": "TLFXBF"
+    },
+    {
+      "needle": "SED6JP",
+      "predicted": "SED6JP",
+      "correct": true,
+      "needle_position": 0.4338019552280295,
+      "context_length": 32003,
+      "generated": "SED6JP"
+    },
+    {
+      "needle": "FZWBO0",
+      "predicted": "FZWBO0",
+      "correct": true,
+      "needle_position": 0.6220194442696074,
+      "context_length": 9315,
+      "generated": "FZWBO0"
+    },
+    {
+      "needle": "DY3LGA",
+      "predicted": "DY3LGA",
+      "correct": true,
+      "needle_position": 0.48770986013274864,
+      "context_length": 29563,
+      "generated": "DY3LGA"
+    },
+    {
+      "needle": "KV8PQW",
+      "predicted": "KV8PQW",
+      "correct": true,
+      "needle_position": 0.30806059725539653,
+      "context_length": 23127,
+      "generated": "KV8PQW"
+    },
+    {
+      "needle": "KZPD4O",
+      "predicted": "KZPD4O",
+      "correct": true,
+      "needle_position": 0.5860765250961298,
+      "context_length": 24147,
+      "generated": "KZPD4O"
+    },
+    {
+      "needle": "MOG4BI",
+      "predicted": "MOG4BI",
+      "correct": true,
+      "needle_position": 0.4113993852631881,
+      "context_length": 15895,
+      "generated": "MOG4BI"
+    },
+    {
+      "needle": "T072DS",
+      "predicted": "T072DS",
+      "correct": true,
+      "needle_position": 0.40086451719368765,
+      "context_length": 10739,
+      "generated": "T072DS"
+    },
+    {
+      "needle": "OOCMDS",
+      "predicted": "OOCMDS",
+      "correct": true,
+      "needle_position": 0.5012641426630509,
+      "context_length": 23423,
+      "generated": "OOCMDS"
+    },
+    {
+      "needle": "YO0WMR",
+      "predicted": "YO0WMR",
+      "correct": true,
+      "needle_position": 0.35081830170579253,
+      "context_length": 23939,
+      "generated": "YO0WMR"
+    },
+    {
+      "needle": "M8NVNE",
+      "predicted": "M8NVNE",
+      "correct": true,
+      "needle_position": 0.46837467162616364,
+      "context_length": 16155,
+      "generated": "M8NVNE"
+    },
+    {
+      "needle": "B4Z60T",
+      "predicted": "B4Z60T",
+      "correct": true,
+      "needle_position": 0.3060577051997111,
+      "context_length": 25463,
+      "generated": "B4Z60T"
+    },
+    {
+      "needle": "6PR822",
+      "predicted": "6PR822",
+      "correct": true,
+      "needle_position": 0.40304844228646786,
+      "context_length": 8339,
+      "generated": "6PR822"
+    },
+    {
+      "needle": "JI3HFR",
+      "predicted": "JI3HFR",
+      "correct": true,
+      "needle_position": 0.6916448613455617,
+      "context_length": 18331,
+      "generated": "JI3HFR"
+    },
+    {
+      "needle": "E60IJQ",
+      "predicted": "E60IJQ",
+      "correct": true,
+      "needle_position": 0.759484131071519,
+      "context_length": 28863,
+      "generated": "E60IJQ"
+    },
+    {
+      "needle": "C26HK7",
+      "predicted": "C26HK7",
+      "correct": true,
+      "needle_position": 0.6228743888072571,
+      "context_length": 15715,
+      "generated": "C26HK7"
+    },
+    {
+      "needle": "DRS1PQ",
+      "predicted": "DRS1PQ",
+      "correct": true,
+      "needle_position": 0.22422296614917975,
+      "context_length": 21695,
+      "generated": "DRS1PQ"
+    },
+    {
+      "needle": "EFXX66",
+      "predicted": "EFXX66",
+      "correct": true,
+      "needle_position": 0.672613617233693,
+      "context_length": 22763,
+      "generated": "EFXX66"
+    },
+    {
+      "needle": "1FIMBV",
+      "predicted": "1FIMBV",
+      "correct": true,
+      "needle_position": 0.3241949479697321,
+      "context_length": 28567,
+      "generated": "1FIMBV"
+    },
+    {
+      "needle": "GMR1AU",
+      "predicted": "GMR1AU",
+      "correct": true,
+      "needle_position": 0.4141582798305219,
+      "context_length": 26223,
+      "generated": "GMR1AU"
+    },
+    {
+      "needle": "7OXWWC",
+      "predicted": "7OXWWC",
+      "correct": true,
+      "needle_position": 0.5298762235807369,
+      "context_length": 30243,
+      "generated": "7OXWWC"
+    },
+    {
+      "needle": "9QE3UP",
+      "predicted": "9QE3UP",
+      "correct": true,
+      "needle_position": 0.7355287371514676,
+      "context_length": 13395,
+      "generated": "9QE3UP"
+    },
+    {
+      "needle": "H6QHUZ",
+      "predicted": "H6QHUZ",
+      "correct": true,
+      "needle_position": 0.7941305627978321,
+      "context_length": 25975,
+      "generated": "H6QHUZ"
+    },
+    {
+      "needle": "IV7F4Z",
+      "predicted": "IV7F4Z",
+      "correct": true,
+      "needle_position": 0.22366393895312314,
+      "context_length": 15075,
+      "generated": "IV7F4Z"
+    },
+    {
+      "needle": "9TZDMC",
+      "predicted": "9TZDMC",
+      "correct": true,
+      "needle_position": 0.4369101658926234,
+      "context_length": 16295,
+      "generated": "9TZDMC"
+    },
+    {
+      "needle": "UNLB8Z",
+      "predicted": "UNLB8Z",
+      "correct": true,
+      "needle_position": 0.43229365924300633,
+      "context_length": 18455,
+      "generated": "UNLB8Z"
+    },
+    {
+      "needle": "9KEY1E",
+      "predicted": "9KEY1E",
+      "correct": true,
+      "needle_position": 0.2564967616965204,
+      "context_length": 13283,
+      "generated": "9KEY1E"
+    },
+    {
+      "needle": "64SXBW",
+      "predicted": "64SXBW",
+      "correct": true,
+      "needle_position": 0.20912607337986702,
+      "context_length": 26947,
+      "generated": "64SXBW"
+    },
+    {
+      "needle": "DA50WV",
+      "predicted": "DA50WV",
+      "correct": true,
+      "needle_position": 0.6551191364405077,
+      "context_length": 12255,
+      "generated": "DA50WV"
+    },
+    {
+      "needle": "0H7GBP",
+      "predicted": "0H7GBP",
+      "correct": true,
+      "needle_position": 0.7668266703011313,
+      "context_length": 21227,
+      "generated": "0H7GBP"
+    },
+    {
+      "needle": "DG01YH",
+      "predicted": "DG01YH",
+      "correct": true,
+      "needle_position": 0.30303523940592486,
+      "context_length": 17403,
+      "generated": "DG01YH"
+    },
+    {
+      "needle": "PJ9G1L",
+      "predicted": "PJ9G1L",
+      "correct": true,
+      "needle_position": 0.367418483973814,
+      "context_length": 29439,
+      "generated": "PJ9G1L"
+    },
+    {
+      "needle": "2BXJJ4",
+      "predicted": "2BXJJ4",
+      "correct": true,
+      "needle_position": 0.43784726231326154,
+      "context_length": 19099,
+      "generated": "2BXJJ4"
+    },
+    {
+      "needle": "ZR6O83",
+      "predicted": "ZR6O83",
+      "correct": true,
+      "needle_position": 0.7324481125559694,
+      "context_length": 27075,
+      "generated": "ZR6O83"
+    },
+    {
+      "needle": "JCEEKC",
+      "predicted": "JCEEKC",
+      "correct": true,
+      "needle_position": 0.3830589038921946,
+      "context_length": 17879,
+      "generated": "JCEEKC"
+    },
+    {
+      "needle": "UB8NAV",
+      "predicted": "UB8NAV",
+      "correct": true,
+      "needle_position": 0.6919923983389025,
+      "context_length": 29767,
+      "generated": "UB8NAV"
+    },
+    {
+      "needle": "7SDN1K",
+      "predicted": "7SDN1K",
+      "correct": true,
+      "needle_position": 0.4922791362055798,
+      "context_length": 10331,
+      "generated": "7SDN1K"
+    },
+    {
+      "needle": "UZBW39",
+      "predicted": "UZBW39",
+      "correct": true,
+      "needle_position": 0.616806415413421,
+      "context_length": 24479,
+      "generated": "UZBW39"
+    },
+    {
+      "needle": "5TS9OV",
+      "predicted": "5TS9OV",
+      "correct": true,
+      "needle_position": 0.31641328571141636,
+      "context_length": 30491,
+      "generated": "5TS9OV"
+    },
+    {
+      "needle": "PTCE2C",
+      "predicted": "PTCE2C",
+      "correct": true,
+      "needle_position": 0.3850000107704702,
+      "context_length": 12971,
+      "generated": "PTCE2C"
+    },
+    {
+      "needle": "TA3BK7",
+      "predicted": "TA3BK7",
+      "correct": true,
+      "needle_position": 0.35107569829260843,
+      "context_length": 26051,
+      "generated": "TA3BK7"
+    },
+    {
+      "needle": "CJF0RM",
+      "predicted": "CJF0RM",
+      "correct": true,
+      "needle_position": 0.2711726122544905,
+      "context_length": 26115,
+      "generated": "CJF0RM"
+    },
+    {
+      "needle": "0H6NNR",
+      "predicted": "0H6NNR",
+      "correct": true,
+      "needle_position": 0.5034632466750815,
+      "context_length": 31339,
+      "generated": "0H6NNR"
+    },
+    {
+      "needle": "I91EU9",
+      "predicted": "I91EU9",
+      "correct": true,
+      "needle_position": 0.2250368431257619,
+      "context_length": 20559,
+      "generated": "I91EU9"
+    },
+    {
+      "needle": "OOVRD9",
+      "predicted": "OOVRD9",
+      "correct": true,
+      "needle_position": 0.28232275313366995,
+      "context_length": 16939,
+      "generated": "OOVRD9"
+    },
+    {
+      "needle": "BAHM7K",
+      "predicted": "BAHM7K",
+      "correct": true,
+      "needle_position": 0.4198817710758216,
+      "context_length": 22967,
+      "generated": "BAHM7K"
+    },
+    {
+      "needle": "Z4PO4L",
+      "predicted": "Z4PO4L",
+      "correct": true,
+      "needle_position": 0.7729984876139564,
+      "context_length": 13395,
+      "generated": "Z4PO4L"
+    },
+    {
+      "needle": "SM6N8U",
+      "predicted": "SM6N8U",
+      "correct": true,
+      "needle_position": 0.7963111931631512,
+      "context_length": 27267,
+      "generated": "SM6N8U"
+    },
+    {
+      "needle": "ZXT0YA",
+      "predicted": "ZXT0YA",
+      "correct": true,
+      "needle_position": 0.5337253787991109,
+      "context_length": 30431,
+      "generated": "ZXT0YA"
+    },
+    {
+      "needle": "H1EGP8",
+      "predicted": "H1EGP8",
+      "correct": true,
+      "needle_position": 0.7796409218000881,
+      "context_length": 25251,
+      "generated": "H1EGP8"
+    },
+    {
+      "needle": "MWPUR0",
+      "predicted": "MWPUR0",
+      "correct": true,
+      "needle_position": 0.6243075061621723,
+      "context_length": 9127,
+      "generated": "MWPUR0"
+    },
+    {
+      "needle": "2K23YR",
+      "predicted": "2K23YR",
+      "correct": true,
+      "needle_position": 0.6448524363143615,
+      "context_length": 21791,
+      "generated": "2K23YR"
+    },
+    {
+      "needle": "ZR7636",
+      "predicted": "ZR7636",
+      "correct": true,
+      "needle_position": 0.3489573646166033,
+      "context_length": 24683,
+      "generated": "ZR7636"
+    },
+    {
+      "needle": "QHPXT5",
+      "predicted": "QHPXT5",
+      "correct": true,
+      "needle_position": 0.47755517125984714,
+      "context_length": 11867,
+      "generated": "QHPXT5"
+    },
+    {
+      "needle": "GZRNRM",
+      "predicted": "GZRNRM",
+      "correct": true,
+      "needle_position": 0.7640786107737512,
+      "context_length": 12147,
+      "generated": "GZRNRM"
+    },
+    {
+      "needle": "GZ5SK7",
+      "predicted": "GZ5SK7",
+      "correct": true,
+      "needle_position": 0.4876327041021134,
+      "context_length": 17839,
+      "generated": "GZ5SK7"
+    },
+    {
+      "needle": "U0810C",
+      "predicted": "U0810C",
+      "correct": true,
+      "needle_position": 0.42654318884443837,
+      "context_length": 21823,
+      "generated": "U0810C"
+    },
+    {
+      "needle": "2ORMJ1",
+      "predicted": "2ORMJ1",
+      "correct": true,
+      "needle_position": 0.7323401869555164,
+      "context_length": 29295,
+      "generated": "2ORMJ1"
+    },
+    {
+      "needle": "VQCV9A",
+      "predicted": "VQCV9A",
+      "correct": true,
+      "needle_position": 0.30257003590408316,
+      "context_length": 12107,
+      "generated": "VQCV9A"
+    }
+  ]
+}

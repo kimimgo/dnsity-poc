@@ -1,0 +1,188 @@
+{
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "method": "LoRA",
+  "lora_path": "checkpoints/kmmlu_lora",
+  "subjects": {
+    "Law": {
+      "subject": "Law",
+      "accuracy": 13.333333333333334,
+      "correct": 4,
+      "total": 30,
+      "results": [
+        {
+          "question": "경비업법령상 경비원의 명부와 배치 등에 관한 설명으로 옳은 것은?",
+          "ground_truth": 3,
+          "predicted": 3,
+          "predicted_letter": "C",
+          "correct": true,
+          "generated": "정답: C\n\n설명: 경비업법상 경비원의 배치에 관한 규정은 경비업자가 경비업무를 수행하게 하는 때에는 경비원을 배치하여야 한다는 내용으로, 경"
+        },
+        {
+          "question": "경비업법령상 시설주가 무기를 지급할 수 있는 특수경비원은?",
+          "ground_truth": 3,
+          "predicted": 1,
+          "predicted_letter": "A",
+          "correct": false,
+          "generated": "정답: A\n\n설명: 경비업법령상 시설주가 무기를 지급할 수 있는 특수경비원은 민사재판에 증인으로 출석 예정인 특수경비원에 한"
+        },
+        {
+          "question": "경비업법령상 경비원과 경비지도사의 교육에 관한 설명으로 옳지 않은 것은? (단, 교육대상 제외자는 해당하지 않는다.)",
+          "ground_truth": 4,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": false,
+          "generated": "정답: B\n\n설명: 일반경비원의 신임교육에서 이론교육은 4시간이고 실무교육은 19시간이다. 이에 따라 일반경비원의 신임교육은 23시간으로 구성된다"
+        },
+        {
+          "question": "청원경찰법령상 청원경찰의 복제에 관한 설명으로 옳지 않은 것은?",
+          "ground_truth": 3,
+          "predicted": 4,
+          "predicted_letter": "D",
+          "correct": false,
+          "generated": "정답: D\n\n설명: 청원경찰법령상 장구의 종류에는 경찰봉, 권총이 있으나 허리띠는 제복에 해당하는 것으로 장구에 포함되지 않는다. 경찰봉"
+        },
+        {
+          "question": "경비업법에 관한 설명으로 옳지 않은 것은?",
+          "ground_truth": 4,
+          "predicted": 1,
+          "predicted_letter": "A",
+          "correct": false,
+          "generated": "정답: A\n\n설명: 경비업법상 지방경찰청장이 경비업 허가의 취소 또는 영업정지를 하고자 하는 경우에는 청문을 실시하여야 한다는 것은 허용되지 않는다."
+        },
+        {
+          "question": "경비업법상 경비업을 영위하는 법인의 임원이 될 수 있는 자는?",
+          "ground_truth": 4,
+          "predicted": 1,
+          "predicted_letter": "A",
+          "correct": false,
+          "generated": "정답: A\n\n설명: 경비업법상 경비업을 영위하는 법인의 임원이 될 수 있는 자는 경비업법 제2조 제1항에 따라 경비업법에 따른 경비"
+        },
+        {
+          "question": "경비위해요소에 대한 설명으로 틀린 것은?",
+          "ground_truth": 4,
+          "predicted": 3,
+          "predicted_letter": "C",
+          "correct": false,
+          "generated": "정답: C\n\n설명: 경비위해요소의 평가 및 분석에 있어서 경비활동의 비용효과분석은 실시할 필요가 있다. 경비위해요소의 분석은 경비대상에 대한 위"
+        },
+        {
+          "question": "청원경찰법령상 청원주가 비치해야 할 문서와 장부에 해당되는 것은?",
+          "ground_truth": 3,
+          "predicted": 4,
+          "predicted_letter": "D",
+          "correct": false,
+          "generated": "정답: D\n\n설명: 청원경찰법령상 청원주가 비치해야 할 문서와 장부는 청원경찰의 배치 결정 관계철, 청원경찰 임용승인 관계철,"
+        },
+        {
+          "question": "경비업법령상 경비업자가 일반경비원 신임교육 대상에서 제외할 수 있는 사람에 해당하지 않는 자는?",
+          "ground_truth": 4,
+          "predicted": 1,
+          "predicted_letter": "A",
+          "correct": false,
+          "generated": "정답: A\n\n설명: 일반경비원 신임교육 대상에서 제외할 수 있는 사람으로서 일반경비원 신임교육을 받은 사람으로서 채용 5년 전에 경비업무에 종사"
+        },
+        {
+          "question": "청원경찰법상 청원경찰 등에 관한 설명 으로 옳지 않은 것은?",
+          "ground_truth": 3,
+          "predicted": 4,
+          "predicted_letter": "D",
+          "correct": false,
+          "generated": "정답: D\n\n설명: 청원경찰은 청원주와 관할지방경찰청장의 감독을 받아 그 경비구역만의 경비를 목적으로 필요한 범위에서 경찰공무원법"
+        }
+      ]
+    },
+    "Criminal-Law": {
+      "subject": "Criminal-Law",
+      "accuracy": 36.666666666666664,
+      "correct": 11,
+      "total": 30,
+      "results": [
+        {
+          "question": "범죄 측정에 대한 설명으로 옳은 것은?",
+          "ground_truth": 1,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": false,
+          "generated": "정답: B\n\n참고: 범죄 측정에 대한 설명으로 옳은 것은 범죄율 (crime rate)이 각 범죄의 가치를 서로 다르게 평가한 다는 점이다. 범죄율은 인구 대비"
+        },
+        {
+          "question": "국가의 기능과 관련한 죄에 대한 설명으로 옳은 것은?",
+          "ground_truth": 4,
+          "predicted": 4,
+          "predicted_letter": "D",
+          "correct": true,
+          "generated": "정답: D\n\n해설: 국가의 기능과 관련한 죄에 대한 설명으로 옳은 것은 국가의 기능과 관련한 죄에 대한 설명으로 옳은 것은 국가의 기능과 관련한 죄에 대한"
+        },
+        {
+          "question": "甲은 처乙과 부부싸움을 하다가 화가 나서 폭행의 고의로 乙의 가슴을 세게 밀쳤고, 乙은 그 충격으로 사망하고 말았다 이후 甲은 자신의 집이 화재보험에 들어있다는 사실을 인지하고, ",
+          "ground_truth": 4,
+          "predicted": 4,
+          "predicted_letter": "D",
+          "correct": true,
+          "generated": "정답: D\n\n해설: 甲이 범행을 은폐하기 위하여 탁자에 불을 붙인 후 밖으로 나왔으므로 증거인멸죄가 성립한다는 것은 옳지"
+        },
+        {
+          "question": "명예훼손죄에 대한 설명으로 옳지 않은 것은?",
+          "ground_truth": 4,
+          "predicted": 1,
+          "predicted_letter": "A",
+          "correct": false,
+          "generated": "정답: A\n\n다른 선택지의 설명:\nB: 언론매체가 피해자의 명예를 훼손할 수 있는 보도 내용의 주된 부분이 허위임을 충분히 인식하면서도 이를"
+        },
+        {
+          "question": "뇌물죄에 대한 설명으로 옳지 않은 것은?",
+          "ground_truth": 1,
+          "predicted": 4,
+          "predicted_letter": "D",
+          "correct": false,
+          "generated": "정답: D\n\n해설: 상상적 경합은 형법 제1조 제2항의 규정에 의하여 형법의 규정에 의한 죄의 성립을 방해하는 행위가 다른 �"
+        },
+        {
+          "question": "재산범죄에 대한 설명으로 옳은 것(○)과 옳지 않은 것(×)을 바르게 연결한 것은?",
+          "ground_truth": 4,
+          "predicted": 2,
+          "predicted_letter": "B",
+          "correct": false,
+          "generated": "정답: B\n\n설명: 재산범죄는 재산을 상실하게 하는 행위로, 재산의 소유권을 침해하는 행위는 재산범죄에 해당하지 않는다. 재산범"
+        },
+        {
+          "question": "사기죄에 대한 설명으로 옳은 것은?",
+          "ground_truth": 2,
+          "predicted": 4,
+          "predicted_letter": "D",
+          "correct": false,
+          "generated": "정답: D\n\n해설: 사기죄의 처분행위는 사기죄의 구성 요건에 해당하는 행위로, 사기죄의 처분행위는 사기죄의 구성 요건에 해당하는"
+        },
+        {
+          "question": "당사자 능력과 소송능력에 대한 설명으로 옳은 것은?",
+          "ground_truth": 1,
+          "predicted": 3,
+          "predicted_letter": "C",
+          "correct": false,
+          "generated": "정답: C\n\n설명: 당사자 능력은 형사소송법 상의 당사자 자격을 말하고, 소송능력은 형사소송법 상의 소송의 제기자 또는 피"
+        },
+        {
+          "question": "부작위범에 대한 설명으로 옳은 것은?",
+          "ground_truth": 1,
+          "predicted": 3,
+          "predicted_letter": "C",
+          "correct": false,
+          "generated": "정답: C\n\n다른 선택지의 설명은 부작위범에 대한 일반적인 설명이나, 부작위범의 성립요건에 대한 설명이므로, 이 문제의 정답은 C로 한다.\n\n다음"
+        },
+        {
+          "question": "형법 의 적용 범위에 대한 설명으로 옳지 않은 것은?",
+          "ground_truth": 2,
+          "predicted": 4,
+          "predicted_letter": "D",
+          "correct": false,
+          "generated": "정답: D\n\n해설: 형법 제1조 제2항의 ‘범죄 후 법률의 변경에 의하여 그 행위가 범죄를 구성하지 아니하거나 형이 구법보다 경한 때’에"
+        }
+      ]
+    }
+  },
+  "overall": {
+    "accuracy": 25.0,
+    "correct": 15,
+    "total": 60
+  }
+}

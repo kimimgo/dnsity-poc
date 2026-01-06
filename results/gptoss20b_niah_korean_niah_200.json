@@ -1,0 +1,1618 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "dataset": "korean_niah",
+  "num_samples": 200,
+  "accuracy": 98.5,
+  "correct": 197,
+  "total": 200,
+  "position_accuracy": {
+    "0-20%": 0,
+    "20-40%": 100.0,
+    "40-60%": 95.45454545454545,
+    "60-80%": 100.0,
+    "80-100%": 0
+  },
+  "timestamp": "2026-01-07T05:46:42.107771",
+  "results": [
+    {
+      "needle": "TS29MG",
+      "predicted": "TS29MG",
+      "correct": true,
+      "needle_position": 0.638781949758281,
+      "context_length": 6568,
+      "generated": "TS29MG"
+    },
+    {
+      "needle": "OC5SKU",
+      "predicted": "OC5SKU",
+      "correct": true,
+      "needle_position": 0.7231297358762003,
+      "context_length": 9690,
+      "generated": "OC5SKU"
+    },
+    {
+      "needle": "QPD70Q",
+      "predicted": "QPD70Q",
+      "correct": true,
+      "needle_position": 0.45673332932953487,
+      "context_length": 10196,
+      "generated": "QPD70Q"
+    },
+    {
+      "needle": "WHBK2N",
+      "predicted": "WHBK2N",
+      "correct": true,
+      "needle_position": 0.7989655096328068,
+      "context_length": 5236,
+      "generated": "WHBK2N"
+    },
+    {
+      "needle": "F0YLHQ",
+      "predicted": "F0YLHQ",
+      "correct": true,
+      "needle_position": 0.2839307058265638,
+      "context_length": 12534,
+      "generated": "F0YLHQ"
+    },
+    {
+      "needle": "AH52C9",
+      "predicted": "AH52C9",
+      "correct": true,
+      "needle_position": 0.26843803200841004,
+      "context_length": 8206,
+      "generated": "AH52C9"
+    },
+    {
+      "needle": "AWHDAI",
+      "predicted": "AWHDAI",
+      "correct": true,
+      "needle_position": 0.5145529265424662,
+      "context_length": 4734,
+      "generated": "AWHDAI"
+    },
+    {
+      "needle": "E8CZNX",
+      "predicted": "E8CZNX",
+      "correct": true,
+      "needle_position": 0.5931570398591124,
+      "context_length": 6268,
+      "generated": "E8CZNX"
+    },
+    {
+      "needle": "HKHPDK",
+      "predicted": "HKHPDK",
+      "correct": true,
+      "needle_position": 0.5904753384048603,
+      "context_length": 8062,
+      "generated": "HKHPDK"
+    },
+    {
+      "needle": "QUURPB",
+      "predicted": "QUURPB",
+      "correct": true,
+      "needle_position": 0.2658651429190767,
+      "context_length": 15240,
+      "generated": "QUURPB"
+    },
+    {
+      "needle": "U9W8SH",
+      "predicted": "U9W8SH",
+      "correct": true,
+      "needle_position": 0.30445723281688886,
+      "context_length": 13576,
+      "generated": "U9W8SH"
+    },
+    {
+      "needle": "BFG01S",
+      "predicted": "BFG01S",
+      "correct": true,
+      "needle_position": 0.6758140252717293,
+      "context_length": 12350,
+      "generated": "BFG01S"
+    },
+    {
+      "needle": "LS793Q",
+      "predicted": "LS793Q",
+      "correct": true,
+      "needle_position": 0.24170636103686555,
+      "context_length": 10012,
+      "generated": "LS793Q"
+    },
+    {
+      "needle": "6RBALH",
+      "predicted": "6RBALH",
+      "correct": true,
+      "needle_position": 0.20925208420068409,
+      "context_length": 14132,
+      "generated": "6RBALH"
+    },
+    {
+      "needle": "9YZTVB",
+      "predicted": "9YZTVB",
+      "correct": true,
+      "needle_position": 0.6889371970024455,
+      "context_length": 12406,
+      "generated": "9YZTVB"
+    },
+    {
+      "needle": "NE60IL",
+      "predicted": "NE60IL",
+      "correct": true,
+      "needle_position": 0.39550060625338224,
+      "context_length": 12674,
+      "generated": "NE60IL"
+    },
+    {
+      "needle": "RXJ0KN",
+      "predicted": "RXJ0KN",
+      "correct": true,
+      "needle_position": 0.23612191728733378,
+      "context_length": 7720,
+      "generated": "RXJ0KN"
+    },
+    {
+      "needle": "X3TDKO",
+      "predicted": "X3TDKO",
+      "correct": true,
+      "needle_position": 0.3758709192671572,
+      "context_length": 9854,
+      "generated": "X3TDKO"
+    },
+    {
+      "needle": "G0D849",
+      "predicted": "G0D849",
+      "correct": true,
+      "needle_position": 0.27609297004023725,
+      "context_length": 8206,
+      "generated": "G0D849"
+    },
+    {
+      "needle": "XTIZ83",
+      "predicted": "XTIZ83",
+      "correct": true,
+      "needle_position": 0.7200128994914063,
+      "context_length": 11030,
+      "generated": "XTIZ83"
+    },
+    {
+      "needle": "OLWJJU",
+      "predicted": "OLWJJU",
+      "correct": true,
+      "needle_position": 0.779152545888049,
+      "context_length": 9452,
+      "generated": "OLWJJU"
+    },
+    {
+      "needle": "8728ZX",
+      "predicted": "8728ZX",
+      "correct": true,
+      "needle_position": 0.7705975878381415,
+      "context_length": 10576,
+      "generated": "8728ZX"
+    },
+    {
+      "needle": "FJ6KN7",
+      "predicted": "FJ6KN7",
+      "correct": true,
+      "needle_position": 0.7735884637848123,
+      "context_length": 12734,
+      "generated": "FJ6KN7"
+    },
+    {
+      "needle": "GEB7BR",
+      "predicted": "GEB7BR",
+      "correct": true,
+      "needle_position": 0.4153771378497642,
+      "context_length": 13586,
+      "generated": "GEB7BR"
+    },
+    {
+      "needle": "838ZMQ",
+      "predicted": "838ZMQ",
+      "correct": true,
+      "needle_position": 0.20466647575623775,
+      "context_length": 8146,
+      "generated": "838ZMQ"
+    },
+    {
+      "needle": "U7S39V",
+      "predicted": "U7S39V",
+      "correct": true,
+      "needle_position": 0.49022927695806473,
+      "context_length": 7234,
+      "generated": "U7S39V"
+    },
+    {
+      "needle": "FZWT81",
+      "predicted": "FZWT81",
+      "correct": true,
+      "needle_position": 0.3097789157848638,
+      "context_length": 5796,
+      "generated": "FZWT81"
+    },
+    {
+      "needle": "1RC8W8",
+      "predicted": "1RC8W8",
+      "correct": true,
+      "needle_position": 0.771572427336634,
+      "context_length": 12332,
+      "generated": "1RC8W8"
+    },
+    {
+      "needle": "I4UJM9",
+      "predicted": "I4UJM9",
+      "correct": true,
+      "needle_position": 0.6840089496351767,
+      "context_length": 14364,
+      "generated": "I4UJM9"
+    },
+    {
+      "needle": "HKHVIV",
+      "predicted": "HKHVIV",
+      "correct": true,
+      "needle_position": 0.7706062156166447,
+      "context_length": 13536,
+      "generated": "HKHVIV"
+    },
+    {
+      "needle": "II519C",
+      "predicted": "II519C",
+      "correct": true,
+      "needle_position": 0.604664659799772,
+      "context_length": 5096,
+      "generated": "II519C"
+    },
+    {
+      "needle": "ZR24DR",
+      "predicted": "ZR24DR",
+      "correct": true,
+      "needle_position": 0.6301396071894378,
+      "context_length": 11412,
+      "generated": "ZR24DR"
+    },
+    {
+      "needle": "YTXP03",
+      "predicted": "YTXP03",
+      "correct": true,
+      "needle_position": 0.532460604916249,
+      "context_length": 11712,
+      "generated": "YTXP03"
+    },
+    {
+      "needle": "WY9WHG",
+      "predicted": "WY9WHG",
+      "correct": true,
+      "needle_position": 0.7175746744946616,
+      "context_length": 10114,
+      "generated": "WY9WHG"
+    },
+    {
+      "needle": "S2SV8A",
+      "predicted": "S2SV8A",
+      "correct": true,
+      "needle_position": 0.7547517995330875,
+      "context_length": 15854,
+      "generated": "S2SV8A"
+    },
+    {
+      "needle": "C7QV1M",
+      "predicted": "C7QV1M",
+      "correct": true,
+      "needle_position": 0.7893225027136461,
+      "context_length": 13696,
+      "generated": "C7QV1M"
+    },
+    {
+      "needle": "8CUN47",
+      "predicted": "8CUN47",
+      "correct": true,
+      "needle_position": 0.7906368008456903,
+      "context_length": 8092,
+      "generated": "We need to find the secret passkey mentioned in the text. The text includes a line: \"블 비밀 패스키는 8CUN47입니다.\" Actually the text says: \"블 비밀 패스키는 8CUN47입니다.\" Wait let's locate. In the text: \"블 비밀 패스키는 8CU"
+    },
+    {
+      "needle": "QDFGWN",
+      "predicted": "QDFGWN",
+      "correct": true,
+      "needle_position": 0.3178498219054568,
+      "context_length": 15484,
+      "generated": "QDFGWN"
+    },
+    {
+      "needle": "JRGBXZ",
+      "predicted": "JRGBXZ",
+      "correct": true,
+      "needle_position": 0.678453048065111,
+      "context_length": 12438,
+      "generated": "JRGBXZ"
+    },
+    {
+      "needle": "XYFG80",
+      "predicted": "XYFG80",
+      "correct": true,
+      "needle_position": 0.45821394797748344,
+      "context_length": 15682,
+      "generated": "XYFG80"
+    },
+    {
+      "needle": "YP6J35",
+      "predicted": "YP6J35",
+      "correct": true,
+      "needle_position": 0.49984235298805507,
+      "context_length": 4964,
+      "generated": "We need to find the secret passkey mentioned in the text. The text is long, repeating many paragraphs. There's a line: \"전이 학습은 모 비밀 패스키는 YP6J35입니다.\" Actually the line: \"전이 학습은 모 비밀 패스키는 YP6J35입니다.\" Le"
+    },
+    {
+      "needle": "7EMJXH",
+      "predicted": "7EMJXH",
+      "correct": true,
+      "needle_position": 0.20311643508571708,
+      "context_length": 14206,
+      "generated": "7EMJXH"
+    },
+    {
+      "needle": "I5CE7K",
+      "predicted": "I5CE7K",
+      "correct": true,
+      "needle_position": 0.6654409166310427,
+      "context_length": 7354,
+      "generated": "I5CE7K"
+    },
+    {
+      "needle": "GYPFIH",
+      "predicted": "GYPFIH",
+      "correct": true,
+      "needle_position": 0.7807371701631078,
+      "context_length": 10254,
+      "generated": "GYPFIH"
+    },
+    {
+      "needle": "FOSO9Z",
+      "predicted": "FOSO9Z",
+      "correct": true,
+      "needle_position": 0.5908575841672103,
+      "context_length": 11110,
+      "generated": "FOSO9Z"
+    },
+    {
+      "needle": "WBKF2F",
+      "predicted": "WBKF2F",
+      "correct": true,
+      "needle_position": 0.5634503026473227,
+      "context_length": 13096,
+      "generated": "WBKF2F"
+    },
+    {
+      "needle": "8PV1KO",
+      "predicted": "8PV1KO",
+      "correct": true,
+      "needle_position": 0.42107093133529294,
+      "context_length": 15566,
+      "generated": "8PV1KO"
+    },
+    {
+      "needle": "06TGV4",
+      "predicted": "06TGV4",
+      "correct": true,
+      "needle_position": 0.6535178796068071,
+      "context_length": 14512,
+      "generated": "06TGV4"
+    },
+    {
+      "needle": "D59L7E",
+      "predicted": "D59L7E",
+      "correct": true,
+      "needle_position": 0.42580426175888203,
+      "context_length": 4530,
+      "generated": "D59L7E"
+    },
+    {
+      "needle": "UUIEFD",
+      "predicted": "UUIEFD",
+      "correct": true,
+      "needle_position": 0.5931952492150597,
+      "context_length": 14334,
+      "generated": "UUIEFD"
+    },
+    {
+      "needle": "6JQBDO",
+      "predicted": "6JQBDO",
+      "correct": true,
+      "needle_position": 0.6921626103592371,
+      "context_length": 7796,
+      "generated": "6JQBDO"
+    },
+    {
+      "needle": "W961XU",
+      "predicted": "W961XU",
+      "correct": true,
+      "needle_position": 0.6177908482308361,
+      "context_length": 7818,
+      "generated": "W961XU"
+    },
+    {
+      "needle": "7Q3E0R",
+      "predicted": "7Q3E0R",
+      "correct": true,
+      "needle_position": 0.5703700741128619,
+      "context_length": 12472,
+      "generated": "7Q3E0R"
+    },
+    {
+      "needle": "EI8XPE",
+      "predicted": "EI8XPE",
+      "correct": true,
+      "needle_position": 0.5096976288445734,
+      "context_length": 10232,
+      "generated": "EI8XPE"
+    },
+    {
+      "needle": "JNTIRA",
+      "predicted": "JNTIRA",
+      "correct": true,
+      "needle_position": 0.2831380362587325,
+      "context_length": 5070,
+      "generated": "JNTIRA"
+    },
+    {
+      "needle": "1DE0I7",
+      "predicted": "1DE0I7",
+      "correct": true,
+      "needle_position": 0.5903437934604163,
+      "context_length": 10786,
+      "generated": "1DE0I7"
+    },
+    {
+      "needle": "JCMB0W",
+      "predicted": "JCMB0W",
+      "correct": true,
+      "needle_position": 0.5269681319269426,
+      "context_length": 10044,
+      "generated": "JCMB0W"
+    },
+    {
+      "needle": "OA0WWK",
+      "predicted": "OA0WWK",
+      "correct": true,
+      "needle_position": 0.6147373556704452,
+      "context_length": 6322,
+      "generated": "OA0WWK"
+    },
+    {
+      "needle": "KM1PXO",
+      "predicted": "KM1PXO",
+      "correct": true,
+      "needle_position": 0.6535124368439764,
+      "context_length": 7848,
+      "generated": "KM1PXO"
+    },
+    {
+      "needle": "UOMP3K",
+      "predicted": "UOMP3K",
+      "correct": true,
+      "needle_position": 0.7543824034696178,
+      "context_length": 6936,
+      "generated": "UOMP3K"
+    },
+    {
+      "needle": "ODLRHX",
+      "predicted": "ODLRHX",
+      "correct": true,
+      "needle_position": 0.7503742128735125,
+      "context_length": 13696,
+      "generated": "ODLRHX"
+    },
+    {
+      "needle": "OQ6BWA",
+      "predicted": "OQ6BWA",
+      "correct": true,
+      "needle_position": 0.2973475649450622,
+      "context_length": 9172,
+      "generated": "OQ6BWA"
+    },
+    {
+      "needle": "LKUWX9",
+      "predicted": "LKUWX9",
+      "correct": true,
+      "needle_position": 0.38459108573497425,
+      "context_length": 13762,
+      "generated": "LKUWX9"
+    },
+    {
+      "needle": "NSO8VV",
+      "predicted": "NSO8VV",
+      "correct": true,
+      "needle_position": 0.7406111165906377,
+      "context_length": 14664,
+      "generated": "NSO8VV"
+    },
+    {
+      "needle": "JW35JY",
+      "predicted": "JW35JY",
+      "correct": true,
+      "needle_position": 0.22702042841429992,
+      "context_length": 14574,
+      "generated": "JW35JY"
+    },
+    {
+      "needle": "LYEHRN",
+      "predicted": "LYEHRN",
+      "correct": true,
+      "needle_position": 0.5483997634763162,
+      "context_length": 9644,
+      "generated": "LYEHRN"
+    },
+    {
+      "needle": "TSWTNL",
+      "predicted": "TSWTNL",
+      "correct": true,
+      "needle_position": 0.7292231658914887,
+      "context_length": 9910,
+      "generated": "TSWTNL"
+    },
+    {
+      "needle": "SLT5BG",
+      "predicted": "SLT5BG",
+      "correct": true,
+      "needle_position": 0.4808181838722151,
+      "context_length": 10638,
+      "generated": "SLT5BG"
+    },
+    {
+      "needle": "6S4E92",
+      "predicted": "6S4E92",
+      "correct": true,
+      "needle_position": 0.5552999319534961,
+      "context_length": 4442,
+      "generated": "6S4E92"
+    },
+    {
+      "needle": "3TSYPB",
+      "predicted": "3TSYPB",
+      "correct": true,
+      "needle_position": 0.7260074344546479,
+      "context_length": 6026,
+      "generated": "3TSYPB"
+    },
+    {
+      "needle": "7WGFO9",
+      "predicted": "7WGFO9",
+      "correct": true,
+      "needle_position": 0.3877972398533363,
+      "context_length": 6240,
+      "generated": "7WGFO9"
+    },
+    {
+      "needle": "0GR7C5",
+      "predicted": "0GR7C5",
+      "correct": true,
+      "needle_position": 0.20696728593498825,
+      "context_length": 5932,
+      "generated": "0GR7C5"
+    },
+    {
+      "needle": "XQBJIX",
+      "predicted": "XQBJIX",
+      "correct": true,
+      "needle_position": 0.4508746090907321,
+      "context_length": 9622,
+      "generated": "XQBJIX"
+    },
+    {
+      "needle": "IUKRYR",
+      "predicted": "IUKRYR",
+      "correct": true,
+      "needle_position": 0.26926654569128206,
+      "context_length": 10272,
+      "generated": "IUKRYR"
+    },
+    {
+      "needle": "4ZPNNA",
+      "predicted": "4ZPNNA",
+      "correct": true,
+      "needle_position": 0.3209240631828518,
+      "context_length": 11726,
+      "generated": "4ZPNNA"
+    },
+    {
+      "needle": "L9JFHK",
+      "predicted": "L9JFHK",
+      "correct": true,
+      "needle_position": 0.2744114033506046,
+      "context_length": 13558,
+      "generated": "L9JFHK"
+    },
+    {
+      "needle": "6DWP3O",
+      "predicted": "6DWP3O",
+      "correct": true,
+      "needle_position": 0.369602541741168,
+      "context_length": 13934,
+      "generated": "6DWP3O"
+    },
+    {
+      "needle": "ZE9HUA",
+      "predicted": "ZE9HUA",
+      "correct": true,
+      "needle_position": 0.4393819148238759,
+      "context_length": 14512,
+      "generated": "We need to find the secret passkey mentioned in the text. The text includes a line: \"지속적 통합은 테스트 및  비밀 패스키는 ZE5HUA입니다.\" Wait let's locate. In the text: \"지속적 통합은 테스트 및  비밀 패스키는 ZE9HUA입니다.\" Actually ear"
+    },
+    {
+      "needle": "H4UEB6",
+      "predicted": "H4UEB6",
+      "correct": true,
+      "needle_position": 0.225972770847498,
+      "context_length": 12584,
+      "generated": "H4UEB6"
+    },
+    {
+      "needle": "WEFDBM",
+      "predicted": "WEFDBM",
+      "correct": true,
+      "needle_position": 0.5658745004279764,
+      "context_length": 7606,
+      "generated": "WEFDBM"
+    },
+    {
+      "needle": "OWUBOM",
+      "predicted": "OWUBOM",
+      "correct": true,
+      "needle_position": 0.791709708702268,
+      "context_length": 5982,
+      "generated": "OWUBOM"
+    },
+    {
+      "needle": "487SIB",
+      "predicted": "487SIB",
+      "correct": true,
+      "needle_position": 0.7167812120520165,
+      "context_length": 13498,
+      "generated": "487SIB"
+    },
+    {
+      "needle": "SHDUCG",
+      "predicted": "SHDUCG",
+      "correct": true,
+      "needle_position": 0.5811755561168062,
+      "context_length": 6126,
+      "generated": "SHDUCG"
+    },
+    {
+      "needle": "MGM5E4",
+      "predicted": "MGM5E4",
+      "correct": true,
+      "needle_position": 0.6853325968138106,
+      "context_length": 7096,
+      "generated": "MGM5E4"
+    },
+    {
+      "needle": "9LOVSG",
+      "predicted": "9LOVSG",
+      "correct": true,
+      "needle_position": 0.29675391276915686,
+      "context_length": 10496,
+      "generated": "9LOVSG"
+    },
+    {
+      "needle": "ECC0FV",
+      "predicted": "ECC0FV",
+      "correct": true,
+      "needle_position": 0.3426024387581766,
+      "context_length": 13940,
+      "generated": "ECC0FV"
+    },
+    {
+      "needle": "DUPEEM",
+      "predicted": "SECRET",
+      "correct": false,
+      "needle_position": 0.5254842498896086,
+      "context_length": 13174,
+      "generated": "We need to find the secret passkey mentioned in the text. The text is long, repeating many sentences. There's a line: \"데이터 시각화는 복잡한 정보를 이해하기 쉽게 만듭니다. 윤리적 데이터 사용은 개인정보 보호에 필수적입니다. 소프트웨어 개발은 애자일과 워터폴을 포"
+    },
+    {
+      "needle": "12NLMF",
+      "predicted": "12NLMF",
+      "correct": true,
+      "needle_position": 0.343152381864376,
+      "context_length": 10460,
+      "generated": "12NLMF"
+    },
+    {
+      "needle": "O58J3Z",
+      "predicted": "O58J3Z",
+      "correct": true,
+      "needle_position": 0.47836827905296897,
+      "context_length": 7066,
+      "generated": "O58J3Z"
+    },
+    {
+      "needle": "WKZDOU",
+      "predicted": "WKZDOU",
+      "correct": true,
+      "needle_position": 0.27787750360569635,
+      "context_length": 6778,
+      "generated": "WKZDOU"
+    },
+    {
+      "needle": "63YIJS",
+      "predicted": "63YIJS",
+      "correct": true,
+      "needle_position": 0.23253548790279477,
+      "context_length": 6722,
+      "generated": "63YIJS"
+    },
+    {
+      "needle": "XVWF2N",
+      "predicted": "XVWF2N",
+      "correct": true,
+      "needle_position": 0.560135009152096,
+      "context_length": 11882,
+      "generated": "XVWF2N"
+    },
+    {
+      "needle": "2IHB74",
+      "predicted": "2IHB74",
+      "correct": true,
+      "needle_position": 0.5205940587834115,
+      "context_length": 10456,
+      "generated": "2IHB74"
+    },
+    {
+      "needle": "CVQIYL",
+      "predicted": "CVQIYL",
+      "correct": true,
+      "needle_position": 0.23130337822984723,
+      "context_length": 15378,
+      "generated": "CVQIYL"
+    },
+    {
+      "needle": "0TQES4",
+      "predicted": "0TQES4",
+      "correct": true,
+      "needle_position": 0.7235552779480017,
+      "context_length": 14168,
+      "generated": "0TQES4"
+    },
+    {
+      "needle": "MTXWL3",
+      "predicted": "MTXWL3",
+      "correct": true,
+      "needle_position": 0.2288337988821277,
+      "context_length": 13938,
+      "generated": "We need to find the secret passkey mentioned in the text. The text is long, but I saw a phrase: \"전이 학습은 모델이 새로운 작업에 사전 학습된 가 비밀 패스키는 MTXWL3입니다.\" Wait: The phrase: \"전이 학습은 모델이 새로운 작업에 사전 학습된 가 비밀 패스키는 "
+    },
+    {
+      "needle": "ADOYNE",
+      "predicted": "ADOYNE",
+      "correct": true,
+      "needle_position": 0.339011703266485,
+      "context_length": 10488,
+      "generated": "ADOYNE"
+    },
+    {
+      "needle": "8M3K7K",
+      "predicted": "8M3K7K",
+      "correct": true,
+      "needle_position": 0.38789320166877683,
+      "context_length": 14854,
+      "generated": "8M3K7K"
+    },
+    {
+      "needle": "VLFZB0",
+      "predicted": "VLFZB0",
+      "correct": true,
+      "needle_position": 0.5482256790669671,
+      "context_length": 5648,
+      "generated": "VLFZB0"
+    },
+    {
+      "needle": "N2XNTK",
+      "predicted": "N2XNTK",
+      "correct": true,
+      "needle_position": 0.6196605133393932,
+      "context_length": 4062,
+      "generated": "N2XNTK"
+    },
+    {
+      "needle": "HQXEKD",
+      "predicted": "HQXEKD",
+      "correct": true,
+      "needle_position": 0.3179198121510601,
+      "context_length": 15920,
+      "generated": "HQXEKD"
+    },
+    {
+      "needle": "V4SLD6",
+      "predicted": "V4SLD6",
+      "correct": true,
+      "needle_position": 0.7676692000134275,
+      "context_length": 13572,
+      "generated": "V4SLD6"
+    },
+    {
+      "needle": "ZISN8O",
+      "predicted": "ZISN8O",
+      "correct": true,
+      "needle_position": 0.6485955006104897,
+      "context_length": 11306,
+      "generated": "ZISN8O"
+    },
+    {
+      "needle": "HOOU5P",
+      "predicted": "HOOU5P",
+      "correct": true,
+      "needle_position": 0.5331368183018215,
+      "context_length": 6392,
+      "generated": "HOOU5P"
+    },
+    {
+      "needle": "FLVDC6",
+      "predicted": "FLVDC6",
+      "correct": true,
+      "needle_position": 0.7630869846777151,
+      "context_length": 6332,
+      "generated": "FLVDC6"
+    },
+    {
+      "needle": "I7LS3D",
+      "predicted": "I7LS3D",
+      "correct": true,
+      "needle_position": 0.6640054890168926,
+      "context_length": 11340,
+      "generated": "We need to find the secret passkey mentioned in the text. The text is long, repeating many paragraphs. There's a line: \"예방 치료는 장기 의료 비용을 비밀 패스키는 I7LS3D입니다.\" Wait let's locate. In the text: \"예방 치료는 장기 "
+    },
+    {
+      "needle": "DIFMSI",
+      "predicted": "DIFMSI",
+      "correct": true,
+      "needle_position": 0.20005060049067758,
+      "context_length": 14042,
+      "generated": "DIFMSI"
+    },
+    {
+      "needle": "2NN7OH",
+      "predicted": "2NN7OH",
+      "correct": true,
+      "needle_position": 0.2633187414025298,
+      "context_length": 8046,
+      "generated": "2NN7OH"
+    },
+    {
+      "needle": "P4MWMO",
+      "predicted": "P4MWMO",
+      "correct": true,
+      "needle_position": 0.7723381817317185,
+      "context_length": 13550,
+      "generated": "P4MWMO"
+    },
+    {
+      "needle": "1V2IDT",
+      "predicted": "1V2IDT",
+      "correct": true,
+      "needle_position": 0.4527772494334461,
+      "context_length": 5956,
+      "generated": "1V2IDT"
+    },
+    {
+      "needle": "LM962I",
+      "predicted": "LM962I",
+      "correct": true,
+      "needle_position": 0.35850388773440933,
+      "context_length": 5890,
+      "generated": "LM962I"
+    },
+    {
+      "needle": "S1G8VS",
+      "predicted": "S1G8VS",
+      "correct": true,
+      "needle_position": 0.5861009628288644,
+      "context_length": 8944,
+      "generated": "S1G8VS"
+    },
+    {
+      "needle": "QULW7D",
+      "predicted": "QULW7D",
+      "correct": true,
+      "needle_position": 0.7033086287958821,
+      "context_length": 8228,
+      "generated": "QULW7D"
+    },
+    {
+      "needle": "G8GTN7",
+      "predicted": "G8",
+      "correct": false,
+      "needle_position": 0.5678156791247626,
+      "context_length": 11034,
+      "generated": "G8"
+    },
+    {
+      "needle": "UYUCE0",
+      "predicted": "UYUCE0",
+      "correct": true,
+      "needle_position": 0.5210083932497577,
+      "context_length": 12886,
+      "generated": "UYUCE0"
+    },
+    {
+      "needle": "LA44QU",
+      "predicted": "LA44QU",
+      "correct": true,
+      "needle_position": 0.29703730564649367,
+      "context_length": 15910,
+      "generated": "LA44QU"
+    },
+    {
+      "needle": "Y49KDX",
+      "predicted": "Y49KDX",
+      "correct": true,
+      "needle_position": 0.6935086135411564,
+      "context_length": 8178,
+      "generated": "Y49KDX"
+    },
+    {
+      "needle": "4U57I8",
+      "predicted": "4U57I8",
+      "correct": true,
+      "needle_position": 0.30203284580674244,
+      "context_length": 7844,
+      "generated": "4U57I8"
+    },
+    {
+      "needle": "MRAG90",
+      "predicted": "MRAG90",
+      "correct": true,
+      "needle_position": 0.6366279760380278,
+      "context_length": 10108,
+      "generated": "MRAG90"
+    },
+    {
+      "needle": "5583WO",
+      "predicted": "5583WO",
+      "correct": true,
+      "needle_position": 0.5554984740694062,
+      "context_length": 8808,
+      "generated": "5583WO"
+    },
+    {
+      "needle": "BF6BWZ",
+      "predicted": "BF6BWZ",
+      "correct": true,
+      "needle_position": 0.6390251806919531,
+      "context_length": 9390,
+      "generated": "We need to find the secret passkey mentioned in the text. The text is long, repeating many sections. There's a line: \"재생 에너지원은 화석 연료에 비밀 패스키는 BF6BWZ입니다.\" Wait: The phrase \"비밀 패스키는 BF6BWZ입니다.\" appears."
+    },
+    {
+      "needle": "FS3XO8",
+      "predicted": "FS3XO8",
+      "correct": true,
+      "needle_position": 0.580318854350877,
+      "context_length": 11702,
+      "generated": "FS3XO8"
+    },
+    {
+      "needle": "CSX2JX",
+      "predicted": "CSX2JX",
+      "correct": true,
+      "needle_position": 0.7439044106572728,
+      "context_length": 8760,
+      "generated": "CSX2JX"
+    },
+    {
+      "needle": "3XSYHC",
+      "predicted": "3XSYHC",
+      "correct": true,
+      "needle_position": 0.5875284726658763,
+      "context_length": 15546,
+      "generated": "3XSYHC"
+    },
+    {
+      "needle": "JXHHNJ",
+      "predicted": "JXHHNJ",
+      "correct": true,
+      "needle_position": 0.6017580401424256,
+      "context_length": 13720,
+      "generated": "JXHHNJ"
+    },
+    {
+      "needle": "MTIMU6",
+      "predicted": "MTIMU6",
+      "correct": true,
+      "needle_position": 0.3518365875524354,
+      "context_length": 15402,
+      "generated": "MTIMU6"
+    },
+    {
+      "needle": "QYCEKZ",
+      "predicted": "QYCEKZ",
+      "correct": true,
+      "needle_position": 0.39971468347761796,
+      "context_length": 15036,
+      "generated": "QYCEKZ"
+    },
+    {
+      "needle": "0BAA9C",
+      "predicted": "0BAA9C",
+      "correct": true,
+      "needle_position": 0.5950815925536836,
+      "context_length": 8702,
+      "generated": "0BAA9C"
+    },
+    {
+      "needle": "XKY610",
+      "predicted": "XKY610",
+      "correct": true,
+      "needle_position": 0.3610224687792007,
+      "context_length": 14334,
+      "generated": "XKY610"
+    },
+    {
+      "needle": "RN0ZY0",
+      "predicted": "RN0ZY0",
+      "correct": true,
+      "needle_position": 0.5965723585910325,
+      "context_length": 13554,
+      "generated": "RN0ZY0"
+    },
+    {
+      "needle": "3KITA2",
+      "predicted": "3KITA2",
+      "correct": true,
+      "needle_position": 0.5380272757387805,
+      "context_length": 15812,
+      "generated": "3KITA2"
+    },
+    {
+      "needle": "H078T2",
+      "predicted": "H078T2",
+      "correct": true,
+      "needle_position": 0.2523705103103862,
+      "context_length": 12782,
+      "generated": "H078T2"
+    },
+    {
+      "needle": "LHCG6K",
+      "predicted": "LHCG6K",
+      "correct": true,
+      "needle_position": 0.37978433339918904,
+      "context_length": 15480,
+      "generated": "LHCG6K"
+    },
+    {
+      "needle": "SRD335",
+      "predicted": "SRD335",
+      "correct": true,
+      "needle_position": 0.6805634154578493,
+      "context_length": 12078,
+      "generated": "SRD335"
+    },
+    {
+      "needle": "QJNSPG",
+      "predicted": "QJNSPG",
+      "correct": true,
+      "needle_position": 0.31941569304995643,
+      "context_length": 6574,
+      "generated": "QJNSPG"
+    },
+    {
+      "needle": "IETW66",
+      "predicted": "IETW66",
+      "correct": true,
+      "needle_position": 0.6764036800679016,
+      "context_length": 5204,
+      "generated": "IETW66"
+    },
+    {
+      "needle": "V797C4",
+      "predicted": "V797C4",
+      "correct": true,
+      "needle_position": 0.5106522688454802,
+      "context_length": 11210,
+      "generated": "V797C4"
+    },
+    {
+      "needle": "AEMDWJ",
+      "predicted": "AEMDWJ",
+      "correct": true,
+      "needle_position": 0.6956238196059141,
+      "context_length": 6958,
+      "generated": "AEMDWJ"
+    },
+    {
+      "needle": "IDQ4PA",
+      "predicted": "IDQ4PA",
+      "correct": true,
+      "needle_position": 0.27094168717789957,
+      "context_length": 13774,
+      "generated": "IDQ4PA"
+    },
+    {
+      "needle": "9CH9YN",
+      "predicted": "9CH9YN",
+      "correct": true,
+      "needle_position": 0.3806160686832013,
+      "context_length": 8712,
+      "generated": "9CH9YN"
+    },
+    {
+      "needle": "Q30GHO",
+      "predicted": "Q30GHO",
+      "correct": true,
+      "needle_position": 0.4574239636354327,
+      "context_length": 7634,
+      "generated": "Q30GHO"
+    },
+    {
+      "needle": "351AQJ",
+      "predicted": "351AQJ",
+      "correct": true,
+      "needle_position": 0.5863744168429498,
+      "context_length": 14158,
+      "generated": "351AQJ"
+    },
+    {
+      "needle": "ZNECY0",
+      "predicted": "ZNECY0",
+      "correct": true,
+      "needle_position": 0.616585283353044,
+      "context_length": 12274,
+      "generated": "ZNECY0"
+    },
+    {
+      "needle": "AFM3CV",
+      "predicted": "AFM3CV",
+      "correct": true,
+      "needle_position": 0.3589360943748154,
+      "context_length": 6890,
+      "generated": "AFM3CV"
+    },
+    {
+      "needle": "STRVAR",
+      "predicted": "STRVAR",
+      "correct": true,
+      "needle_position": 0.3220222977393917,
+      "context_length": 9026,
+      "generated": "STRVAR"
+    },
+    {
+      "needle": "62WJTQ",
+      "predicted": "62WJTQ",
+      "correct": true,
+      "needle_position": 0.6787576825671078,
+      "context_length": 7344,
+      "generated": "62WJTQ"
+    },
+    {
+      "needle": "DIGO4G",
+      "predicted": "DIGO4G",
+      "correct": true,
+      "needle_position": 0.5181857481624048,
+      "context_length": 12006,
+      "generated": "DIGO4G"
+    },
+    {
+      "needle": "A5X99T",
+      "predicted": "A5X99T",
+      "correct": true,
+      "needle_position": 0.46875824707484276,
+      "context_length": 4670,
+      "generated": "A5X99T"
+    },
+    {
+      "needle": "TTEZYX",
+      "predicted": "TTEZYX",
+      "correct": true,
+      "needle_position": 0.5750206682252894,
+      "context_length": 7172,
+      "generated": "TTEZYX"
+    },
+    {
+      "needle": "0FLV8P",
+      "predicted": "0FLV8P",
+      "correct": true,
+      "needle_position": 0.44092605026304105,
+      "context_length": 15100,
+      "generated": "0FLV8P"
+    },
+    {
+      "needle": "C7MJ7F",
+      "predicted": "C7MJ7F",
+      "correct": true,
+      "needle_position": 0.684103720681168,
+      "context_length": 13336,
+      "generated": "C7MJ7F"
+    },
+    {
+      "needle": "DPLV6Q",
+      "predicted": "DPLV6Q",
+      "correct": true,
+      "needle_position": 0.490271476423276,
+      "context_length": 10820,
+      "generated": "DPLV6Q"
+    },
+    {
+      "needle": "UG58XL",
+      "predicted": "UG58XL",
+      "correct": true,
+      "needle_position": 0.4584017560370975,
+      "context_length": 8222,
+      "generated": "UG58XL"
+    },
+    {
+      "needle": "AXAIGN",
+      "predicted": "AXAIGN",
+      "correct": true,
+      "needle_position": 0.7734652937393658,
+      "context_length": 14394,
+      "generated": "AXAIGN"
+    },
+    {
+      "needle": "IPCQF5",
+      "predicted": "IPCQF5",
+      "correct": true,
+      "needle_position": 0.4718806234521476,
+      "context_length": 7414,
+      "generated": "IPCQF5"
+    },
+    {
+      "needle": "8Y7MM6",
+      "predicted": "8Y7MM6",
+      "correct": true,
+      "needle_position": 0.6456138013924984,
+      "context_length": 15148,
+      "generated": "8Y7MM6"
+    },
+    {
+      "needle": "28JME8",
+      "predicted": "SECRET",
+      "correct": false,
+      "needle_position": 0.598577072419946,
+      "context_length": 13714,
+      "generated": "We need to find the secret passkey mentioned in the text. The text includes a line: \"소프트웨어 개발은 애자일과 워터폴을 포함한 다양한 방법론을 따릅니다. Git과 같은 버전 관리 시스템은 협업 코딩을 용이하게 합니다. 코드 리뷰는 코드 품질을 향상시키고 팀 간 지식 공유를 촉진합니다. 지속"
+    },
+    {
+      "needle": "M92T8M",
+      "predicted": "M92T8M",
+      "correct": true,
+      "needle_position": 0.3766458713696089,
+      "context_length": 13402,
+      "generated": "M92T8M"
+    },
+    {
+      "needle": "KC9AL2",
+      "predicted": "KC9AL2",
+      "correct": true,
+      "needle_position": 0.3917238330625711,
+      "context_length": 13712,
+      "generated": "KC9AL2"
+    },
+    {
+      "needle": "I3GZCU",
+      "predicted": "I3GZCU",
+      "correct": true,
+      "needle_position": 0.6756080775839732,
+      "context_length": 8702,
+      "generated": "I3GZCU"
+    },
+    {
+      "needle": "CAV7TD",
+      "predicted": "CAV7TD",
+      "correct": true,
+      "needle_position": 0.7104881194666408,
+      "context_length": 4908,
+      "generated": "CAV7TD"
+    },
+    {
+      "needle": "7HU13K",
+      "predicted": "7HU13K",
+      "correct": true,
+      "needle_position": 0.43907023872353423,
+      "context_length": 4250,
+      "generated": "7HU13K"
+    },
+    {
+      "needle": "UZN0T7",
+      "predicted": "UZN0T7",
+      "correct": true,
+      "needle_position": 0.7038297003038831,
+      "context_length": 9484,
+      "generated": "UZN0T7"
+    },
+    {
+      "needle": "L3OXAQ",
+      "predicted": "L3OXAQ",
+      "correct": true,
+      "needle_position": 0.6498502043618697,
+      "context_length": 14214,
+      "generated": "L3OXAQ"
+    },
+    {
+      "needle": "N331JT",
+      "predicted": "N331JT",
+      "correct": true,
+      "needle_position": 0.7919533828760119,
+      "context_length": 11604,
+      "generated": "N331JT"
+    },
+    {
+      "needle": "8AC73C",
+      "predicted": "8AC73C",
+      "correct": true,
+      "needle_position": 0.20403805643309836,
+      "context_length": 9928,
+      "generated": "8AC73C"
+    },
+    {
+      "needle": "DX75Q0",
+      "predicted": "DX75Q0",
+      "correct": true,
+      "needle_position": 0.31101986968436046,
+      "context_length": 15520,
+      "generated": "DX75Q0"
+    },
+    {
+      "needle": "52YXBG",
+      "predicted": "52YXBG",
+      "correct": true,
+      "needle_position": 0.7993402745573346,
+      "context_length": 15928,
+      "generated": "52YXBG"
+    },
+    {
+      "needle": "LLGOK4",
+      "predicted": "LLGOK4",
+      "correct": true,
+      "needle_position": 0.5811339563953876,
+      "context_length": 15088,
+      "generated": "LLGOK4"
+    },
+    {
+      "needle": "JV30DQ",
+      "predicted": "JV30DQ",
+      "correct": true,
+      "needle_position": 0.2242394365858025,
+      "context_length": 9932,
+      "generated": "JV30DQ"
+    },
+    {
+      "needle": "37679C",
+      "predicted": "37679C",
+      "correct": true,
+      "needle_position": 0.495170970449022,
+      "context_length": 9764,
+      "generated": "37679C"
+    },
+    {
+      "needle": "9FJH5T",
+      "predicted": "9FJH5T",
+      "correct": true,
+      "needle_position": 0.384083912971647,
+      "context_length": 4606,
+      "generated": "9FJH5T"
+    },
+    {
+      "needle": "2G6VDH",
+      "predicted": "2G6VDH",
+      "correct": true,
+      "needle_position": 0.6070668531051857,
+      "context_length": 13716,
+      "generated": "2G6VDH"
+    },
+    {
+      "needle": "UM4YCT",
+      "predicted": "UM4YCT",
+      "correct": true,
+      "needle_position": 0.685951758953833,
+      "context_length": 8302,
+      "generated": "UM4YCT"
+    },
+    {
+      "needle": "EWDFLO",
+      "predicted": "EWDFLO",
+      "correct": true,
+      "needle_position": 0.27121290643187407,
+      "context_length": 14430,
+      "generated": "EWDFLO"
+    },
+    {
+      "needle": "F6UXNA",
+      "predicted": "F6UXNA",
+      "correct": true,
+      "needle_position": 0.5305003502018153,
+      "context_length": 9558,
+      "generated": "F6UXNA"
+    },
+    {
+      "needle": "ECSLFU",
+      "predicted": "ECSLFU",
+      "correct": true,
+      "needle_position": 0.7390143378538048,
+      "context_length": 6278,
+      "generated": "ECSLFU"
+    },
+    {
+      "needle": "ABI5FS",
+      "predicted": "ABI5FS",
+      "correct": true,
+      "needle_position": 0.3905529342831572,
+      "context_length": 4906,
+      "generated": "ABI5FS"
+    },
+    {
+      "needle": "TD8V0W",
+      "predicted": "TD8V0W",
+      "correct": true,
+      "needle_position": 0.3015882417437175,
+      "context_length": 13674,
+      "generated": "TD8V0W"
+    },
+    {
+      "needle": "CEXECG",
+      "predicted": "CEXECG",
+      "correct": true,
+      "needle_position": 0.2187306496258095,
+      "context_length": 12746,
+      "generated": "CEXECG"
+    },
+    {
+      "needle": "U1IFXH",
+      "predicted": "U1IFXH",
+      "correct": true,
+      "needle_position": 0.46518136196153803,
+      "context_length": 6026,
+      "generated": "U1IFXH"
+    },
+    {
+      "needle": "H5UDSJ",
+      "predicted": "H5UDSJ",
+      "correct": true,
+      "needle_position": 0.5726908911195514,
+      "context_length": 13758,
+      "generated": "H5UDSJ"
+    },
+    {
+      "needle": "0FGWL0",
+      "predicted": "0FGWL0",
+      "correct": true,
+      "needle_position": 0.4852595935982454,
+      "context_length": 6910,
+      "generated": "0FGWL0"
+    },
+    {
+      "needle": "NKOK9V",
+      "predicted": "NKOK9V",
+      "correct": true,
+      "needle_position": 0.484256293373483,
+      "context_length": 4972,
+      "generated": "NKOK9V"
+    },
+    {
+      "needle": "TLAQM7",
+      "predicted": "TLAQM7",
+      "correct": true,
+      "needle_position": 0.5538320867360874,
+      "context_length": 7988,
+      "generated": "TLAQM7"
+    },
+    {
+      "needle": "MKGAKX",
+      "predicted": "MKGAKX",
+      "correct": true,
+      "needle_position": 0.5245401435884758,
+      "context_length": 7950,
+      "generated": "MKGAKX"
+    },
+    {
+      "needle": "S0E7KE",
+      "predicted": "S0E7KE",
+      "correct": true,
+      "needle_position": 0.24143337739987664,
+      "context_length": 6914,
+      "generated": "S0E7KE"
+    },
+    {
+      "needle": "C3WTXS",
+      "predicted": "C3WTXS",
+      "correct": true,
+      "needle_position": 0.46925746380093236,
+      "context_length": 9126,
+      "generated": "C3WTXS"
+    },
+    {
+      "needle": "Q0RW3R",
+      "predicted": "Q0RW3R",
+      "correct": true,
+      "needle_position": 0.6405356849710981,
+      "context_length": 14748,
+      "generated": "Q0RW3R"
+    },
+    {
+      "needle": "3G8YVO",
+      "predicted": "3G8YVO",
+      "correct": true,
+      "needle_position": 0.3845918171719722,
+      "context_length": 8278,
+      "generated": "3G8YVO"
+    },
+    {
+      "needle": "QA3GPU",
+      "predicted": "QA3GPU",
+      "correct": true,
+      "needle_position": 0.6059278639318149,
+      "context_length": 14116,
+      "generated": "QA3GPU"
+    },
+    {
+      "needle": "99ULC5",
+      "predicted": "99ULC5",
+      "correct": true,
+      "needle_position": 0.581138360310117,
+      "context_length": 8846,
+      "generated": "99ULC5"
+    },
+    {
+      "needle": "MGQ9RF",
+      "predicted": "MGQ9RF",
+      "correct": true,
+      "needle_position": 0.6281982879412171,
+      "context_length": 12330,
+      "generated": "MGQ9RF"
+    },
+    {
+      "needle": "JTFTY0",
+      "predicted": "JTFTY0",
+      "correct": true,
+      "needle_position": 0.6044627214631138,
+      "context_length": 13324,
+      "generated": "JTFTY0"
+    },
+    {
+      "needle": "8NPG82",
+      "predicted": "8NPG82",
+      "correct": true,
+      "needle_position": 0.2473598414595503,
+      "context_length": 6364,
+      "generated": "8NPG82"
+    },
+    {
+      "needle": "4XHQ74",
+      "predicted": "4XHQ74",
+      "correct": true,
+      "needle_position": 0.4809355504315857,
+      "context_length": 12254,
+      "generated": "4XHQ74"
+    },
+    {
+      "needle": "AH7ZRT",
+      "predicted": "AH7ZRT",
+      "correct": true,
+      "needle_position": 0.48310497943453623,
+      "context_length": 9564,
+      "generated": "AH7ZRT"
+    },
+    {
+      "needle": "38ZVAJ",
+      "predicted": "38ZVAJ",
+      "correct": true,
+      "needle_position": 0.6200977231132581,
+      "context_length": 6990,
+      "generated": "38ZVAJ"
+    },
+    {
+      "needle": "9FJE5D",
+      "predicted": "9FJE5D",
+      "correct": true,
+      "needle_position": 0.6287278435756298,
+      "context_length": 8392,
+      "generated": "9FJE5D"
+    },
+    {
+      "needle": "09LIE5",
+      "predicted": "09LIE5",
+      "correct": true,
+      "needle_position": 0.6455039817129322,
+      "context_length": 12612,
+      "generated": "09LIE5"
+    }
+  ]
+}

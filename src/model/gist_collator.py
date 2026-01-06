@@ -156,11 +156,13 @@ class GistDataCollator(DataCollatorForLanguageModeling):
         # Apply padding mask if provided
         if padding_mask is not None:
             # Expand padding mask to 4D: [batch, 1, 1, seq_len]
-            padding_mask_4d = padding_mask.unsqueeze(1).unsqueeze(1)
+            # Convert to bool for bitwise operations
+            padding_mask_bool = padding_mask.bool()
+            padding_mask_4d = padding_mask_bool.unsqueeze(1).unsqueeze(1)
 
             # Mask out padded positions (both rows and columns)
             attention_mask = attention_mask & padding_mask_4d
-            attention_mask = attention_mask & padding_mask.unsqueeze(1).unsqueeze(2)
+            attention_mask = attention_mask & padding_mask_bool.unsqueeze(1).unsqueeze(2)
 
         # Convert to float (transformers expects float attention masks)
         return attention_mask.float()

@@ -118,40 +118,40 @@
 
 ## 6. 실험 단계별 계획
 
-### Phase 1: 환경 및 데이터 준비 (1-2일)
-- [ ] 가상환경 구축, 의존성 설치
-- [ ] Llama-3-8B 4-bit 양자화 로딩 검증
-- [ ] Wikipedia/arXiv 데이터 수집 및 청킹 (2k-8k 토큰)
-- [ ] GPT-4 API로 Q&A 쌍 생성 (문서당 3개)
-- [ ] Passkey 삽입 및 JSONL 포맷 변환
+### Phase 1: 환경 및 데이터 준비 (1-2일) ✅
+- [x] 가상환경 구축, 의존성 설치
+- [x] Llama-3-8B 4-bit 양자화 로딩 검증
+- [x] NIAH 데이터셋 생성 (Global 200 + Korean 200)
+- [x] Passkey 삽입 및 JSONL 포맷 변환
 
-### Phase 2: Gist Token 구현 (2-3일)
-- [ ] Gist Token 추가 및 임베딩 레이어 확장
-- [ ] `GistDataCollator` 구현 (attention mask 로직)
-- [ ] Attention mask 시각화 검증 (matplotlib)
-- [ ] LoRA config 설정 (`modules_to_save` 포함)
+### Phase 2: Gist Token 구현 (2-3일) ✅
+- [x] Gist Token 추가 및 임베딩 레이어 확장
+- [x] `GistDataCollator` 구현 (attention mask 로직)
+- [x] Attention mask 시각화 검증 (matplotlib)
+- [x] LoRA config 설정 (`modules_to_save` 포함)
 
-### Phase 3: 학습 실행 (각 2-4시간 × 3회)
-- [ ] **Experiment 1**: 10 Gist Tokens
-- [ ] **Experiment 2**: 25 Gist Tokens
-- [ ] **Experiment 3**: 50 Gist Tokens
-- [ ] 각 실험마다 체크포인트 저장 및 로그 기록
+### Phase 3: 학습 실행 (각 2-4시간 × 3회) ✅
+- [x] **Experiment 1**: 10 Gist Tokens (sanity check)
+- [x] **Experiment 2**: 25 Gist Tokens (v1.2.0 - 34.5% NIAH)
+- [ ] **Experiment 3**: 50 Gist Tokens (planned)
+- [x] 각 실험마다 체크포인트 저장 및 로그 기록
 
-### Phase 4: Baseline 구축 (1-2일)
-- [ ] Full Context 추론 파이프라인
-- [ ] RAG 시스템 구축 (ChromaDB + sentence-transformers)
-- [ ] 동일 테스트셋으로 성능 측정
+### Phase 4: Baseline 구축 (1-2일) ✅
+- [x] Full Context 추론 파이프라인
+- [x] RAG 시스템 구축 (ChromaDB + sentence-transformers)
+- [x] 동일 테스트셋으로 성능 측정
 
-### Phase 5: 평가 및 분석 (1-2일)
-- [ ] Passkey Retrieval 테스트 실행
-- [ ] 정량 지표 수집 (VRAM, TTFT, Throughput)
+### Phase 5: 평가 및 분석 (1-2일) ✅
+- [x] Passkey Retrieval 테스트 실행 (NIAH)
+- [x] gpt-oss-20b 평가 완료 (v2.0.0, v2.1.0)
+- [x] KMMLU 벤치마크 추가 (Law 100 samples)
 - [ ] GPT-4 LLM-as-Judge 평가 (Global Theme 질문)
-- [ ] 결과 시각화 (비교 그래프, attention heatmap)
+- [x] 결과 시각화 (비교 그래프)
 
-### Phase 6: KV Cache 압축 구현 (1일)
-- [ ] `compress_context()` 함수 구현
-- [ ] KV Cache 슬라이싱 검증
-- [ ] 압축 전후 메모리 사용량 비교
+### Phase 6: KV Cache 압축 구현 (1일) ✅
+- [x] `compress_context()` 함수 구현
+- [x] KV Cache 슬라이싱 검증
+- [x] 압축 전후 메모리 사용량 비교 (이론적)
 
 ## 7. 예상 실패 모드 및 대응
 

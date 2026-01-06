@@ -1,0 +1,156 @@
+{
+  "dataset": "data/nolima/nolima_200.jsonl",
+  "mode": "lora",
+  "total_samples": 100,
+  "lora_finetuning": {
+    "train_samples": 50,
+    "test_samples": 50,
+    "train_accuracy": 100.0,
+    "train_correct": 50,
+    "test_accuracy": 100.0,
+    "test_correct": 50,
+    "total": 50,
+    "results": [
+      {
+        "predicted": "KSK9SM",
+        "ground_truth": "KSK9SM",
+        "correct": true,
+        "generated": "KSK9SM\n\nExplanation: The passphrase KSK9SM is the token required for entry to the secure facility. I",
+        "question": "What passphrase grants entry to the strongbox?"
+      },
+      {
+        "predicted": "7TA43V",
+        "ground_truth": "7TA43V",
+        "correct": true,
+        "generated": "7TA43V\n\nExplanation: The tag label is 7TA43V, which corresponds to the health documentation. The con",
+        "question": "Which tag labels the health documentation?"
+      },
+      {
+        "predicted": "ZCJM4D",
+        "ground_truth": "ZCJM4D",
+        "correct": true,
+        "generated": "ZCJM4D\n\nExplanation: The question asks for the wire confirmation number, which is ZCJM4D. This code ",
+        "question": "Which string confirms the fund relocation?"
+      },
+      {
+        "predicted": "A3AHDS",
+        "ground_truth": "A3AHDS",
+        "correct": true,
+        "generated": "A3AHDS\n\nExplanation: The question asks for the characters that begin the digital conversation, which",
+        "question": "What characters begin the digital conversation?"
+      },
+      {
+        "predicted": "75LPGB",
+        "ground_truth": "75LPGB",
+        "correct": true,
+        "generated": "75LPGB\n\nExplanation: The sequence \"75LPGB\" is the wire confirmation number mentioned in the context.",
+        "question": "What sequence verifies the capital shift?"
+      },
+      {
+        "predicted": "HSXADJ",
+        "ground_truth": "HSXADJ",
+        "correct": true,
+        "generated": "HSXADJ\n\nExplanation: The alphanumeric string HSXADJ is the token required to access the secure facil",
+        "question": "What alphanumeric string unlocks the protected area?"
+      },
+      {
+        "predicted": "PTXKHY",
+        "ground_truth": "PTXKHY",
+        "correct": true,
+        "generated": "PTXKHY\n\nExplanation: The passphrase PTXKHY is the token required for entry to the secure facility. I",
+        "question": "What passphrase grants entry to the strongbox?"
+      },
+      {
+        "predicted": "3ZH85F",
+        "ground_truth": "3ZH85F",
+        "correct": true,
+        "generated": "3ZH85F\n\nExplanation: The provided string \"3ZH85F\" is the backend handshake phrase that initiates the",
+        "question": "What string initiates the machine dialogue?"
+      },
+      {
+        "predicted": "HCK6GN",
+        "ground_truth": "HCK6GN",
+        "correct": true,
+        "generated": "HCK6GN\n\nExplanation: The question asks for the characters that begin the digital conversation, which",
+        "question": "What characters begin the digital conversation?"
+      },
+      {
+        "predicted": "KHDH5W",
+        "ground_truth": "KHDH5W",
+        "correct": true,
+        "generated": "KHDH5W\n\nExplanation: The code KHDH5W is the entry mechanism cipher that unlocks the doorway. It is n",
+        "question": "What characters unlock the doorway?"
+      },
+      {
+        "predicted": "HROBQB",
+        "ground_truth": "HROBQB",
+        "correct": true,
+        "generated": "HROBQB\n\nExplanation: The Rx validation mark HROBQB confirms the drug order. This code is mentioned i",
+        "question": "What stamp confirms the drug order?"
+      },
+      {
+        "predicted": "3NZ800",
+        "ground_truth": "3NZ800",
+        "correct": true,
+        "generated": "3NZ800\n\nExplanation: The label \"Rx validation mark: 3NZ800\" is provided in the context, which corres",
+        "question": "What label verifies the pharmaceutical directive?"
+      },
+      {
+        "predicted": "YWOIIG",
+        "ground_truth": "YWOIIG",
+        "correct": true,
+        "generated": "YWOIIG\n\nExplanation: The question asks for the six-character combination that opens the secure facil",
+        "question": "Which six-character combination opens the safe?"
+      },
+      {
+        "predicted": "ENBDEE",
+        "ground_truth": "ENBDEE",
+        "correct": true,
+        "generated": "ENBDEE\n\nExplanation: The agreement seal imprint is ENBDEE, which corresponds to the insurance underw",
+        "question": "Which stamp confirms the binding document?"
+      },
+      {
+        "predicted": "FZ1XNI",
+        "ground_truth": "FZ1XNI",
+        "correct": true,
+        "generated": "FZ1XNI\n\nExplanation: The Rx validation mark FZ1XNI is mentioned in the context, indicating that it i",
+        "question": "Which imprint validates the medication script?"
+      },
+      {
+        "predicted": "9VJ0DP",
+        "ground_truth": "9VJ0DP",
+        "correct": true,
+        "generated": "9VJ0DP\n\nExplanation: The alphanumeric string \"9VJ0DP\" is the token required to access the secure fac",
+        "question": "What alphanumeric string unlocks the protected area?"
+      },
+      {
+        "predicted": "ANQ55K",
+        "ground_truth": "ANQ55K",
+        "correct": true,
+        "generated": "ANQ55K\n\nExplanation: The chart annotation stamp \"ANQ55K\" identifies the patient file. This code is n",
+        "question": "What marker identifies the patient file?"
+      },
+      {
+        "predicted": "H57SU8",
+        "ground_truth": "H57SU8",
+        "correct": true,
+        "generated": "H57SU8\n\nExplanation: The label \"Rx validation mark: H57SU8\" is the answer. The code H57SU8 is the id",
+        "question": "What label verifies the pharmaceutical directive?"
+      },
+      {
+        "predicted": "2HCYKQ",
+        "ground_truth": "2HCYKQ",
+        "correct": true,
+        "generated": "2HCYKQ\n\nExplanation: The code \"2HCYKQ\" is the chart annotation stamp that identifies the patient fil",
+        "question": "What marker identifies the patient file?"
+      },
+      {
+        "predicted": "W56KC3",
+        "ground_truth": "W56KC3",
+        "correct": true,
+        "generated": "W56KC3\n\nExplanation: The label \"W56KC3\" marks the accounting notation in the context. This notation ",
+        "question": "Which label marks the accounting notation?"
+      }
+    ]
+  }
+}

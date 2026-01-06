@@ -181,19 +181,29 @@ def train_lora(model, tokenizer, train_data, output_dir="checkpoints/lora-nolima
     return model
 
 
-def evaluate_lora_model(model, tokenizer, samples):
-    """LoRA 학습된 모델로 평가"""
-    print("\n=== LoRA Model Evaluation ===")
+def evaluate_lora_model(model, tokenizer, samples, max_ctx_len=3500):
+    """LoRA 학습된 모델로 평가 - 컨텍스트 포함"""
+    print("\n=== LoRA Model Evaluation (with context) ===")
 
     results = []
     for sample in tqdm(samples, desc="LoRA Evaluation"):
         try:
-            # 질문만 입력 (컨텍스트 없이 - LoRA가 학습한 지식으로 답변)
-            prompt = f"""Question: {sample['question']}
+            # 컨텍스트 + 질문 입력 (LoRA가 추출 능력을 향상시켰는지 확인)
+            ctx_tokens = tokenizer.encode(sample["context"], add_special_tokens=False)
+            if len(ctx_tokens) > max_ctx_len:
+                ctx_tokens = ctx_tokens[:max_ctx_len]
+            context = tokenizer.decode(ctx_tokens)
 
-Answer (provide only the code/identifier):"""
+            prompt = f"""Based on the following context, answer the question.
 
-            inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=512).to(model.device)
+Context:
+{context}
+
+Question: {sample['question']}
+
+Answer (provide only the code/identifier mentioned):"""
+
+            inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=4000).to(model.device)
 
             with torch.no_grad():
                 outputs = model.generate(
